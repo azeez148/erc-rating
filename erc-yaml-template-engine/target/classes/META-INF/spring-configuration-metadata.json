@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "parserproject",
+      "type": "com.nest.erc.yaml.properties.ProjectYamlProperties",
+      "sourceType": "com.nest.erc.yaml.properties.ProjectYamlProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "parserproject.containerlocation",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.yaml.properties.ProjectYamlProperties"
+    },
+    {
+      "name": "parserproject.converted-calculations",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.yaml.properties.ProjectYamlProperties"
+    },
+    {
+      "name": "parserproject.input-filelocation",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.yaml.properties.ProjectYamlProperties"
+    },
+    {
+      "name": "parserproject.rate-table-folder-name",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.yaml.properties.ProjectYamlProperties"
+    },
+    {
+      "name": "parserproject.state-container-location",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.yaml.properties.ProjectYamlProperties"
+    },
+    {
+      "name": "parserproject.yaml-schemaversion",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.yaml.properties.ProjectYamlProperties"
+    },
+    {
+      "name": "parserproject.yaml-template-text",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.yaml.properties.ProjectYamlProperties"
+    }
+  ],
+  "hints": []
+}
