@@ -1,0 +1,74 @@
+package com.nest.res.bop.domain;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Date;
+import com.nest.res.domain.Policy;
+
+public class PolicyCommon    extends Policy  {
+	private List<com.nest.res.bop.domain.BOP> BOP;
+	private List<State> State;
+	private String StateId;
+	private Date EffDate;
+	private String Id;
+	
+	
+	
+	public  PolicyCommon ()  {
+	  	State = new ArrayList<State>();
+		State.add(new State("{5139D77F-251C-48A6-8E48-0C5D4714DEA7}","ALBAMA"));
+		State.add(new State("{5239D77F-251C-48A6-8E48-0C5D4714DEA7}","ALASKA"));
+
+	  
+	}
+	
+	
+	
+	
+	@Override
+	public List<Policy> getChilds() {
+		List<Policy> childs=new ArrayList<Policy>();
+		
+		if(null != BOP) {
+			childs.addAll(BOP);
+		}
+		if(null != State) {
+			childs.addAll(State);
+		}
+		return childs;
+	}
+
+
+	public String  getStateId() {
+		return this.StateId;
+	}
+	public Date  getEffDate() {
+		return this.EffDate;
+	}
+	public List<State> getState() {
+		return this.State;
+	}
+	public String  getId() {
+		return this.Id;
+	}
+	public List<com.nest.res.bop.domain.BOP> getBOP() {
+		return this.BOP;
+	}
+	
+	public void setEffDate(Date EffDate) {
+		this.EffDate = EffDate;
+	}
+	public void setStateId(String StateId) {
+		this.StateId = StateId;
+	}
+	public void setState(List<State> State) {
+		this.State = State;
+	}
+	public void setBOP(List<com.nest.res.bop.domain.BOP> BOP) {
+		this.BOP = BOP;
+	}
+	public void setId(String Id) {
+		this.Id = Id;
+	}
+}

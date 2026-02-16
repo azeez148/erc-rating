@@ -1,0 +1,30 @@
+[
+  [
+    "ConstructionType",
+    "Code"
+  ],
+  [
+    "Frame Construction",
+    "1"
+  ],
+  [
+    "Joisted Masonry",
+    "2"
+  ],
+  [
+    "Non-combustible",
+    "3"
+  ],
+  [
+    "Masonry Non-combustible",
+    "4"
+  ],
+  [
+    "Modified Fire-resistive",
+    "5"
+  ],
+  [
+    "Fire-resistive",
+    "6"
+  ]
+]

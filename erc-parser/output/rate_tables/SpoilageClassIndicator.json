@@ -1,0 +1,62 @@
+[
+  [
+    "SpoilageClassification",
+    "Indicator"
+  ],
+  [
+    "Bakery Goods",
+    "1"
+  ],
+  [
+    "Cheese Shops",
+    "1"
+  ],
+  [
+    "Delicatessens",
+    "1"
+  ],
+  [
+    "Fruits and Vegetables",
+    "1"
+  ],
+  [
+    "Restaurants",
+    "1"
+  ],
+  [
+    "Convenience Food Stores",
+    "2"
+  ],
+  [
+    "Dairy Products, excluding Ice Cream",
+    "2"
+  ],
+  [
+    "Grocery Stores",
+    "2"
+  ],
+  [
+    "Meat and Poultry Markets",
+    "2"
+  ],
+  [
+    "Pharmaceuticals",
+    "2"
+  ],
+  [
+    "Supermarkets",
+    "2"
+  ],
+  [
+    "Dairy Products, including Ice Cream",
+    "3"
+  ],
+  [
+    "Florists",
+    "3"
+  ],
+  [
+    "Seafood",
+    "3"
+  ]
+]

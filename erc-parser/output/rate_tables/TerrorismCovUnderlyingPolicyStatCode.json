@@ -1,0 +1,27 @@
+[
+  [
+    "Certified",
+    "NonCertified",
+    "StatCode"
+  ],
+  [
+    "No",
+    "Yes",
+    "1"
+  ],
+  [
+    "No",
+    "No",
+    "2"
+  ],
+  [
+    "Yes",
+    "Yes",
+    "3"
+  ],
+  [
+    "Yes",
+    "No",
+    "4"
+  ]
+]

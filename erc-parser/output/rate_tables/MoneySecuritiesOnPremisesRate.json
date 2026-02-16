@@ -1,0 +1,307 @@
+[
+  [
+    "RatingTerritory",
+    "RatingPropertyType",
+    "Rate"
+  ],
+  [
+    "001",
+    "Apartment",
+    "0.955"
+  ],
+  [
+    "001",
+    "Apartment Condominium Association",
+    "0.955"
+  ],
+  [
+    "001",
+    "Contractor",
+    "0.868"
+  ],
+  [
+    "001",
+    "Convenience Store",
+    "0.868"
+  ],
+  [
+    "001",
+    "Mercantile",
+    "0.868"
+  ],
+  [
+    "001",
+    "Motel",
+    "0.868"
+  ],
+  [
+    "001",
+    "Office",
+    "0.695"
+  ],
+  [
+    "001",
+    "Office Condominium",
+    "0.695"
+  ],
+  [
+    "001",
+    "Processing and Service",
+    "0.868"
+  ],
+  [
+    "001",
+    "Restaurant-Casual Dining",
+    "0.868"
+  ],
+  [
+    "001",
+    "Restaurant-Fast Food",
+    "0.868"
+  ],
+  [
+    "001",
+    "Restaurant-Fine Dining",
+    "0.868"
+  ],
+  [
+    "001",
+    "Restaurant-Limited Cooking",
+    "0.868"
+  ],
+  [
+    "001",
+    "Self-Storage Facility",
+    "0.868"
+  ],
+  [
+    "001",
+    "Wholesaler",
+    "0.868"
+  ],
+  [
+    "004",
+    "Apartment",
+    "0.452"
+  ],
+  [
+    "004",
+    "Apartment Condominium Association",
+    "0.452"
+  ],
+  [
+    "004",
+    "Contractor",
+    "0.411"
+  ],
+  [
+    "004",
+    "Convenience Store",
+    "0.411"
+  ],
+  [
+    "004",
+    "Mercantile",
+    "0.411"
+  ],
+  [
+    "004",
+    "Motel",
+    "0.411"
+  ],
+  [
+    "004",
+    "Office",
+    "0.329"
+  ],
+  [
+    "004",
+    "Office Condominium",
+    "0.329"
+  ],
+  [
+    "004",
+    "Processing and Service",
+    "0.411"
+  ],
+  [
+    "004",
+    "Restaurant-Casual Dining",
+    "0.411"
+  ],
+  [
+    "004",
+    "Restaurant-Fast Food",
+    "0.411"
+  ],
+  [
+    "004",
+    "Restaurant-Fine Dining",
+    "0.411"
+  ],
+  [
+    "004",
+    "Restaurant-Limited Cooking",
+    "0.411"
+  ],
+  [
+    "004",
+    "Self-Storage Facility",
+    "0.411"
+  ],
+  [
+    "004",
+    "Wholesaler",
+    "0.411"
+  ],
+  [
+    "005",
+    "Apartment",
+    "0.452"
+  ],
+  [
+    "005",
+    "Apartment Condominium Association",
+    "0.452"
+  ],
+  [
+    "005",
+    "Contractor",
+    "0.411"
+  ],
+  [
+    "005",
+    "Convenience Store",
+    "0.411"
+  ],
+  [
+    "005",
+    "Mercantile",
+    "0.411"
+  ],
+  [
+    "005",
+    "Motel",
+    "0.411"
+  ],
+  [
+    "005",
+    "Office",
+    "0.329"
+  ],
+  [
+    "005",
+    "Office Condominium",
+    "0.329"
+  ],
+  [
+    "005",
+    "Processing and Service",
+    "0.411"
+  ],
+  [
+    "005",
+    "Restaurant-Casual Dining",
+    "0.411"
+  ],
+  [
+    "005",
+    "Restaurant-Fast Food",
+    "0.411"
+  ],
+  [
+    "005",
+    "Restaurant-Fine Dining",
+    "0.411"
+  ],
+  [
+    "005",
+    "Restaurant-Limited Cooking",
+    "0.411"
+  ],
+  [
+    "005",
+    "Self-Storage Facility",
+    "0.411"
+  ],
+  [
+    "005",
+    "Wholesaler",
+    "0.411"
+  ],
+  [
+    "006",
+    "Apartment",
+    "0.452"
+  ],
+  [
+    "006",
+    "Apartment Condominium Association",
+    "0.452"
+  ],
+  [
+    "006",
+    "Contractor",
+    "0.411"
+  ],
+  [
+    "006",
+    "Convenience Store",
+    "0.411"
+  ],
+  [
+    "006",
+    "Mercantile",
+    "0.411"
+  ],
+  [
+    "006",
+    "Motel",
+    "0.411"
+  ],
+  [
+    "006",
+    "Office",
+    "0.329"
+  ],
+  [
+    "006",
+    "Office Condominium",
+    "0.329"
+  ],
+  [
+    "006",
+    "Processing and Service",
+    "0.411"
+  ],
+  [
+    "006",
+    "Restaurant-Casual Dining",
+    "0.411"
+  ],
+  [
+    "006",
+    "Restaurant-Fast Food",
+    "0.411"
+  ],
+  [
+    "006",
+    "Restaurant-Fine Dining",
+    "0.411"
+  ],
+  [
+    "006",
+    "Restaurant-Limited Cooking",
+    "0.411"
+  ],
+  [
+    "006",
+    "Self-Storage Facility",
+    "0.411"
+  ],
+  [
+    "006",
+    "Wholesaler",
+    "0.411"
+  ]
+]

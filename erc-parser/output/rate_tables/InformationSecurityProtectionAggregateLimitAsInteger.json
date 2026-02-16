@@ -1,0 +1,26 @@
+[
+  [
+    "InformationSecurityProtectionAggregateLimit",
+    "InformationSecurityProtectionAggregateLimitAsInteger"
+  ],
+  [
+    "10000",
+    "10000"
+  ],
+  [
+    "25000",
+    "25000"
+  ],
+  [
+    "50000",
+    "50000"
+  ],
+  [
+    "75000",
+    "75000"
+  ],
+  [
+    "100000",
+    "100000"
+  ]
+]

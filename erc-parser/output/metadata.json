@@ -1,0 +1,10 @@
+{
+  "version": {
+    "name": "Initial Version",
+    "effective_date": "2021-07-14",
+    "description": "The first version of the product.",
+    "status": "draft"
+  },
+  "schema_version": "0.1",
+  "export_datetime": "2020-07-21T10:19:14.640096+00:00"
+}

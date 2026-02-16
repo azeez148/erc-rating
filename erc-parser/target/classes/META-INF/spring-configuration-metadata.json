@@ -1,0 +1,107 @@
+{
+  "groups": [
+    {
+      "name": "parserproject",
+      "type": "com.nest.erc.parser.ERCParserProjectProperties",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "parserproject.alg-file-name-cw",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.alg-file-name-start-charcter",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.alg-file-name-state",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.common-config-file",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.containerlocation",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.coverage-availabilty-file-name",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.ds-file-name",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.ds-file-name-start-character",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.erc-package-details",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.input-filelocation",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.lob-name",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.project-type",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.rate-table-file-location",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.rc-file-name",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.rc-file-name-start-charcter",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.rc-file-name-state",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.version",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.yaml-schemaversion",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.yaml-template-text",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="erc-yaml-formatter" />
+        <module name="erc-javarule-template-engine" />
+        <module name="erc-yaml-formatter-snakeyaml" />
+        <module name="erc-domain" />
+        <module name="erc-yaml-template-engine" />
+        <module name="erc-parser" />
+        <module name="erc-adapter" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="erc-adapter" options="-parameters" />
+      <module name="erc-domain" options="-parameters" />
+      <module name="erc-javarule-template-engine" options="-parameters" />
+      <module name="erc-parser" options="-parameters" />
+      <module name="erc-yaml-formatter" options="-parameters" />
+      <module name="erc-yaml-formatter-snakeyaml" options="-parameters" />
+      <module name="erc-yaml-template-engine" options="-parameters" />
+    </option>
+  </component>
+</project>

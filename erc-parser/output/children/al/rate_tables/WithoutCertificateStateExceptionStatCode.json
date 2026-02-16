@@ -1,0 +1,18 @@
+[
+  [
+    "OccupancyClass",
+    "Code"
+  ],
+  [
+    "Commercial",
+    "X"
+  ],
+  [
+    "Residential",
+    "Y"
+  ],
+  [
+    "Unknown",
+    "Z"
+  ]
+]

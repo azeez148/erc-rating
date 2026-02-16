@@ -1,0 +1,4463 @@
+package com.nest.res.bop.al09012019.domain;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Date;
+import com.nest.res.common.domain.Policy;
+
+public class BOP    extends Policy  {
+	private List<BOPAmendmentAggLimitsOfInsPerProject> BOPAmendmentAggLimitsOfInsPerProject;
+	private String TypeOfPolicyStatCode;
+	private List<BOPBusnIncomeChangesTimePeriod> BOPBusnIncomeChangesTimePeriod;
+	private String FastFoodAutomaticExtinguishSystem;
+	private String HazardousMaterials;
+	private String LimitedCookingRestaurantsHeader;
+	private List<BOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002> BOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002;
+	private Date ExpirationDt;
+	private String SeatingCapacity;
+	private String CateringServices;
+	private String EntrancesLocked;
+	private List<BOPPolicyChanges> BOPPolicyChanges;
+	private String JanitorialContractorsHeader;
+	private String MngmtExprnc;
+	private String OtherBusiness;
+	private List<BOPAmendmentInsuredContractDefinition> BOPAmendmentInsuredContractDefinition;
+	private int NumEmployedVeterinarians;
+	private double ContrctrsDedFactor;
+	private String BusnIncomeOrdinaryPayrollCoverageStatCode;
+	private String CommercialCattle;
+	private List<BOPEmploymentRelatedPracticesExcl> BOPEmploymentRelatedPracticesExcl;
+	private String LiquorRiskUnacceptableNoHeader;
+	private List<BOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage> BOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage;
+	private String PastOperations2;
+	private String RestaurantExposureHeader;
+	private String FastFoodAutomaticExtinguishSystem1;
+	private String PrintersErrorsOmissionsHeader;
+	private List<BOPExclPersonalAdvertisingInjury> BOPExclPersonalAdvertisingInjury;
+	private String FastFoodAutomaticExtinguishSystem2;
+	private double ProRateFactor;
+	private String FastFoodAutomaticExtinguishSystem3;
+	private String EQRiskDeclineNoHeader;
+	private String BusinessIncomeHeader;
+	private double GeneralLiabilityLCM;
+	private String ConvenienceStoreHeader;
+	private String NonOwnedAutoDelivery;
+	private String LandscapingContractorsRiskDeclineYesHeader;
+	private String RestaurantAutomaticExtinguishSystem2;
+	private double OverridePremium;
+	private String LeadPaintRemoval;
+	private String ParkingLot;
+	private String ProflLiabRiskUnacceptableNoHeader;
+	private String LoanRentEquipmt;
+	private List<BOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract> BOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract;
+	private String PestControlExtermination;
+	private int OptionalMedicalCovLimitPerPerson;
+	private String FlooringContractorsHeader;
+	private String PestControl;
+	private String ProofreadNo;
+	private List<BOPNewlyAcquiredOrganizations> BOPNewlyAcquiredOrganizations;
+	private double BusnIncomeOrdinaryPayrollPremium;
+	private String BeerWineSales;
+	private String DrugLabels;
+	private int PrecastConcrete;
+	private List<BOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs> BOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs;
+	private List<BOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions> BOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions;
+	private List<BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly> BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly;
+	private double TotalOptionalMedicalCoveragePremium;
+	private List<BOPContrctrsInstalltnToolsAndEquipmtCov> BOPContrctrsInstalltnToolsAndEquipmtCov;
+	private String BlktRated;
+	private String BeautySchool;
+	private String PaintingContractorsPercentageWorkDoneHeader;
+	private double CrimeLCM;
+	private String EQAttachmentIndicatorStatCode;
+	private String LimitedPharmacistsHeader;
+	private List<BOPAddlInsdVendors> BOPAddlInsdVendors;
+	private int AutomaticIncreasePct;
+	private String OtherInsurance;
+	private String Boarding;
+	private double AutomaticIncreaseFactor;
+	private String FormNumber;
+	private int SprinklerSystem;
+	private List<BOPPharmacistsBroadCov> BOPPharmacistsBroadCov;
+	private int JanitorialContractorsTotPercentage;
+	private List<BOPEmployeeDishonestyNamedEmployees> BOPEmployeeDishonestyNamedEmployees;
+	private List<BOPSnowPlowProdsCompldOpsHzdCov> BOPSnowPlowProdsCompldOpsHzdCov;
+	private List<BOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd> BOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd;
+	private List<BOPDesignatedConstructionProjectsGenlAggLimit> BOPDesignatedConstructionProjectsGenlAggLimit;
+	private String FastFoodTotalFloorArea;
+	private String ProdCompldOpsAggregateLimitExcptn;
+	private String ConcreteMasonryContractorsRiskDeclineYesHeader;
+	private String Violations;
+	private String FastFoodCateringServicesTotalSales;
+	private String RecordsDisposedDrugs;
+	private String MassageTherapy;
+	private int Vinyl;
+	private List<BOPEmployeeDishtyCoverage> BOPEmployeeDishtyCoverage;
+	private String ZoosCircuses2;
+	private String TreeTrimming;
+	private int FencesWalkways;
+	private int OutsideMaintenanceWork;
+	private String State;
+	private String AnimalAuctions;
+	private double ProRatedChangePremium;
+	private String InsulationWork;
+	private String Chiropody;
+	private String ZoosCircuses;
+	private String PrintersErrorsOmissionsUnacceptableYesHeader;
+	private String EQTypeOfPolicyStatCode;
+	private String ElectricalCableInstallationContractorsRiskDeclineYesHeader;
+	private String FilledLand;
+	private double TotBldgPremium;
+	private List<BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf> BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf;
+	private Date RateDt;
+	private String HairRemovalElectrolysis;
+	private String Firearm;
+	private List<BOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis> BOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis;
+	private double AutomaticIncreaseExcessFactor;
+	private String FastFoodTableService;
+	private String Employment;
+	private String CurrentOwnership;
+	private List<BOPComputerFraudFundsTransferFraudCov> BOPComputerFraudFundsTransferFraudCov;
+	private List<BOPElectronicCommerce> BOPElectronicCommerce;
+	private String ACHeatingContractorsHeader;
+	private String WebAddress;
+	private String ApplicationLimited;
+	private String OutdoorPool;
+	private int PaintingContractorsTotPercentage;
+	private double ShortRateFactor;
+	private double TotBusnPrsnlPropPremium;
+	private String TotalFloorArea;
+	private String RestaurantAutomaticExtinguishSystem;
+	private List<BOPAbuseMolestationExcl> BOPAbuseMolestationExcl;
+	private List<BOPCondoCommlUnitOwnersCov> BOPCondoCommlUnitOwnersCov;
+	private int Hardwood;
+	private double BusnPrsnlPropRate;
+	private String MineSubsidenceCoverage;
+	private List<BOPLimitedPolltnLiabExt> BOPLimitedPolltnLiabExt;
+	private String Foreclosures;
+	private int EarnedInFullIndicator;
+	private String PolicyForm;
+	private List<BOPTheftOfClientsProperty> BOPTheftOfClientsProperty;
+	private String TrainingFacility;
+	private List<BOPCoverageFormIndex> BOPCoverageFormIndex;
+	private List<BOPLimitedFungiBacteriaCovLiability> BOPLimitedFungiBacteriaCovLiability;
+	private String InterruptionComputerOpsCoverageIndicator;
+	private int StrippingFloorWax;
+	private String Delivery;
+	private String BusnIncomeExtddPeriodNumDays;
+	private List<BOPApartmentBuildingsTotalTenantsAutos> BOPApartmentBuildingsTotalTenantsAutos;
+	private String ConvenienceStoreRiskUnacceptableYesHeader;
+	private List<BOPALChanges> BOPALChanges;
+	private String TerrorismCoverageSpecificLimits;
+	private String FastFoodCurrentOwnership;
+	private Date DateBusinessStarted;
+	private String LiquorLiabGradeOffPremise;
+	private List<BOPForgeryAlterationCoverage> BOPForgeryAlterationCoverage;
+	private String FastFoodSeatingCapacityGreaterThan;
+	private String PriorId;
+	private String LiquorLiabGrade;
+	private List<BOPCannabisPropertyExclusion> BOPCannabisPropertyExclusion;
+	private String WrittenQualityControl;
+	private String PoleWiring;
+	private String LiquorBeerWine;
+	private List<BOPBusnIncomeOrdinaryPayrollExemption> BOPBusnIncomeOrdinaryPayrollExemption;
+	private List<BOPExclCertfdActsTerrsmAndOtherActsTerrsm> BOPExclCertfdActsTerrsmAndOtherActsTerrsm;
+	private int RetainingWalls;
+	private String SafetyMessages;
+	private String MunicipalWork;
+	private String PolicyNum;
+	private List<BOPLiquorLiabCovBringYourOwnAlcoholEstablishments> BOPLiquorLiabCovBringYourOwnAlcoholEstablishments;
+	private Date FastFoodDateLastServiced;
+	private String EmpsLicensed;
+	private List<BOPHiredNonOwnedAuto> BOPHiredNonOwnedAuto;
+	private String LiquorRiskUnacceptableYesHeader;
+	private String Id;
+	private List<BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage> BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage;
+	private int Footings;
+	private String OwnerLandlordOrTenantPolicy;
+	private List<BOPPrimaryAndNoncontributoryOtherInsuranceCondition> BOPPrimaryAndNoncontributoryOtherInsuranceCondition;
+	private String CertificateOfInsurance;
+	private String PriorCompany;
+	private List<BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage> BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage;
+	private String FuneralRepaymentPlans;
+	private int OptnlGlassDed;
+	private String ContractorsRiskDeclineYesHeader;
+	private String WaterHeaters;
+	private List<BOPExclusionUnmannedAircraft> BOPExclusionUnmannedAircraft;
+	private List<BOPVeterinariansProflLiab> BOPVeterinariansProflLiab;
+	private String LimitedPharmacistsUnacceptableNoHeader;
+	private double PropDamageLiabDedFactor;
+	private String FastFoodNonOwnedAutoDelivery;
+	private int RetainingWall;
+	private List<BOPRestaurantsTotalCustomersAutos> BOPRestaurantsTotalCustomersAutos;
+	private Date TRIAExpirationDate;
+	private String FlooringContractorsPercentageWorkDoneHeader;
+	private String Cremation;
+	private String FuneralRiskUnacceptableYesHeader;
+	private int TuckPointing;
+	private List<BOPY2KComputerRelatedProblemsExclSpecifiedCov> BOPY2KComputerRelatedProblemsExclSpecifiedCov;
+	private double CommercialAutoLCM;
+	private Date ChangeEffectiveDt;
+	private String MedicalEquipmt;
+	private String RepairCarWash;
+	private int AgentNotificationDiaryFlag;
+	private String Prescriptions;
+	private String HealthViolations;
+	private String SemiAnnualInspection;
+	private String WasteOilBurningSystems;
+	private List<BOPCoverageForm> BOPCoverageForm;
+	private String AggregateLimit;
+	private String ExcludeOtherActsOutsideUS;
+	private String WriteDocuments;
+	private List<BOPPropDamageLiabDedPerOcc> BOPPropDamageLiabDedPerOcc;
+	private List<BOPAddlInsdEngineersArchitectsSurveyors> BOPAddlInsdEngineersArchitectsSurveyors;
+	private String EQRiskDeclineYesHeader;
+	private String CateringServicesTotalSales;
+	private List<BOPAddlInsdOwnersLesseesOrContrctrsCompldOps> BOPAddlInsdOwnersLesseesOrContrctrsCompldOps;
+	private List<BOPAddlLiabExposuresCoverage> BOPAddlLiabExposuresCoverage;
+	private String LotteryTickets;
+	private List<BOPBlktRating> BOPBlktRating;
+	private int BasicCleaning;
+	private String FuneralRepaymentPlans1;
+	private String ContractorsHeader;
+	private int NumOwners;
+	private String ContractorPrinter;
+	private String MinimumYears;
+	private String OpticalHearingAidsUnacceptableNoHeader;
+	private String PercentageReceipts;
+	private String LandscapingContractorsHeader;
+	private Date AddEffectiveDt;
+	private List<BOPLimitedCoverageForDesignatedUnmannedAircraft> BOPLimitedCoverageForDesignatedUnmannedAircraft;
+	private String CleaningSchedule;
+	private String LiveEntertainment;
+	private List<BOPPhotographyMakeupAndHairstyling> BOPPhotographyMakeupAndHairstyling;
+	private String CanceledNonRenewed;
+	private String GrillingBroiling;
+	private String WartMoleRemoval;
+	private List<BOPExclY2KComputerRelatedExcptnBodilyInjury> BOPExclY2KComputerRelatedExcptnBodilyInjury;
+	private String FEINSSN;
+	private String FormName;
+	private String FastFoodSeasonalOperation;
+	private String Records;
+	private List<BOPLmtdExclPersonalAndAdvertisingInjuryLawyers> BOPLmtdExclPersonalAndAdvertisingInjuryLawyers;
+	private int ElectricalCableInstallationContractorsTotPercentage;
+	private String Deposits;
+	private int PremiumIndicator;
+	private String TerrorismCoverage;
+	private List<BOPAddlInsdStatePoliticalSubdivisions> BOPAddlInsdStatePoliticalSubdivisions;
+	private String GrillingBroiling2;
+	private List<BOPFuneralDirectorsProflLiab> BOPFuneralDirectorsProflLiab;
+	private int Herbicide;
+	private String ReplaceFoundations;
+	private String MultipleOccupancies;
+	private String LandscapingContractorsPercentageWorkDoneHeader;
+	private String DairyHogFarm;
+	private List<BOPBeautySalonsProflLiab> BOPBeautySalonsProflLiab;
+	private List<BOPCalculationOfPremium> BOPCalculationOfPremium;
+	private int FlooringContractorsTotPercentage;
+	private double LCM;
+	private String OpticalHearingAidsHeader;
+	private List<BOPInterruptionComputerOpsCoverage> BOPInterruptionComputerOpsCoverage;
+	private String GeneralRiskUnacceptableHeader;
+	private String Transformers;
+	private String FuneralRiskUnacceptableNoHeader;
+	private String EQASLOBStatCode;
+	private String CPPGoverningState;
+	private String FaceLifting;
+	private String Piercing;
+	private double AnnualPremium;
+	private String EmpsTrained;
+	private Date Modified;
+	private String PastOperations;
+	private String ElectronicDataCoverageIndicator;
+	private List<BOPExclVolunteerWorkers> BOPExclVolunteerWorkers;
+	private String CarpentryInteriorContractorsHeader;
+	private String ExoticAnimals;
+	private String CostOfSubcontractedWork;
+	private int EachOccLimitAsInteger;
+	private String FirePlace;
+	private int PropDamageLiabDedAsInteger;
+	private int UndergroundCable;
+	private String Manufacturing;
+	private int ProRateIndicator;
+	private String BodyWater;
+	private String ForgeryAlterationCoverageIndicator;
+	private String DruggistsProflLiabCoverage;
+	private String QuotePolicyIndicator;
+	private String ExteriorWork;
+	private String Convictions;
+	private String PrintersErrorsOmissionsUnacceptableNoHeader;
+	private String JanitorialContractorsRiskDeclineYesHeader;
+	private String PropertyDamageLiabilityHeader;
+	private String Excavation;
+	private String MGAIdentifier;
+	private String TerracedProperty;
+	private String TypeOfExclusion;
+	private List<BOPPolltnExclLimitedExcptnForDesignatedPollutants> BOPPolltnExclLimitedExcptnForDesignatedPollutants;
+	private double PolEndtPremium;
+	private String VolcanicActivity;
+	private List<BOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002> BOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002;
+	private String LiquorLiabGradeOnPremise;
+	private String VeterinariansUnacceptableYesHeader;
+	private String LegalEntity;
+	private String RestaurantRiskUnacceptableNoHeader;
+	private double bOPFunctlBusnPrsnlPropValtnCoveragePremium_1;
+	private String Proofread;
+	private List<BOPCommunicableDiseaseExclusion> BOPCommunicableDiseaseExclusion;
+	private int InsideWork;
+	private String RatingModificationFactorStatCode;
+	private double Premium;
+	private List<BOPBusnIncomeExtddPeriodBldgCoverage> BOPBusnIncomeExtddPeriodBldgCoverage;
+	private String Tattoos;
+	private List<BOPAddlInsdStatePoliticalSubdivisionsPermits> BOPAddlInsdStatePoliticalSubdivisionsPermits;
+	private String LandscapingContractorsRiskDeclineNoHeader;
+	private List<BOPAbuseOrMolestationExclSpecdSrvcs> BOPAbuseOrMolestationExclSpecdSrvcs;
+	private Date DateServiced;
+	private String GeneralContactUnderwriterHeader;
+	private String TanningBooths;
+	private List<BOPDesignatedLocsGenlAggLimit> BOPDesignatedLocsGenlAggLimit;
+	private double EvaluatedPremium;
+	private String Foundation;
+	private List<BOPLimitationsOfCovForCertfdActsTerrsm> BOPLimitationsOfCovForCertfdActsTerrsm;
+	private String RestaurantSemiAnnualInspection;
+	private int TermFactorIndicator;
+	private String Minors;
+	private String CreatedBy;
+	private int TileStone;
+	private double BoilerMachineryLCM;
+	private Date Expiration;
+	private String ExcludePunitiveDamagesRelatedToCertifiedActOfTerrorism;
+	private double ChangePremium;
+	private String SolidFuelHeating;
+	private String MotelHeader;
+	private String BusnIncomeExtddPeriodCoverageStatCode;
+	private List<BOPAddlInsdControllingInterest> BOPAddlInsdControllingInterest;
+	private String BusnIncomeOrdinaryPayrollASLOBStatCode;
+	private String IndoorPoolDepths2;
+	private String IndoorPoolDepths1;
+	private List<BOPExtddReportingPeriodEmpBenefitsLiabCov> BOPExtddReportingPeriodEmpBenefitsLiabCov;
+	private Date PriorRateDt;
+	private List<BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException> BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException;
+	private String TRIAExtended;
+	private double InlandMarineFormsLCM;
+	private String Subcontractors;
+	private String BarbersBeauticiansOperationsHeader;
+	private List<BOPElectronicDataCoverage> BOPElectronicDataCoverage;
+	private String UnderwriterApproval;
+	private Date Created;
+	private String EQLosses;
+	private double BusnIncomeExtddPeriodPremium;
+	private int CarpetInstallation;
+	private List<BOPLocation> BOPLocation;
+	private List<BOPPrintersErrorsOmissions> BOPPrintersErrorsOmissions;
+	private String FastFoodSemiAnnualInspection;
+	private String VersionedId;
+	private List<BOPCoverageInjuryLeasedWorkers> BOPCoverageInjuryLeasedWorkers;
+	private String WrittenPolicy;
+	private String BredProflRacing;
+	private double BusnIncomeOrdinaryPayrollFactor;
+	private int LawnFertilizer;
+	private String UnderwritingQuestions;
+	private String AutoDelivery;
+	private String ParentId;
+	private String Cranes;
+	private String PropDamageLiabDed;
+	private double CommercialPropertyLCM;
+	private String ProdCompldOpsAggregateLimit;
+	private String EmergencyEquipmt;
+	private int Landscaping;
+	private String FastFoodLiquorBeerWine;
+	private String Records2;
+	private String AutomaticExtinguishingSystem1;
+	private String RestaurantRiskUnacceptableYesHeader;
+	private String FastFoodFireExtinguishers;
+	private double ShortRatePenalty;
+	private String LiquorLiabilityHeader;
+	private Date Effective;
+	private String HealthCode;
+	private List<BOPExclDesignatedProducts> BOPExclDesignatedProducts;
+	private String StateCertifications;
+	private String Restaurant;
+	private String CarpentryInteriorPercentageWorkDoneHeader;
+	private List<BOPExclExtrInsulationAndFinishingSys> BOPExclExtrInsulationAndFinishingSys;
+	private String ExcavationBackFilling;
+	private List<BOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn> BOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn;
+	private String BlktMethod;
+	private String IndoorPoolDepths;
+	private double PolicyTermPremium;
+	private String DemolitionWork;
+	private String TransactionStatus;
+	private String HairRemovalElectricalDepilatory;
+	private Date EffectiveDt;
+	private int FlatWork;
+	private int WindowCleaningOutside;
+	private List<BOPComputerFraudFundsTransferFraudCoverage> BOPComputerFraudFundsTransferFraudCoverage;
+	private List<BOPPropDamageLiabDedPerClaim> BOPPropDamageLiabDedPerClaim;
+	private String Facial;
+	private String VeterinariansHeader;
+	private List<BOPBusnIncomeOrdinaryPayrollBldgCoverage> BOPBusnIncomeOrdinaryPayrollBldgCoverage;
+	private List<BOPAmendmentOfPersonalAndAdvertisingInjuryDefinition> BOPAmendmentOfPersonalAndAdvertisingInjuryDefinition;
+	private String Program;
+	private int TaxIndicator;
+	private List<BOPCannabisLiabilityExclusion> BOPCannabisLiabilityExclusion;
+	private String Breeding;
+	private double IRPMFactor;
+	private String FireExits;
+	private String ProflLiabHeader;
+	private String SeatingCapacityGreaterThan;
+	private String FastFoodRestaurantsHeader;
+	private String ConvenienceStoreRiskUnacceptableNoHeader;
+	private String Grooming;
+	private List<BOPFungiBacteriaExclusionLiability> BOPFungiBacteriaExclusionLiability;
+	private int ShortRateIndicator;
+	private String ViolationLiquorLaw;
+	private double TotalProRatedChangePremium;
+	private List<BOPPolltnExclLimitedExcptnForShortTermEvent> BOPPolltnExclLimitedExcptnForShortTermEvent;
+	private String EnergyEfficiencyInstaller;
+	private String FastFoodHealthViolations;
+	private int SnowPlowing;
+	private double BusnIncomeExtddPeriodFactor;
+	private List<BOPIDFraudExpenseCov> BOPIDFraudExpenseCov;
+	private String Flammables;
+	private int StructuralWork;
+	private String VeterinariansOperationsHeader;
+	private String IndoorPoolEquipmt;
+	private String Cracks;
+	private List<BOPAddlInsdDesignatedPersonOrg> BOPAddlInsdDesignatedPersonOrg;
+	private String OptionalDeductible;
+	private String TRIPTerminatesBeforeExpirationDate;
+	private List<BOPPharmacists> BOPPharmacists;
+	private List<BOPY2KComputerRelatedProblemsLimitedCovOptions> BOPY2KComputerRelatedProblemsLimitedCovOptions;
+	private String FastFoodRiskUnacceptableYesHeader;
+	private String HairRemovalDepilatory;
+	private String PaintingContractorsRiskDeclineYesHeader;
+	private List<BOPLiquorLiab> BOPLiquorLiab;
+	private String LossesPast5Years;
+	private String RatingTerritoryStatCode;
+	private String FastFoodBeerWineSales;
+	private String StateCode;
+	private String GeneralLiabilityLimit;
+	private String SolidFuelHeatingSystems;
+	private List<BOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems> BOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems;
+	private String IRPMApply;
+	private List<BOPTotPolltnExcl> BOPTotPolltnExcl;
+	private int StandardDeductible;
+	private String ContractorsRiskUnacceptableNoHeader;
+	private String HairImplantation;
+	private String AutomaticExtinguishSystem1;
+	private String AutomaticExtinguishSystem3;
+	private String AutomaticExtinguishSystem2;
+	private List<BOPExclY2KComputerRelatedProblemsProductsCompleted> BOPExclY2KComputerRelatedProblemsProductsCompleted;
+	private int MineSubsidenceLimit;
+	private String SpecialEventTickets;
+	private List<BOPAmendmentLiquorLiabExclExcptn> BOPAmendmentLiquorLiabExclExcptn;
+	private List<BOPDiscretionaryPayrollExpense> BOPDiscretionaryPayrollExpense;
+	private List<BOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism> BOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism;
+	private int LawnCare;
+	private String Security;
+	private String ExerciseRoom;
+	private String Training;
+	private String CompanyNumber;
+	private String LimitedCookingRiskUnacceptableYesHeader;
+	private String StructureBuilt;
+	private String SubmitLossHistory;
+	private String LiquorLicense;
+	private String SeasonalOperation;
+	private List<BOPDishonestMaliciousOrFraudulantActsCommittedByEmployees> BOPDishonestMaliciousOrFraudulantActsCommittedByEmployees;
+	private String FuneralDirectorsHeader;
+	private String GeneralInformationHeader;
+	private List<BOPLiquorLiabCov> BOPLiquorLiabCov;
+	private List<BOPExclusionOfTerrorism> BOPExclusionOfTerrorism;
+	private String BusnIncomeOrdinaryPayrollNumDays;
+	private List<BOPExclCertfdActsTerrsmCovFireLosses> BOPExclCertfdActsTerrsmCovFireLosses;
+	private String Convictions1;
+	private String GrillingBroiling1A;
+	private String BusnIncomeExtddPeriodASLOBStatCode;
+	private int FarmWiring;
+	private String RestaurantHeader;
+	private String BusinessDesc;
+	private String MotelRiskUnacceptableYesHeader;
+	private int UnitNumber;
+	private String SICCode;
+	private int CarpetUpholsteryCleaning;
+	private String DailyOperation;
+	private List<BOPBarbersBeauticiansProflLiab> BOPBarbersBeauticiansProflLiab;
+	private String ApplicantsHome;
+	private int YearsInBusiness;
+	private String GradingLand;
+	private String TerrsmSubLimit;
+	private String PaintingWaterTanks;
+	private int IRPMTotMod;
+	private double ProRatedPremium;
+	private List<BOPLimitedFungiBacteriaCov> BOPLimitedFungiBacteriaCov;
+	private String SyntheticStuccowork;
+	private int LandscapingContractorsTotPercentage;
+	private List<BOPWaiverTransferRightsOfRecoveryAgainstOthersToUs> BOPWaiverTransferRightsOfRecoveryAgainstOthersToUs;
+	private List<BOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002> BOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002;
+	private List<BOPEmploymentRelatedPracticesLiabilityCov> BOPEmploymentRelatedPracticesLiabilityCov;
+	private String CommercialSublineStatCode;
+	private String JanitorialContractorsPercentageWorkDoneHeader;
+	private List<BOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage> BOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage;
+	private List<BOPExclY2KComputerRelatedProblems> BOPExclY2KComputerRelatedProblems;
+	private String SecuritySystem;
+	private String Beyond200Miles;
+	private List<BOPRemovalOfInsToValueProvision> BOPRemovalOfInsToValueProvision;
+	private String BlktType;
+	private List<BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded> BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded;
+	private List<BOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses> BOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses;
+	private int ConcreteMasonryContractorsTotPercentage;
+	private List<BOPAddlInsdTownhouseAssociations> BOPAddlInsdTownhouseAssociations;
+	private List<BOPCannabisLiabilityExclusionWithHempException> BOPCannabisLiabilityExclusionWithHempException;
+	private String RatingTerritory;
+	private Date RestaurantDateLastServiced;
+	private List<BOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002> BOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002;
+	private String ACHeatingContractorsRiskDeclineYesHeader;
+	private String InsuringDangerousAnimals;
+	private int TimedOutdoorLighting;
+	private String Exempt;
+	private List<BOPExclProductsCompletedOpsHzd> BOPExclProductsCompletedOpsHzd;
+	private String EQHeader;
+	private String BOPEnhancement;
+	private List<BOPExclusionSilicaSilicaRelatedDust> BOPExclusionSilicaSilicaRelatedDust;
+	private String SmokeDetectors;
+	private String TerrorismCoverageStatCode;
+	private int FeeIndicator;
+	private List<BOPCapLossesFromCertfdActsTerrsm> BOPCapLossesFromCertfdActsTerrsm;
+	private String CarpentryInteriorContractorsRiskDeclineYesHeader;
+	private String FastFoodRiskUnacceptableNoHeader;
+	private String Safe;
+	private int BP1056Count;
+	private List<BOPConditionalExclusionOfTerrorismDispositionOfAct2002> BOPConditionalExclusionOfTerrorismDispositionOfAct2002;
+	private int WindowCleaningInside;
+	private List<BOPInformationSecurityProtectionEndorsement> BOPInformationSecurityProtectionEndorsement;
+	private String Delivery2;
+	private String SteamBoiler;
+	private String NumberRooms;
+	private double InlandMarineLCM;
+	private String Vacant;
+	private String ElectricalCableInstallationPercentageWorkDoneHeader;
+	private List<BOPCondosCoOpsAssocsDirectorsAndOfficersLiab> BOPCondosCoOpsAssocsDirectorsAndOfficersLiab;
+	private String RestaurantFireExtinguishers;
+	private String PaintingContractorsHeader;
+	private int SubLimit;
+	private String TerracedProperty1;
+	private String LimitedCookingRiskUnacceptableNoHeader;
+	private String AutomaticExtinguishSystem;
+	private double ProfessionalLiabilityLCM;
+	private String MotelRiskUnacceptableNoHeader;
+	private double StdDedFactor;
+	private List<BOPIRPM> BOPIRPM;
+	private List<BOPNamedPerils> BOPNamedPerils;
+	private String EachOccLimit;
+	private String Propane;
+	private String InlandMarineTypeOfPolicyStatCode;
+	private int PaintingInsideWork;
+	private String WeightReduction;
+	private int FoundationBasementWalls;
+	private List<BOPAmendmentLiabMedicalExpensesLimitsOfIns> BOPAmendmentLiabMedicalExpensesLimitsOfIns;
+	private List<BOPCannabisPropertyExclusionWithHempException> BOPCannabisPropertyExclusionWithHempException;
+	private String ProflLiabRiskUnacceptableYesHeader;
+	private String ScreeningTests;
+	private String CommercialSublineEQStatCode;
+	private String ConcreteMasonryContractorsHeader;
+	private String LimitedPharmacistsUnacceptableYesHeader;
+	private List<BOPPhotography> BOPPhotography;
+	private List<BOPExclDesignatedWork> BOPExclDesignatedWork;
+	private int AboveGroundWiring;
+	private String BarbersBeauticiansHeader;
+	private double ProRatedPriorPremium;
+	private String PropDamageLiabDedType;
+	private String ElectricalCableInstallationContractorsHeader;
+	private double PriorPremium;
+	private List<BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps> BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps;
+	private String SnowIceRemoval;
+	private int PaintingOutsideWork;
+	private String PrizeLivestock;
+	private List<BOPHigherLimitsPolicy> BOPHigherLimitsPolicy;
+	private List<BOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract> BOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract;
+	private List<BOPEmpBenefitsLiabCov> BOPEmpBenefitsLiabCov;
+	private List<BOPTerrorismCoverage> BOPTerrorismCoverage;
+	private List<BOPOpticalHearingAid> BOPOpticalHearingAid;
+	private String FastFoodLiveEntertainment;
+	private List<BOPDisclosurePursuantToTRIA2002> BOPDisclosurePursuantToTRIA2002;
+	private List<BOPExclPunitiveDamagesReltdToACertfdActTerrsm> BOPExclPunitiveDamagesReltdToACertfdActTerrsm;
+	private double DedFactor;
+	
+	
+	
+	
+	
+	
+	
+	@Override
+	public List<Policy> getChilds() {
+		List<Policy> childs=new ArrayList<Policy>();
+		
+		if(null != BOPAmendmentAggLimitsOfInsPerProject) {
+			childs.addAll(BOPAmendmentAggLimitsOfInsPerProject);
+		}
+		if(null != BOPBusnIncomeChangesTimePeriod) {
+			childs.addAll(BOPBusnIncomeChangesTimePeriod);
+		}
+		if(null != BOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002) {
+			childs.addAll(BOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002);
+		}
+		if(null != BOPPolicyChanges) {
+			childs.addAll(BOPPolicyChanges);
+		}
+		if(null != BOPAmendmentInsuredContractDefinition) {
+			childs.addAll(BOPAmendmentInsuredContractDefinition);
+		}
+		if(null != BOPEmploymentRelatedPracticesExcl) {
+			childs.addAll(BOPEmploymentRelatedPracticesExcl);
+		}
+		if(null != BOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage) {
+			childs.addAll(BOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage);
+		}
+		if(null != BOPExclPersonalAdvertisingInjury) {
+			childs.addAll(BOPExclPersonalAdvertisingInjury);
+		}
+		if(null != BOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract) {
+			childs.addAll(BOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract);
+		}
+		if(null != BOPNewlyAcquiredOrganizations) {
+			childs.addAll(BOPNewlyAcquiredOrganizations);
+		}
+		if(null != BOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs) {
+			childs.addAll(BOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs);
+		}
+		if(null != BOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions) {
+			childs.addAll(BOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions);
+		}
+		if(null != BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly) {
+			childs.addAll(BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly);
+		}
+		if(null != BOPContrctrsInstalltnToolsAndEquipmtCov) {
+			childs.addAll(BOPContrctrsInstalltnToolsAndEquipmtCov);
+		}
+		if(null != BOPAddlInsdVendors) {
+			childs.addAll(BOPAddlInsdVendors);
+		}
+		if(null != BOPPharmacistsBroadCov) {
+			childs.addAll(BOPPharmacistsBroadCov);
+		}
+		if(null != BOPEmployeeDishonestyNamedEmployees) {
+			childs.addAll(BOPEmployeeDishonestyNamedEmployees);
+		}
+		if(null != BOPSnowPlowProdsCompldOpsHzdCov) {
+			childs.addAll(BOPSnowPlowProdsCompldOpsHzdCov);
+		}
+		if(null != BOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd) {
+			childs.addAll(BOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd);
+		}
+		if(null != BOPDesignatedConstructionProjectsGenlAggLimit) {
+			childs.addAll(BOPDesignatedConstructionProjectsGenlAggLimit);
+		}
+		if(null != BOPEmployeeDishtyCoverage) {
+			childs.addAll(BOPEmployeeDishtyCoverage);
+		}
+		if(null != BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf) {
+			childs.addAll(BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf);
+		}
+		if(null != BOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis) {
+			childs.addAll(BOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis);
+		}
+		if(null != BOPComputerFraudFundsTransferFraudCov) {
+			childs.addAll(BOPComputerFraudFundsTransferFraudCov);
+		}
+		if(null != BOPElectronicCommerce) {
+			childs.addAll(BOPElectronicCommerce);
+		}
+		if(null != BOPAbuseMolestationExcl) {
+			childs.addAll(BOPAbuseMolestationExcl);
+		}
+		if(null != BOPCondoCommlUnitOwnersCov) {
+			childs.addAll(BOPCondoCommlUnitOwnersCov);
+		}
+		if(null != BOPLimitedPolltnLiabExt) {
+			childs.addAll(BOPLimitedPolltnLiabExt);
+		}
+		if(null != BOPTheftOfClientsProperty) {
+			childs.addAll(BOPTheftOfClientsProperty);
+		}
+		if(null != BOPCoverageFormIndex) {
+			childs.addAll(BOPCoverageFormIndex);
+		}
+		if(null != BOPLimitedFungiBacteriaCovLiability) {
+			childs.addAll(BOPLimitedFungiBacteriaCovLiability);
+		}
+		if(null != BOPApartmentBuildingsTotalTenantsAutos) {
+			childs.addAll(BOPApartmentBuildingsTotalTenantsAutos);
+		}
+		if(null != BOPALChanges) {
+			childs.addAll(BOPALChanges);
+		}
+		if(null != BOPForgeryAlterationCoverage) {
+			childs.addAll(BOPForgeryAlterationCoverage);
+		}
+		if(null != BOPCannabisPropertyExclusion) {
+			childs.addAll(BOPCannabisPropertyExclusion);
+		}
+		if(null != BOPBusnIncomeOrdinaryPayrollExemption) {
+			childs.addAll(BOPBusnIncomeOrdinaryPayrollExemption);
+		}
+		if(null != BOPExclCertfdActsTerrsmAndOtherActsTerrsm) {
+			childs.addAll(BOPExclCertfdActsTerrsmAndOtherActsTerrsm);
+		}
+		if(null != BOPLiquorLiabCovBringYourOwnAlcoholEstablishments) {
+			childs.addAll(BOPLiquorLiabCovBringYourOwnAlcoholEstablishments);
+		}
+		if(null != BOPHiredNonOwnedAuto) {
+			childs.addAll(BOPHiredNonOwnedAuto);
+		}
+		if(null != BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage) {
+			childs.addAll(BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage);
+		}
+		if(null != BOPPrimaryAndNoncontributoryOtherInsuranceCondition) {
+			childs.addAll(BOPPrimaryAndNoncontributoryOtherInsuranceCondition);
+		}
+		if(null != BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage) {
+			childs.addAll(BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage);
+		}
+		if(null != BOPExclusionUnmannedAircraft) {
+			childs.addAll(BOPExclusionUnmannedAircraft);
+		}
+		if(null != BOPVeterinariansProflLiab) {
+			childs.addAll(BOPVeterinariansProflLiab);
+		}
+		if(null != BOPRestaurantsTotalCustomersAutos) {
+			childs.addAll(BOPRestaurantsTotalCustomersAutos);
+		}
+		if(null != BOPY2KComputerRelatedProblemsExclSpecifiedCov) {
+			childs.addAll(BOPY2KComputerRelatedProblemsExclSpecifiedCov);
+		}
+		if(null != BOPCoverageForm) {
+			childs.addAll(BOPCoverageForm);
+		}
+		if(null != BOPPropDamageLiabDedPerOcc) {
+			childs.addAll(BOPPropDamageLiabDedPerOcc);
+		}
+		if(null != BOPAddlInsdEngineersArchitectsSurveyors) {
+			childs.addAll(BOPAddlInsdEngineersArchitectsSurveyors);
+		}
+		if(null != BOPAddlInsdOwnersLesseesOrContrctrsCompldOps) {
+			childs.addAll(BOPAddlInsdOwnersLesseesOrContrctrsCompldOps);
+		}
+		if(null != BOPAddlLiabExposuresCoverage) {
+			childs.addAll(BOPAddlLiabExposuresCoverage);
+		}
+		if(null != BOPBlktRating) {
+			childs.addAll(BOPBlktRating);
+		}
+		if(null != BOPLimitedCoverageForDesignatedUnmannedAircraft) {
+			childs.addAll(BOPLimitedCoverageForDesignatedUnmannedAircraft);
+		}
+		if(null != BOPPhotographyMakeupAndHairstyling) {
+			childs.addAll(BOPPhotographyMakeupAndHairstyling);
+		}
+		if(null != BOPExclY2KComputerRelatedExcptnBodilyInjury) {
+			childs.addAll(BOPExclY2KComputerRelatedExcptnBodilyInjury);
+		}
+		if(null != BOPLmtdExclPersonalAndAdvertisingInjuryLawyers) {
+			childs.addAll(BOPLmtdExclPersonalAndAdvertisingInjuryLawyers);
+		}
+		if(null != BOPAddlInsdStatePoliticalSubdivisions) {
+			childs.addAll(BOPAddlInsdStatePoliticalSubdivisions);
+		}
+		if(null != BOPFuneralDirectorsProflLiab) {
+			childs.addAll(BOPFuneralDirectorsProflLiab);
+		}
+		if(null != BOPBeautySalonsProflLiab) {
+			childs.addAll(BOPBeautySalonsProflLiab);
+		}
+		if(null != BOPCalculationOfPremium) {
+			childs.addAll(BOPCalculationOfPremium);
+		}
+		if(null != BOPInterruptionComputerOpsCoverage) {
+			childs.addAll(BOPInterruptionComputerOpsCoverage);
+		}
+		if(null != BOPExclVolunteerWorkers) {
+			childs.addAll(BOPExclVolunteerWorkers);
+		}
+		if(null != BOPPolltnExclLimitedExcptnForDesignatedPollutants) {
+			childs.addAll(BOPPolltnExclLimitedExcptnForDesignatedPollutants);
+		}
+		if(null != BOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002) {
+			childs.addAll(BOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002);
+		}
+		if(null != BOPCommunicableDiseaseExclusion) {
+			childs.addAll(BOPCommunicableDiseaseExclusion);
+		}
+		if(null != BOPBusnIncomeExtddPeriodBldgCoverage) {
+			childs.addAll(BOPBusnIncomeExtddPeriodBldgCoverage);
+		}
+		if(null != BOPAddlInsdStatePoliticalSubdivisionsPermits) {
+			childs.addAll(BOPAddlInsdStatePoliticalSubdivisionsPermits);
+		}
+		if(null != BOPAbuseOrMolestationExclSpecdSrvcs) {
+			childs.addAll(BOPAbuseOrMolestationExclSpecdSrvcs);
+		}
+		if(null != BOPDesignatedLocsGenlAggLimit) {
+			childs.addAll(BOPDesignatedLocsGenlAggLimit);
+		}
+		if(null != BOPLimitationsOfCovForCertfdActsTerrsm) {
+			childs.addAll(BOPLimitationsOfCovForCertfdActsTerrsm);
+		}
+		if(null != BOPAddlInsdControllingInterest) {
+			childs.addAll(BOPAddlInsdControllingInterest);
+		}
+		if(null != BOPExtddReportingPeriodEmpBenefitsLiabCov) {
+			childs.addAll(BOPExtddReportingPeriodEmpBenefitsLiabCov);
+		}
+		if(null != BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException) {
+			childs.addAll(BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException);
+		}
+		if(null != BOPElectronicDataCoverage) {
+			childs.addAll(BOPElectronicDataCoverage);
+		}
+		if(null != BOPLocation) {
+			childs.addAll(BOPLocation);
+		}
+		if(null != BOPPrintersErrorsOmissions) {
+			childs.addAll(BOPPrintersErrorsOmissions);
+		}
+		if(null != BOPCoverageInjuryLeasedWorkers) {
+			childs.addAll(BOPCoverageInjuryLeasedWorkers);
+		}
+		if(null != BOPExclDesignatedProducts) {
+			childs.addAll(BOPExclDesignatedProducts);
+		}
+		if(null != BOPExclExtrInsulationAndFinishingSys) {
+			childs.addAll(BOPExclExtrInsulationAndFinishingSys);
+		}
+		if(null != BOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn) {
+			childs.addAll(BOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn);
+		}
+		if(null != BOPComputerFraudFundsTransferFraudCoverage) {
+			childs.addAll(BOPComputerFraudFundsTransferFraudCoverage);
+		}
+		if(null != BOPPropDamageLiabDedPerClaim) {
+			childs.addAll(BOPPropDamageLiabDedPerClaim);
+		}
+		if(null != BOPBusnIncomeOrdinaryPayrollBldgCoverage) {
+			childs.addAll(BOPBusnIncomeOrdinaryPayrollBldgCoverage);
+		}
+		if(null != BOPAmendmentOfPersonalAndAdvertisingInjuryDefinition) {
+			childs.addAll(BOPAmendmentOfPersonalAndAdvertisingInjuryDefinition);
+		}
+		if(null != BOPCannabisLiabilityExclusion) {
+			childs.addAll(BOPCannabisLiabilityExclusion);
+		}
+		if(null != BOPFungiBacteriaExclusionLiability) {
+			childs.addAll(BOPFungiBacteriaExclusionLiability);
+		}
+		if(null != BOPPolltnExclLimitedExcptnForShortTermEvent) {
+			childs.addAll(BOPPolltnExclLimitedExcptnForShortTermEvent);
+		}
+		if(null != BOPIDFraudExpenseCov) {
+			childs.addAll(BOPIDFraudExpenseCov);
+		}
+		if(null != BOPAddlInsdDesignatedPersonOrg) {
+			childs.addAll(BOPAddlInsdDesignatedPersonOrg);
+		}
+		if(null != BOPPharmacists) {
+			childs.addAll(BOPPharmacists);
+		}
+		if(null != BOPY2KComputerRelatedProblemsLimitedCovOptions) {
+			childs.addAll(BOPY2KComputerRelatedProblemsLimitedCovOptions);
+		}
+		if(null != BOPLiquorLiab) {
+			childs.addAll(BOPLiquorLiab);
+		}
+		if(null != BOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems) {
+			childs.addAll(BOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems);
+		}
+		if(null != BOPTotPolltnExcl) {
+			childs.addAll(BOPTotPolltnExcl);
+		}
+		if(null != BOPExclY2KComputerRelatedProblemsProductsCompleted) {
+			childs.addAll(BOPExclY2KComputerRelatedProblemsProductsCompleted);
+		}
+		if(null != BOPAmendmentLiquorLiabExclExcptn) {
+			childs.addAll(BOPAmendmentLiquorLiabExclExcptn);
+		}
+		if(null != BOPDiscretionaryPayrollExpense) {
+			childs.addAll(BOPDiscretionaryPayrollExpense);
+		}
+		if(null != BOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism) {
+			childs.addAll(BOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism);
+		}
+		if(null != BOPDishonestMaliciousOrFraudulantActsCommittedByEmployees) {
+			childs.addAll(BOPDishonestMaliciousOrFraudulantActsCommittedByEmployees);
+		}
+		if(null != BOPLiquorLiabCov) {
+			childs.addAll(BOPLiquorLiabCov);
+		}
+		if(null != BOPExclusionOfTerrorism) {
+			childs.addAll(BOPExclusionOfTerrorism);
+		}
+		if(null != BOPExclCertfdActsTerrsmCovFireLosses) {
+			childs.addAll(BOPExclCertfdActsTerrsmCovFireLosses);
+		}
+		if(null != BOPBarbersBeauticiansProflLiab) {
+			childs.addAll(BOPBarbersBeauticiansProflLiab);
+		}
+		if(null != BOPLimitedFungiBacteriaCov) {
+			childs.addAll(BOPLimitedFungiBacteriaCov);
+		}
+		if(null != BOPWaiverTransferRightsOfRecoveryAgainstOthersToUs) {
+			childs.addAll(BOPWaiverTransferRightsOfRecoveryAgainstOthersToUs);
+		}
+		if(null != BOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002) {
+			childs.addAll(BOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002);
+		}
+		if(null != BOPEmploymentRelatedPracticesLiabilityCov) {
+			childs.addAll(BOPEmploymentRelatedPracticesLiabilityCov);
+		}
+		if(null != BOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage) {
+			childs.addAll(BOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage);
+		}
+		if(null != BOPExclY2KComputerRelatedProblems) {
+			childs.addAll(BOPExclY2KComputerRelatedProblems);
+		}
+		if(null != BOPRemovalOfInsToValueProvision) {
+			childs.addAll(BOPRemovalOfInsToValueProvision);
+		}
+		if(null != BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded) {
+			childs.addAll(BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded);
+		}
+		if(null != BOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses) {
+			childs.addAll(BOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses);
+		}
+		if(null != BOPAddlInsdTownhouseAssociations) {
+			childs.addAll(BOPAddlInsdTownhouseAssociations);
+		}
+		if(null != BOPCannabisLiabilityExclusionWithHempException) {
+			childs.addAll(BOPCannabisLiabilityExclusionWithHempException);
+		}
+		if(null != BOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002) {
+			childs.addAll(BOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002);
+		}
+		if(null != BOPExclProductsCompletedOpsHzd) {
+			childs.addAll(BOPExclProductsCompletedOpsHzd);
+		}
+		if(null != BOPExclusionSilicaSilicaRelatedDust) {
+			childs.addAll(BOPExclusionSilicaSilicaRelatedDust);
+		}
+		if(null != BOPCapLossesFromCertfdActsTerrsm) {
+			childs.addAll(BOPCapLossesFromCertfdActsTerrsm);
+		}
+		if(null != BOPConditionalExclusionOfTerrorismDispositionOfAct2002) {
+			childs.addAll(BOPConditionalExclusionOfTerrorismDispositionOfAct2002);
+		}
+		if(null != BOPInformationSecurityProtectionEndorsement) {
+			childs.addAll(BOPInformationSecurityProtectionEndorsement);
+		}
+		if(null != BOPCondosCoOpsAssocsDirectorsAndOfficersLiab) {
+			childs.addAll(BOPCondosCoOpsAssocsDirectorsAndOfficersLiab);
+		}
+		if(null != BOPIRPM) {
+			childs.addAll(BOPIRPM);
+		}
+		if(null != BOPNamedPerils) {
+			childs.addAll(BOPNamedPerils);
+		}
+		if(null != BOPAmendmentLiabMedicalExpensesLimitsOfIns) {
+			childs.addAll(BOPAmendmentLiabMedicalExpensesLimitsOfIns);
+		}
+		if(null != BOPCannabisPropertyExclusionWithHempException) {
+			childs.addAll(BOPCannabisPropertyExclusionWithHempException);
+		}
+		if(null != BOPPhotography) {
+			childs.addAll(BOPPhotography);
+		}
+		if(null != BOPExclDesignatedWork) {
+			childs.addAll(BOPExclDesignatedWork);
+		}
+		if(null != BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps) {
+			childs.addAll(BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps);
+		}
+		if(null != BOPHigherLimitsPolicy) {
+			childs.addAll(BOPHigherLimitsPolicy);
+		}
+		if(null != BOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract) {
+			childs.addAll(BOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract);
+		}
+		if(null != BOPEmpBenefitsLiabCov) {
+			childs.addAll(BOPEmpBenefitsLiabCov);
+		}
+		if(null != BOPTerrorismCoverage) {
+			childs.addAll(BOPTerrorismCoverage);
+		}
+		if(null != BOPOpticalHearingAid) {
+			childs.addAll(BOPOpticalHearingAid);
+		}
+		if(null != BOPDisclosurePursuantToTRIA2002) {
+			childs.addAll(BOPDisclosurePursuantToTRIA2002);
+		}
+		if(null != BOPExclPunitiveDamagesReltdToACertfdActTerrsm) {
+			childs.addAll(BOPExclPunitiveDamagesReltdToACertfdActTerrsm);
+		}
+		return childs;
+	}
+
+
+	public List<BOPTotPolltnExcl> getBOPTotPolltnExcl() {
+		return this.BOPTotPolltnExcl;
+	}
+	public String  getDeposits() {
+		return this.Deposits;
+	}
+	public double  getStdDedFactor() {
+		return this.StdDedFactor;
+	}
+	public String  getMultipleOccupancies() {
+		return this.MultipleOccupancies;
+	}
+	public String  getDailyOperation() {
+		return this.DailyOperation;
+	}
+	public int  getFootings() {
+		return this.Footings;
+	}
+	public String  getOpticalHearingAidsUnacceptableNoHeader() {
+		return this.OpticalHearingAidsUnacceptableNoHeader;
+	}
+	public List<BOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism> getBOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism() {
+		return this.BOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism;
+	}
+	public String  getScreeningTests() {
+		return this.ScreeningTests;
+	}
+	public int  getUnitNumber() {
+		return this.UnitNumber;
+	}
+	public int  getAgentNotificationDiaryFlag() {
+		return this.AgentNotificationDiaryFlag;
+	}
+	public int  getMineSubsidenceLimit() {
+		return this.MineSubsidenceLimit;
+	}
+	public List<BOPDesignatedConstructionProjectsGenlAggLimit> getBOPDesignatedConstructionProjectsGenlAggLimit() {
+		return this.BOPDesignatedConstructionProjectsGenlAggLimit;
+	}
+	public List<BOPAmendmentLiabMedicalExpensesLimitsOfIns> getBOPAmendmentLiabMedicalExpensesLimitsOfIns() {
+		return this.BOPAmendmentLiabMedicalExpensesLimitsOfIns;
+	}
+	public String  getExempt() {
+		return this.Exempt;
+	}
+	public String  getRestaurant() {
+		return this.Restaurant;
+	}
+	public String  getBeautySchool() {
+		return this.BeautySchool;
+	}
+	public String  getBeerWineSales() {
+		return this.BeerWineSales;
+	}
+	public String  getCracks() {
+		return this.Cracks;
+	}
+	public String  getJanitorialContractorsPercentageWorkDoneHeader() {
+		return this.JanitorialContractorsPercentageWorkDoneHeader;
+	}
+	public String  getCarpentryInteriorContractorsHeader() {
+		return this.CarpentryInteriorContractorsHeader;
+	}
+	public String  getSeatingCapacityGreaterThan() {
+		return this.SeatingCapacityGreaterThan;
+	}
+	public List<BOPBusnIncomeChangesTimePeriod> getBOPBusnIncomeChangesTimePeriod() {
+		return this.BOPBusnIncomeChangesTimePeriod;
+	}
+	public int  getStructuralWork() {
+		return this.StructuralWork;
+	}
+	public int  getRetainingWall() {
+		return this.RetainingWall;
+	}
+	public String  getFastFoodSemiAnnualInspection() {
+		return this.FastFoodSemiAnnualInspection;
+	}
+	public Date  getEffectiveDt() {
+		return this.EffectiveDt;
+	}
+	public String  getJanitorialContractorsHeader() {
+		return this.JanitorialContractorsHeader;
+	}
+	public List<BOPAmendmentAggLimitsOfInsPerProject> getBOPAmendmentAggLimitsOfInsPerProject() {
+		return this.BOPAmendmentAggLimitsOfInsPerProject;
+	}
+	public double  getShortRatePenalty() {
+		return this.ShortRatePenalty;
+	}
+	public String  getMunicipalWork() {
+		return this.MunicipalWork;
+	}
+	public String  getPriorCompany() {
+		return this.PriorCompany;
+	}
+	public int  getSnowPlowing() {
+		return this.SnowPlowing;
+	}
+	public String  getEQHeader() {
+		return this.EQHeader;
+	}
+	public String  getHazardousMaterials() {
+		return this.HazardousMaterials;
+	}
+	public String  getTRIAExtended() {
+		return this.TRIAExtended;
+	}
+	public String  getLossesPast5Years() {
+		return this.LossesPast5Years;
+	}
+	public List<BOPLimitedFungiBacteriaCov> getBOPLimitedFungiBacteriaCov() {
+		return this.BOPLimitedFungiBacteriaCov;
+	}
+	public String  getRestaurantFireExtinguishers() {
+		return this.RestaurantFireExtinguishers;
+	}
+	public String  getEQRiskDeclineNoHeader() {
+		return this.EQRiskDeclineNoHeader;
+	}
+	public String  getLandscapingContractorsRiskDeclineYesHeader() {
+		return this.LandscapingContractorsRiskDeclineYesHeader;
+	}
+	public List<BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException> getBOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException() {
+		return this.BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException;
+	}
+	public String  getHairRemovalDepilatory() {
+		return this.HairRemovalDepilatory;
+	}
+	public String  getCurrentOwnership() {
+		return this.CurrentOwnership;
+	}
+	public String  getFastFoodCurrentOwnership() {
+		return this.FastFoodCurrentOwnership;
+	}
+	public String  getPaintingWaterTanks() {
+		return this.PaintingWaterTanks;
+	}
+	public double  getCommercialAutoLCM() {
+		return this.CommercialAutoLCM;
+	}
+	public String  getTotalFloorArea() {
+		return this.TotalFloorArea;
+	}
+	public String  getForeclosures() {
+		return this.Foreclosures;
+	}
+	public List<BOPEmployeeDishtyCoverage> getBOPEmployeeDishtyCoverage() {
+		return this.BOPEmployeeDishtyCoverage;
+	}
+	public String  getBlktMethod() {
+		return this.BlktMethod;
+	}
+	public String  getPaintingContractorsPercentageWorkDoneHeader() {
+		return this.PaintingContractorsPercentageWorkDoneHeader;
+	}
+	public int  getFoundationBasementWalls() {
+		return this.FoundationBasementWalls;
+	}
+	public String  getSolidFuelHeating() {
+		return this.SolidFuelHeating;
+	}
+	public int  getProRateIndicator() {
+		return this.ProRateIndicator;
+	}
+	public List<BOPY2KComputerRelatedProblemsLimitedCovOptions> getBOPY2KComputerRelatedProblemsLimitedCovOptions() {
+		return this.BOPY2KComputerRelatedProblemsLimitedCovOptions;
+	}
+	public int  getWindowCleaningOutside() {
+		return this.WindowCleaningOutside;
+	}
+	public String  getBarbersBeauticiansOperationsHeader() {
+		return this.BarbersBeauticiansOperationsHeader;
+	}
+	public int  getOptionalMedicalCovLimitPerPerson() {
+		return this.OptionalMedicalCovLimitPerPerson;
+	}
+	public Date  getFastFoodDateLastServiced() {
+		return this.FastFoodDateLastServiced;
+	}
+	public double  getBusnIncomeExtddPeriodFactor() {
+		return this.BusnIncomeExtddPeriodFactor;
+	}
+	public List<BOPAddlInsdDesignatedPersonOrg> getBOPAddlInsdDesignatedPersonOrg() {
+		return this.BOPAddlInsdDesignatedPersonOrg;
+	}
+	public String  getGeneralLiabilityLimit() {
+		return this.GeneralLiabilityLimit;
+	}
+	public List<BOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs> getBOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs() {
+		return this.BOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs;
+	}
+	public String  getCarpentryInteriorContractorsRiskDeclineYesHeader() {
+		return this.CarpentryInteriorContractorsRiskDeclineYesHeader;
+	}
+	public String  getUnderwritingQuestions() {
+		return this.UnderwritingQuestions;
+	}
+	public String  getWasteOilBurningSystems() {
+		return this.WasteOilBurningSystems;
+	}
+	public List<BOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002> getBOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002() {
+		return this.BOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002;
+	}
+	public List<BOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd> getBOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd() {
+		return this.BOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd;
+	}
+	public String  getIndoorPoolEquipmt() {
+		return this.IndoorPoolEquipmt;
+	}
+	public double  getTotBldgPremium() {
+		return this.TotBldgPremium;
+	}
+	public int  getTimedOutdoorLighting() {
+		return this.TimedOutdoorLighting;
+	}
+	public String  getFastFoodFireExtinguishers() {
+		return this.FastFoodFireExtinguishers;
+	}
+	public String  getFirearm() {
+		return this.Firearm;
+	}
+	public String  getWrittenQualityControl() {
+		return this.WrittenQualityControl;
+	}
+	public String  getLiquorLiabGradeOnPremise() {
+		return this.LiquorLiabGradeOnPremise;
+	}
+	public List<BOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage> getBOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage() {
+		return this.BOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage;
+	}
+	public String  getTRIPTerminatesBeforeExpirationDate() {
+		return this.TRIPTerminatesBeforeExpirationDate;
+	}
+	public String  getTanningBooths() {
+		return this.TanningBooths;
+	}
+	public String  getVersionedId() {
+		return this.VersionedId;
+	}
+	public String  getOtherInsurance() {
+		return this.OtherInsurance;
+	}
+	public List<BOPSnowPlowProdsCompldOpsHzdCov> getBOPSnowPlowProdsCompldOpsHzdCov() {
+		return this.BOPSnowPlowProdsCompldOpsHzdCov;
+	}
+	public List<BOPPhotography> getBOPPhotography() {
+		return this.BOPPhotography;
+	}
+	public String  getGeneralRiskUnacceptableHeader() {
+		return this.GeneralRiskUnacceptableHeader;
+	}
+	public List<BOPAddlLiabExposuresCoverage> getBOPAddlLiabExposuresCoverage() {
+		return this.BOPAddlLiabExposuresCoverage;
+	}
+	public String  getPaintingContractorsRiskDeclineYesHeader() {
+		return this.PaintingContractorsRiskDeclineYesHeader;
+	}
+	public int  getElectricalCableInstallationContractorsTotPercentage() {
+		return this.ElectricalCableInstallationContractorsTotPercentage;
+	}
+	public String  getPrintersErrorsOmissionsHeader() {
+		return this.PrintersErrorsOmissionsHeader;
+	}
+	public String  getFEINSSN() {
+		return this.FEINSSN;
+	}
+	public String  getDelivery2() {
+		return this.Delivery2;
+	}
+	public double  getPropDamageLiabDedFactor() {
+		return this.PropDamageLiabDedFactor;
+	}
+	public String  getSnowIceRemoval() {
+		return this.SnowIceRemoval;
+	}
+	public List<BOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract> getBOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract() {
+		return this.BOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract;
+	}
+	public int  getFencesWalkways() {
+		return this.FencesWalkways;
+	}
+	public String  getUnderwriterApproval() {
+		return this.UnderwriterApproval;
+	}
+	public String  getWrittenPolicy() {
+		return this.WrittenPolicy;
+	}
+	public String  getGrooming() {
+		return this.Grooming;
+	}
+	public List<BOPPolicyChanges> getBOPPolicyChanges() {
+		return this.BOPPolicyChanges;
+	}
+	public String  getFacial() {
+		return this.Facial;
+	}
+	public int  getLawnFertilizer() {
+		return this.LawnFertilizer;
+	}
+	public String  getCertificateOfInsurance() {
+		return this.CertificateOfInsurance;
+	}
+	public String  getLandscapingContractorsPercentageWorkDoneHeader() {
+		return this.LandscapingContractorsPercentageWorkDoneHeader;
+	}
+	public String  getForgeryAlterationCoverageIndicator() {
+		return this.ForgeryAlterationCoverageIndicator;
+	}
+	public int  getFlooringContractorsTotPercentage() {
+		return this.FlooringContractorsTotPercentage;
+	}
+	public int  getConcreteMasonryContractorsTotPercentage() {
+		return this.ConcreteMasonryContractorsTotPercentage;
+	}
+	public String  getTrainingFacility() {
+		return this.TrainingFacility;
+	}
+	public int  getTermFactorIndicator() {
+		return this.TermFactorIndicator;
+	}
+	public String  getBredProflRacing() {
+		return this.BredProflRacing;
+	}
+	public String  getRestaurantAutomaticExtinguishSystem2() {
+		return this.RestaurantAutomaticExtinguishSystem2;
+	}
+	public String  getFormName() {
+		return this.FormName;
+	}
+	public String  getTypeOfExclusion() {
+		return this.TypeOfExclusion;
+	}
+	public String  getMotelRiskUnacceptableNoHeader() {
+		return this.MotelRiskUnacceptableNoHeader;
+	}
+	public double  getTotalProRatedChangePremium() {
+		return this.TotalProRatedChangePremium;
+	}
+	public String  getSpecialEventTickets() {
+		return this.SpecialEventTickets;
+	}
+	public double  getProRatedChangePremium() {
+		return this.ProRatedChangePremium;
+	}
+	public String  getFastFoodRiskUnacceptableYesHeader() {
+		return this.FastFoodRiskUnacceptableYesHeader;
+	}
+	public String  getSubmitLossHistory() {
+		return this.SubmitLossHistory;
+	}
+	public List<BOPEmploymentRelatedPracticesExcl> getBOPEmploymentRelatedPracticesExcl() {
+		return this.BOPEmploymentRelatedPracticesExcl;
+	}
+	public String  getViolations() {
+		return this.Violations;
+	}
+	public String  getBusnIncomeOrdinaryPayrollASLOBStatCode() {
+		return this.BusnIncomeOrdinaryPayrollASLOBStatCode;
+	}
+	public List<BOPExclDesignatedProducts> getBOPExclDesignatedProducts() {
+		return this.BOPExclDesignatedProducts;
+	}
+	public String  getLiquorLiabilityHeader() {
+		return this.LiquorLiabilityHeader;
+	}
+	public String  getDairyHogFarm() {
+		return this.DairyHogFarm;
+	}
+	public String  getElectricalCableInstallationContractorsHeader() {
+		return this.ElectricalCableInstallationContractorsHeader;
+	}
+	public String  getGrillingBroiling1A() {
+		return this.GrillingBroiling1A;
+	}
+	public List<BOPInterruptionComputerOpsCoverage> getBOPInterruptionComputerOpsCoverage() {
+		return this.BOPInterruptionComputerOpsCoverage;
+	}
+	public String  getParentId() {
+		return this.ParentId;
+	}
+	public String  getSemiAnnualInspection() {
+		return this.SemiAnnualInspection;
+	}
+	public Date  getDateBusinessStarted() {
+		return this.DateBusinessStarted;
+	}
+	public List<BOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract> getBOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract() {
+		return this.BOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract;
+	}
+	public String  getMassageTherapy() {
+		return this.MassageTherapy;
+	}
+	public Date  getChangeEffectiveDt() {
+		return this.ChangeEffectiveDt;
+	}
+	public String  getTerrorismCoverageStatCode() {
+		return this.TerrorismCoverageStatCode;
+	}
+	public String  getEQLosses() {
+		return this.EQLosses;
+	}
+	public List<BOPExclusionOfTerrorism> getBOPExclusionOfTerrorism() {
+		return this.BOPExclusionOfTerrorism;
+	}
+	public double  getAutomaticIncreaseExcessFactor() {
+		return this.AutomaticIncreaseExcessFactor;
+	}
+	public List<BOPExclExtrInsulationAndFinishingSys> getBOPExclExtrInsulationAndFinishingSys() {
+		return this.BOPExclExtrInsulationAndFinishingSys;
+	}
+	public String  getBlktRated() {
+		return this.BlktRated;
+	}
+	public int  getHardwood() {
+		return this.Hardwood;
+	}
+	public String  getJanitorialContractorsRiskDeclineYesHeader() {
+		return this.JanitorialContractorsRiskDeclineYesHeader;
+	}
+	public String  getFaceLifting() {
+		return this.FaceLifting;
+	}
+	public String  getLegalEntity() {
+		return this.LegalEntity;
+	}
+	public String  getChiropody() {
+		return this.Chiropody;
+	}
+	public String  getContractorsRiskDeclineYesHeader() {
+		return this.ContractorsRiskDeclineYesHeader;
+	}
+	public String  getLimitedCookingRiskUnacceptableYesHeader() {
+		return this.LimitedCookingRiskUnacceptableYesHeader;
+	}
+	public List<BOPExclY2KComputerRelatedProblemsProductsCompleted> getBOPExclY2KComputerRelatedProblemsProductsCompleted() {
+		return this.BOPExclY2KComputerRelatedProblemsProductsCompleted;
+	}
+	public List<BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps> getBOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps() {
+		return this.BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps;
+	}
+	public String  getLimitedPharmacistsHeader() {
+		return this.LimitedPharmacistsHeader;
+	}
+	public List<BOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002> getBOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002() {
+		return this.BOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002;
+	}
+	public int  getVinyl() {
+		return this.Vinyl;
+	}
+	public String  getFuneralRepaymentPlans1() {
+		return this.FuneralRepaymentPlans1;
+	}
+	public String  getTerracedProperty() {
+		return this.TerracedProperty;
+	}
+	public String  getEachOccLimit() {
+		return this.EachOccLimit;
+	}
+	public List<BOPEmploymentRelatedPracticesLiabilityCov> getBOPEmploymentRelatedPracticesLiabilityCov() {
+		return this.BOPEmploymentRelatedPracticesLiabilityCov;
+	}
+	public String  getRatingModificationFactorStatCode() {
+		return this.RatingModificationFactorStatCode;
+	}
+	public List<BOPExclVolunteerWorkers> getBOPExclVolunteerWorkers() {
+		return this.BOPExclVolunteerWorkers;
+	}
+	public List<BOPEmployeeDishonestyNamedEmployees> getBOPEmployeeDishonestyNamedEmployees() {
+		return this.BOPEmployeeDishonestyNamedEmployees;
+	}
+	public double  getEvaluatedPremium() {
+		return this.EvaluatedPremium;
+	}
+	public List<BOPExclCertfdActsTerrsmAndOtherActsTerrsm> getBOPExclCertfdActsTerrsmAndOtherActsTerrsm() {
+		return this.BOPExclCertfdActsTerrsmAndOtherActsTerrsm;
+	}
+	public double  getLCM() {
+		return this.LCM;
+	}
+	public String  getElectricalCableInstallationContractorsRiskDeclineYesHeader() {
+		return this.ElectricalCableInstallationContractorsRiskDeclineYesHeader;
+	}
+	public String  getCommercialSublineStatCode() {
+		return this.CommercialSublineStatCode;
+	}
+	public String  getStateCode() {
+		return this.StateCode;
+	}
+	public int  getLandscapingContractorsTotPercentage() {
+		return this.LandscapingContractorsTotPercentage;
+	}
+	public String  getConvenienceStoreRiskUnacceptableYesHeader() {
+		return this.ConvenienceStoreRiskUnacceptableYesHeader;
+	}
+	public String  getProdCompldOpsAggregateLimit() {
+		return this.ProdCompldOpsAggregateLimit;
+	}
+	public String  getBoarding() {
+		return this.Boarding;
+	}
+	public int  getSprinklerSystem() {
+		return this.SprinklerSystem;
+	}
+	public String  getAutomaticExtinguishSystem2() {
+		return this.AutomaticExtinguishSystem2;
+	}
+	public String  getViolationLiquorLaw() {
+		return this.ViolationLiquorLaw;
+	}
+	public List<BOPAddlInsdOwnersLesseesOrContrctrsCompldOps> getBOPAddlInsdOwnersLesseesOrContrctrsCompldOps() {
+		return this.BOPAddlInsdOwnersLesseesOrContrctrsCompldOps;
+	}
+	public int  getAutomaticIncreasePct() {
+		return this.AutomaticIncreasePct;
+	}
+	public String  getExcavation() {
+		return this.Excavation;
+	}
+	public String  getVeterinariansHeader() {
+		return this.VeterinariansHeader;
+	}
+	public List<BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded> getBOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded() {
+		return this.BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded;
+	}
+	public String  getBlktType() {
+		return this.BlktType;
+	}
+	public List<BOPDishonestMaliciousOrFraudulantActsCommittedByEmployees> getBOPDishonestMaliciousOrFraudulantActsCommittedByEmployees() {
+		return this.BOPDishonestMaliciousOrFraudulantActsCommittedByEmployees;
+	}
+	public int  getIRPMTotMod() {
+		return this.IRPMTotMod;
+	}
+	public String  getFastFoodCateringServicesTotalSales() {
+		return this.FastFoodCateringServicesTotalSales;
+	}
+	public String  getOtherBusiness() {
+		return this.OtherBusiness;
+	}
+	public List<BOPConditionalExclusionOfTerrorismDispositionOfAct2002> getBOPConditionalExclusionOfTerrorismDispositionOfAct2002() {
+		return this.BOPConditionalExclusionOfTerrorismDispositionOfAct2002;
+	}
+	public int  getFlatWork() {
+		return this.FlatWork;
+	}
+	public List<BOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions> getBOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions() {
+		return this.BOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions;
+	}
+	public String  getRatingTerritory() {
+		return this.RatingTerritory;
+	}
+	public String  getConcreteMasonryContractorsRiskDeclineYesHeader() {
+		return this.ConcreteMasonryContractorsRiskDeclineYesHeader;
+	}
+	public String  getRestaurantSemiAnnualInspection() {
+		return this.RestaurantSemiAnnualInspection;
+	}
+	public int  getTileStone() {
+		return this.TileStone;
+	}
+	public String  getSICCode() {
+		return this.SICCode;
+	}
+	public String  getExcavationBackFilling() {
+		return this.ExcavationBackFilling;
+	}
+	public List<BOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses> getBOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses() {
+		return this.BOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses;
+	}
+	public int  getBP1056Count() {
+		return this.BP1056Count;
+	}
+	public int  getSubLimit() {
+		return this.SubLimit;
+	}
+	public String  getTreeTrimming() {
+		return this.TreeTrimming;
+	}
+	public String  getNumberRooms() {
+		return this.NumberRooms;
+	}
+	public String  getBusnIncomeExtddPeriodNumDays() {
+		return this.BusnIncomeExtddPeriodNumDays;
+	}
+	public List<BOPBusnIncomeExtddPeriodBldgCoverage> getBOPBusnIncomeExtddPeriodBldgCoverage() {
+		return this.BOPBusnIncomeExtddPeriodBldgCoverage;
+	}
+	public String  getProgram() {
+		return this.Program;
+	}
+	public String  getSafe() {
+		return this.Safe;
+	}
+	public List<BOPCoverageForm> getBOPCoverageForm() {
+		return this.BOPCoverageForm;
+	}
+	public String  getMotelRiskUnacceptableYesHeader() {
+		return this.MotelRiskUnacceptableYesHeader;
+	}
+	public String  getGradingLand() {
+		return this.GradingLand;
+	}
+	public String  getBodyWater() {
+		return this.BodyWater;
+	}
+	public String  getOutdoorPool() {
+		return this.OutdoorPool;
+	}
+	public String  getFirePlace() {
+		return this.FirePlace;
+	}
+	public String  getAutomaticExtinguishSystem3() {
+		return this.AutomaticExtinguishSystem3;
+	}
+	public String  getRestaurantRiskUnacceptableYesHeader() {
+		return this.RestaurantRiskUnacceptableYesHeader;
+	}
+	public List<BOPAddlInsdVendors> getBOPAddlInsdVendors() {
+		return this.BOPAddlInsdVendors;
+	}
+	public String  getFastFoodBeerWineSales() {
+		return this.FastFoodBeerWineSales;
+	}
+	public List<BOPLimitedFungiBacteriaCovLiability> getBOPLimitedFungiBacteriaCovLiability() {
+		return this.BOPLimitedFungiBacteriaCovLiability;
+	}
+	public String  getPestControl() {
+		return this.PestControl;
+	}
+	public String  getBOPEnhancement() {
+		return this.BOPEnhancement;
+	}
+	public String  getSecurity() {
+		return this.Security;
+	}
+	public int  getOptnlGlassDed() {
+		return this.OptnlGlassDed;
+	}
+	public Date  getRestaurantDateLastServiced() {
+		return this.RestaurantDateLastServiced;
+	}
+	public String  getProdCompldOpsAggregateLimitExcptn() {
+		return this.ProdCompldOpsAggregateLimitExcptn;
+	}
+	public String  getEmployment() {
+		return this.Employment;
+	}
+	public Date  getCreated() {
+		return this.Created;
+	}
+	public List<BOPExtddReportingPeriodEmpBenefitsLiabCov> getBOPExtddReportingPeriodEmpBenefitsLiabCov() {
+		return this.BOPExtddReportingPeriodEmpBenefitsLiabCov;
+	}
+	public String  getCommercialCattle() {
+		return this.CommercialCattle;
+	}
+	public String  getCanceledNonRenewed() {
+		return this.CanceledNonRenewed;
+	}
+	public double  getBusnIncomeOrdinaryPayrollFactor() {
+		return this.BusnIncomeOrdinaryPayrollFactor;
+	}
+	public double  getChangePremium() {
+		return this.ChangePremium;
+	}
+	public String  getMngmtExprnc() {
+		return this.MngmtExprnc;
+	}
+	public String  getPastOperations2() {
+		return this.PastOperations2;
+	}
+	public int  getRetainingWalls() {
+		return this.RetainingWalls;
+	}
+	public String  getGeneralContactUnderwriterHeader() {
+		return this.GeneralContactUnderwriterHeader;
+	}
+	public double  getBusnIncomeOrdinaryPayrollPremium() {
+		return this.BusnIncomeOrdinaryPayrollPremium;
+	}
+	public int  getTuckPointing() {
+		return this.TuckPointing;
+	}
+	public String  getBreeding() {
+		return this.Breeding;
+	}
+	public double  getContrctrsDedFactor() {
+		return this.ContrctrsDedFactor;
+	}
+	public String  getExoticAnimals() {
+		return this.ExoticAnimals;
+	}
+	public String  getEntrancesLocked() {
+		return this.EntrancesLocked;
+	}
+	public List<BOPCannabisPropertyExclusionWithHempException> getBOPCannabisPropertyExclusionWithHempException() {
+		return this.BOPCannabisPropertyExclusionWithHempException;
+	}
+	public List<BOPLmtdExclPersonalAndAdvertisingInjuryLawyers> getBOPLmtdExclPersonalAndAdvertisingInjuryLawyers() {
+		return this.BOPLmtdExclPersonalAndAdvertisingInjuryLawyers;
+	}
+	public String  getSecuritySystem() {
+		return this.SecuritySystem;
+	}
+	public int  getStrippingFloorWax() {
+		return this.StrippingFloorWax;
+	}
+	public int  getFarmWiring() {
+		return this.FarmWiring;
+	}
+	public double  getOverridePremium() {
+		return this.OverridePremium;
+	}
+	public List<BOPLimitedPolltnLiabExt> getBOPLimitedPolltnLiabExt() {
+		return this.BOPLimitedPolltnLiabExt;
+	}
+	public double  getCrimeLCM() {
+		return this.CrimeLCM;
+	}
+	public List<BOPExclDesignatedWork> getBOPExclDesignatedWork() {
+		return this.BOPExclDesignatedWork;
+	}
+	public List<BOPRestaurantsTotalCustomersAutos> getBOPRestaurantsTotalCustomersAutos() {
+		return this.BOPRestaurantsTotalCustomersAutos;
+	}
+	public String  getInlandMarineTypeOfPolicyStatCode() {
+		return this.InlandMarineTypeOfPolicyStatCode;
+	}
+	public String  getPercentageReceipts() {
+		return this.PercentageReceipts;
+	}
+	public String  getRestaurantRiskUnacceptableNoHeader() {
+		return this.RestaurantRiskUnacceptableNoHeader;
+	}
+	public String  getPropDamageLiabDed() {
+		return this.PropDamageLiabDed;
+	}
+	public String  getAnimalAuctions() {
+		return this.AnimalAuctions;
+	}
+	public List<BOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002> getBOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002() {
+		return this.BOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002;
+	}
+	public String  getPestControlExtermination() {
+		return this.PestControlExtermination;
+	}
+	public List<BOPAddlInsdEngineersArchitectsSurveyors> getBOPAddlInsdEngineersArchitectsSurveyors() {
+		return this.BOPAddlInsdEngineersArchitectsSurveyors;
+	}
+	public String  getConvictions() {
+		return this.Convictions;
+	}
+	public String  getTattoos() {
+		return this.Tattoos;
+	}
+	public double  getBusnIncomeExtddPeriodPremium() {
+		return this.BusnIncomeExtddPeriodPremium;
+	}
+	public List<BOPALChanges> getBOPALChanges() {
+		return this.BOPALChanges;
+	}
+	public int  getStandardDeductible() {
+		return this.StandardDeductible;
+	}
+	public String  getPrescriptions() {
+		return this.Prescriptions;
+	}
+	public String  getIRPMApply() {
+		return this.IRPMApply;
+	}
+	public String  getLoanRentEquipmt() {
+		return this.LoanRentEquipmt;
+	}
+	public List<BOPCalculationOfPremium> getBOPCalculationOfPremium() {
+		return this.BOPCalculationOfPremium;
+	}
+	public String  getInsulationWork() {
+		return this.InsulationWork;
+	}
+	public List<BOPPharmacistsBroadCov> getBOPPharmacistsBroadCov() {
+		return this.BOPPharmacistsBroadCov;
+	}
+	public List<BOPBlktRating> getBOPBlktRating() {
+		return this.BOPBlktRating;
+	}
+	public List<BOPAddlInsdTownhouseAssociations> getBOPAddlInsdTownhouseAssociations() {
+		return this.BOPAddlInsdTownhouseAssociations;
+	}
+	public List<BOPLiquorLiab> getBOPLiquorLiab() {
+		return this.BOPLiquorLiab;
+	}
+	public String  getLiquorLicense() {
+		return this.LiquorLicense;
+	}
+	public String  getMGAIdentifier() {
+		return this.MGAIdentifier;
+	}
+	public List<BOPAmendmentOfPersonalAndAdvertisingInjuryDefinition> getBOPAmendmentOfPersonalAndAdvertisingInjuryDefinition() {
+		return this.BOPAmendmentOfPersonalAndAdvertisingInjuryDefinition;
+	}
+	public String  getAutomaticExtinguishSystem() {
+		return this.AutomaticExtinguishSystem;
+	}
+	public String  getLimitedPharmacistsUnacceptableNoHeader() {
+		return this.LimitedPharmacistsUnacceptableNoHeader;
+	}
+	public String  getCleaningSchedule() {
+		return this.CleaningSchedule;
+	}
+	public String  getCarpentryInteriorPercentageWorkDoneHeader() {
+		return this.CarpentryInteriorPercentageWorkDoneHeader;
+	}
+	public String  getApplicantsHome() {
+		return this.ApplicantsHome;
+	}
+	public String  getLimitedPharmacistsUnacceptableYesHeader() {
+		return this.LimitedPharmacistsUnacceptableYesHeader;
+	}
+	public double  getInlandMarineFormsLCM() {
+		return this.InlandMarineFormsLCM;
+	}
+	public String  getExerciseRoom() {
+		return this.ExerciseRoom;
+	}
+	public String  getCateringServicesTotalSales() {
+		return this.CateringServicesTotalSales;
+	}
+	public List<BOPFuneralDirectorsProflLiab> getBOPFuneralDirectorsProflLiab() {
+		return this.BOPFuneralDirectorsProflLiab;
+	}
+	public double  getInlandMarineLCM() {
+		return this.InlandMarineLCM;
+	}
+	public String  getStructureBuilt() {
+		return this.StructureBuilt;
+	}
+	public double  getGeneralLiabilityLCM() {
+		return this.GeneralLiabilityLCM;
+	}
+	public double  getPriorPremium() {
+		return this.PriorPremium;
+	}
+	public String  getConcreteMasonryContractorsHeader() {
+		return this.ConcreteMasonryContractorsHeader;
+	}
+	public String  getEQAttachmentIndicatorStatCode() {
+		return this.EQAttachmentIndicatorStatCode;
+	}
+	public String  getDemolitionWork() {
+		return this.DemolitionWork;
+	}
+	public List<BOPExclY2KComputerRelatedProblems> getBOPExclY2KComputerRelatedProblems() {
+		return this.BOPExclY2KComputerRelatedProblems;
+	}
+	public List<BOPEmpBenefitsLiabCov> getBOPEmpBenefitsLiabCov() {
+		return this.BOPEmpBenefitsLiabCov;
+	}
+	public double  getTotBusnPrsnlPropPremium() {
+		return this.TotBusnPrsnlPropPremium;
+	}
+	public int  getAboveGroundWiring() {
+		return this.AboveGroundWiring;
+	}
+	public String  getLiquorBeerWine() {
+		return this.LiquorBeerWine;
+	}
+	public List<BOPExclY2KComputerRelatedExcptnBodilyInjury> getBOPExclY2KComputerRelatedExcptnBodilyInjury() {
+		return this.BOPExclY2KComputerRelatedExcptnBodilyInjury;
+	}
+	public List<BOPCoverageFormIndex> getBOPCoverageFormIndex() {
+		return this.BOPCoverageFormIndex;
+	}
+	public String  getTransactionStatus() {
+		return this.TransactionStatus;
+	}
+	public double  getProRateFactor() {
+		return this.ProRateFactor;
+	}
+	public String  getState() {
+		return this.State;
+	}
+	public List<BOPExclusionUnmannedAircraft> getBOPExclusionUnmannedAircraft() {
+		return this.BOPExclusionUnmannedAircraft;
+	}
+	public String  getVolcanicActivity() {
+		return this.VolcanicActivity;
+	}
+	public List<BOPWaiverTransferRightsOfRecoveryAgainstOthersToUs> getBOPWaiverTransferRightsOfRecoveryAgainstOthersToUs() {
+		return this.BOPWaiverTransferRightsOfRecoveryAgainstOthersToUs;
+	}
+	public String  getEQTypeOfPolicyStatCode() {
+		return this.EQTypeOfPolicyStatCode;
+	}
+	public String  getLeadPaintRemoval() {
+		return this.LeadPaintRemoval;
+	}
+	public String  getId() {
+		return this.Id;
+	}
+	public Date  getRateDt() {
+		return this.RateDt;
+	}
+	public String  getVeterinariansUnacceptableYesHeader() {
+		return this.VeterinariansUnacceptableYesHeader;
+	}
+	public String  getFuneralDirectorsHeader() {
+		return this.FuneralDirectorsHeader;
+	}
+	public String  getBusnIncomeOrdinaryPayrollNumDays() {
+		return this.BusnIncomeOrdinaryPayrollNumDays;
+	}
+	public String  getSmokeDetectors() {
+		return this.SmokeDetectors;
+	}
+	public int  getOutsideMaintenanceWork() {
+		return this.OutsideMaintenanceWork;
+	}
+	public int  getEarnedInFullIndicator() {
+		return this.EarnedInFullIndicator;
+	}
+	public String  getCremation() {
+		return this.Cremation;
+	}
+	public String  getTerrorismCoverageSpecificLimits() {
+		return this.TerrorismCoverageSpecificLimits;
+	}
+	public String  getSafetyMessages() {
+		return this.SafetyMessages;
+	}
+	public String  getZoosCircuses2() {
+		return this.ZoosCircuses2;
+	}
+	public int  getLandscaping() {
+		return this.Landscaping;
+	}
+	public List<BOPLimitedCoverageForDesignatedUnmannedAircraft> getBOPLimitedCoverageForDesignatedUnmannedAircraft() {
+		return this.BOPLimitedCoverageForDesignatedUnmannedAircraft;
+	}
+	public List<BOPBusnIncomeOrdinaryPayrollBldgCoverage> getBOPBusnIncomeOrdinaryPayrollBldgCoverage() {
+		return this.BOPBusnIncomeOrdinaryPayrollBldgCoverage;
+	}
+	public double  getIRPMFactor() {
+		return this.IRPMFactor;
+	}
+	public int  getTaxIndicator() {
+		return this.TaxIndicator;
+	}
+	public String  getFastFoodHealthViolations() {
+		return this.FastFoodHealthViolations;
+	}
+	public List<BOPInformationSecurityProtectionEndorsement> getBOPInformationSecurityProtectionEndorsement() {
+		return this.BOPInformationSecurityProtectionEndorsement;
+	}
+	public String  getFastFoodSeasonalOperation() {
+		return this.FastFoodSeasonalOperation;
+	}
+	public String  getLimitedCookingRiskUnacceptableNoHeader() {
+		return this.LimitedCookingRiskUnacceptableNoHeader;
+	}
+	public String  getFireExits() {
+		return this.FireExits;
+	}
+	public String  getRestaurantAutomaticExtinguishSystem() {
+		return this.RestaurantAutomaticExtinguishSystem;
+	}
+	public String  getHealthViolations() {
+		return this.HealthViolations;
+	}
+	public String  getTerrsmSubLimit() {
+		return this.TerrsmSubLimit;
+	}
+	public String  getBeyond200Miles() {
+		return this.Beyond200Miles;
+	}
+	public String  getPriorId() {
+		return this.PriorId;
+	}
+	public List<BOPHiredNonOwnedAuto> getBOPHiredNonOwnedAuto() {
+		return this.BOPHiredNonOwnedAuto;
+	}
+	public String  getBusinessIncomeHeader() {
+		return this.BusinessIncomeHeader;
+	}
+	public String  getRecords2() {
+		return this.Records2;
+	}
+	public String  getFuneralRepaymentPlans() {
+		return this.FuneralRepaymentPlans;
+	}
+	public String  getHealthCode() {
+		return this.HealthCode;
+	}
+	public String  getEmpsTrained() {
+		return this.EmpsTrained;
+	}
+	public int  getEachOccLimitAsInteger() {
+		return this.EachOccLimitAsInteger;
+	}
+	public String  getSolidFuelHeatingSystems() {
+		return this.SolidFuelHeatingSystems;
+	}
+	public List<BOPAddlInsdStatePoliticalSubdivisionsPermits> getBOPAddlInsdStatePoliticalSubdivisionsPermits() {
+		return this.BOPAddlInsdStatePoliticalSubdivisionsPermits;
+	}
+	public String  getManufacturing() {
+		return this.Manufacturing;
+	}
+	public Date  getExpiration() {
+		return this.Expiration;
+	}
+	public String  getLotteryTickets() {
+		return this.LotteryTickets;
+	}
+	public List<BOPPrimaryAndNoncontributoryOtherInsuranceCondition> getBOPPrimaryAndNoncontributoryOtherInsuranceCondition() {
+		return this.BOPPrimaryAndNoncontributoryOtherInsuranceCondition;
+	}
+	public List<BOPCondoCommlUnitOwnersCov> getBOPCondoCommlUnitOwnersCov() {
+		return this.BOPCondoCommlUnitOwnersCov;
+	}
+	public double  getCommercialPropertyLCM() {
+		return this.CommercialPropertyLCM;
+	}
+	public String  getFuneralRiskUnacceptableNoHeader() {
+		return this.FuneralRiskUnacceptableNoHeader;
+	}
+	public String  getHairImplantation() {
+		return this.HairImplantation;
+	}
+	public double  getDedFactor() {
+		return this.DedFactor;
+	}
+	public String  getFastFoodSeatingCapacityGreaterThan() {
+		return this.FastFoodSeatingCapacityGreaterThan;
+	}
+	public String  getHairRemovalElectrolysis() {
+		return this.HairRemovalElectrolysis;
+	}
+	public String  getProflLiabRiskUnacceptableNoHeader() {
+		return this.ProflLiabRiskUnacceptableNoHeader;
+	}
+	public String  getProflLiabRiskUnacceptableYesHeader() {
+		return this.ProflLiabRiskUnacceptableYesHeader;
+	}
+	public int  getWindowCleaningInside() {
+		return this.WindowCleaningInside;
+	}
+	public String  getPropane() {
+		return this.Propane;
+	}
+	public String  getOpticalHearingAidsHeader() {
+		return this.OpticalHearingAidsHeader;
+	}
+	public String  getConvictions1() {
+		return this.Convictions1;
+	}
+	public List<BOPY2KComputerRelatedProblemsExclSpecifiedCov> getBOPY2KComputerRelatedProblemsExclSpecifiedCov() {
+		return this.BOPY2KComputerRelatedProblemsExclSpecifiedCov;
+	}
+	public String  getRecords() {
+		return this.Records;
+	}
+	public int  getNumOwners() {
+		return this.NumOwners;
+	}
+	public int  getYearsInBusiness() {
+		return this.YearsInBusiness;
+	}
+	public String  getDrugLabels() {
+		return this.DrugLabels;
+	}
+	public List<BOPForgeryAlterationCoverage> getBOPForgeryAlterationCoverage() {
+		return this.BOPForgeryAlterationCoverage;
+	}
+	public String  getDruggistsProflLiabCoverage() {
+		return this.DruggistsProflLiabCoverage;
+	}
+	public int  getCarpetInstallation() {
+		return this.CarpetInstallation;
+	}
+	public List<BOPExclProductsCompletedOpsHzd> getBOPExclProductsCompletedOpsHzd() {
+		return this.BOPExclProductsCompletedOpsHzd;
+	}
+	public List<BOPApartmentBuildingsTotalTenantsAutos> getBOPApartmentBuildingsTotalTenantsAutos() {
+		return this.BOPApartmentBuildingsTotalTenantsAutos;
+	}
+	public String  getContractorsRiskUnacceptableNoHeader() {
+		return this.ContractorsRiskUnacceptableNoHeader;
+	}
+	public String  getSubcontractors() {
+		return this.Subcontractors;
+	}
+	public String  getBusnIncomeExtddPeriodASLOBStatCode() {
+		return this.BusnIncomeExtddPeriodASLOBStatCode;
+	}
+	public double  getPolicyTermPremium() {
+		return this.PolicyTermPremium;
+	}
+	public List<BOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage> getBOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage() {
+		return this.BOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage;
+	}
+	public int  getInsideWork() {
+		return this.InsideWork;
+	}
+	public List<BOPVeterinariansProflLiab> getBOPVeterinariansProflLiab() {
+		return this.BOPVeterinariansProflLiab;
+	}
+	public String  getEQRiskDeclineYesHeader() {
+		return this.EQRiskDeclineYesHeader;
+	}
+	public String  getHairRemovalElectricalDepilatory() {
+		return this.HairRemovalElectricalDepilatory;
+	}
+	public List<BOPExclusionSilicaSilicaRelatedDust> getBOPExclusionSilicaSilicaRelatedDust() {
+		return this.BOPExclusionSilicaSilicaRelatedDust;
+	}
+	public String  getProofreadNo() {
+		return this.ProofreadNo;
+	}
+	public String  getProflLiabHeader() {
+		return this.ProflLiabHeader;
+	}
+	public String  getFastFoodAutomaticExtinguishSystem3() {
+		return this.FastFoodAutomaticExtinguishSystem3;
+	}
+	public String  getWebAddress() {
+		return this.WebAddress;
+	}
+	public String  getVeterinariansOperationsHeader() {
+		return this.VeterinariansOperationsHeader;
+	}
+	public double  getProRatedPriorPremium() {
+		return this.ProRatedPriorPremium;
+	}
+	public String  getTerrorismCoverage() {
+		return this.TerrorismCoverage;
+	}
+	public int  getPropDamageLiabDedAsInteger() {
+		return this.PropDamageLiabDedAsInteger;
+	}
+	public String  getPastOperations() {
+		return this.PastOperations;
+	}
+	public String  getCostOfSubcontractedWork() {
+		return this.CostOfSubcontractedWork;
+	}
+	public String  getSteamBoiler() {
+		return this.SteamBoiler;
+	}
+	public List<BOPCannabisPropertyExclusion> getBOPCannabisPropertyExclusion() {
+		return this.BOPCannabisPropertyExclusion;
+	}
+	public double  getBoilerMachineryLCM() {
+		return this.BoilerMachineryLCM;
+	}
+	public String  getTypeOfPolicyStatCode() {
+		return this.TypeOfPolicyStatCode;
+	}
+	public List<BOPRemovalOfInsToValueProvision> getBOPRemovalOfInsToValueProvision() {
+		return this.BOPRemovalOfInsToValueProvision;
+	}
+	public String  getVacant() {
+		return this.Vacant;
+	}
+	public String  getFastFoodAutomaticExtinguishSystem() {
+		return this.FastFoodAutomaticExtinguishSystem;
+	}
+	public List<BOPPrintersErrorsOmissions> getBOPPrintersErrorsOmissions() {
+		return this.BOPPrintersErrorsOmissions;
+	}
+	public List<BOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn> getBOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn() {
+		return this.BOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn;
+	}
+	public String  getFuneralRiskUnacceptableYesHeader() {
+		return this.FuneralRiskUnacceptableYesHeader;
+	}
+	public String  getWaterHeaters() {
+		return this.WaterHeaters;
+	}
+	public String  getAutoDelivery() {
+		return this.AutoDelivery;
+	}
+	public String  getInterruptionComputerOpsCoverageIndicator() {
+		return this.InterruptionComputerOpsCoverageIndicator;
+	}
+	public String  getInsuringDangerousAnimals() {
+		return this.InsuringDangerousAnimals;
+	}
+	public String  getStateCertifications() {
+		return this.StateCertifications;
+	}
+	public List<BOPExclPunitiveDamagesReltdToACertfdActTerrsm> getBOPExclPunitiveDamagesReltdToACertfdActTerrsm() {
+		return this.BOPExclPunitiveDamagesReltdToACertfdActTerrsm;
+	}
+	public List<BOPNewlyAcquiredOrganizations> getBOPNewlyAcquiredOrganizations() {
+		return this.BOPNewlyAcquiredOrganizations;
+	}
+	public List<BOPAmendmentInsuredContractDefinition> getBOPAmendmentInsuredContractDefinition() {
+		return this.BOPAmendmentInsuredContractDefinition;
+	}
+	public String  getSyntheticStuccowork() {
+		return this.SyntheticStuccowork;
+	}
+	public List<BOPExclPersonalAdvertisingInjury> getBOPExclPersonalAdvertisingInjury() {
+		return this.BOPExclPersonalAdvertisingInjury;
+	}
+	public String  getBusinessDesc() {
+		return this.BusinessDesc;
+	}
+	public String  getZoosCircuses() {
+		return this.ZoosCircuses;
+	}
+	public String  getFastFoodLiveEntertainment() {
+		return this.FastFoodLiveEntertainment;
+	}
+	public List<BOPIRPM> getBOPIRPM() {
+		return this.BOPIRPM;
+	}
+	public List<BOPAbuseMolestationExcl> getBOPAbuseMolestationExcl() {
+		return this.BOPAbuseMolestationExcl;
+	}
+	public String  getLiquorLiabGradeOffPremise() {
+		return this.LiquorLiabGradeOffPremise;
+	}
+	public int  getPaintingInsideWork() {
+		return this.PaintingInsideWork;
+	}
+	public int  getBasicCleaning() {
+		return this.BasicCleaning;
+	}
+	public String  getPrizeLivestock() {
+		return this.PrizeLivestock;
+	}
+	public String  getAutomaticExtinguishSystem1() {
+		return this.AutomaticExtinguishSystem1;
+	}
+	public List<BOPTerrorismCoverage> getBOPTerrorismCoverage() {
+		return this.BOPTerrorismCoverage;
+	}
+	public List<BOPLocation> getBOPLocation() {
+		return this.BOPLocation;
+	}
+	public String  getWeightReduction() {
+		return this.WeightReduction;
+	}
+	public String  getFastFoodAutomaticExtinguishSystem2() {
+		return this.FastFoodAutomaticExtinguishSystem2;
+	}
+	public String  getMinors() {
+		return this.Minors;
+	}
+	public List<BOPPhotographyMakeupAndHairstyling> getBOPPhotographyMakeupAndHairstyling() {
+		return this.BOPPhotographyMakeupAndHairstyling;
+	}
+	public String  getFormNumber() {
+		return this.FormNumber;
+	}
+	public String  getCompanyNumber() {
+		return this.CompanyNumber;
+	}
+	public int  getPrecastConcrete() {
+		return this.PrecastConcrete;
+	}
+	public List<BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly> getBOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly() {
+		return this.BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly;
+	}
+	public List<BOPExclCertfdActsTerrsmCovFireLosses> getBOPExclCertfdActsTerrsmCovFireLosses() {
+		return this.BOPExclCertfdActsTerrsmCovFireLosses;
+	}
+	public String  getPaintingContractorsHeader() {
+		return this.PaintingContractorsHeader;
+	}
+	public List<BOPPropDamageLiabDedPerOcc> getBOPPropDamageLiabDedPerOcc() {
+		return this.BOPPropDamageLiabDedPerOcc;
+	}
+	public String  getQuotePolicyIndicator() {
+		return this.QuotePolicyIndicator;
+	}
+	public String  getAggregateLimit() {
+		return this.AggregateLimit;
+	}
+	public String  getWriteDocuments() {
+		return this.WriteDocuments;
+	}
+	public String  getPrintersErrorsOmissionsUnacceptableNoHeader() {
+		return this.PrintersErrorsOmissionsUnacceptableNoHeader;
+	}
+	public String  getParkingLot() {
+		return this.ParkingLot;
+	}
+	public String  getRatingTerritoryStatCode() {
+		return this.RatingTerritoryStatCode;
+	}
+	public String  getBarbersBeauticiansHeader() {
+		return this.BarbersBeauticiansHeader;
+	}
+	public Date  getExpirationDt() {
+		return this.ExpirationDt;
+	}
+	public List<BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage> getBOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage() {
+		return this.BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage;
+	}
+	public String  getContractorsHeader() {
+		return this.ContractorsHeader;
+	}
+	public String  getElectricalCableInstallationPercentageWorkDoneHeader() {
+		return this.ElectricalCableInstallationPercentageWorkDoneHeader;
+	}
+	public String  getEQASLOBStatCode() {
+		return this.EQASLOBStatCode;
+	}
+	public String  getOptionalDeductible() {
+		return this.OptionalDeductible;
+	}
+	public String  getConvenienceStoreHeader() {
+		return this.ConvenienceStoreHeader;
+	}
+	public String  getPoleWiring() {
+		return this.PoleWiring;
+	}
+	public double  getBOPFunctlBusnPrsnlPropValtnCoveragePremium_1() {
+		return this.bOPFunctlBusnPrsnlPropValtnCoveragePremium_1;
+	}
+	public String  getLiquorRiskUnacceptableYesHeader() {
+		return this.LiquorRiskUnacceptableYesHeader;
+	}
+	public List<BOPElectronicDataCoverage> getBOPElectronicDataCoverage() {
+		return this.BOPElectronicDataCoverage;
+	}
+	public List<BOPPolltnExclLimitedExcptnForDesignatedPollutants> getBOPPolltnExclLimitedExcptnForDesignatedPollutants() {
+		return this.BOPPolltnExclLimitedExcptnForDesignatedPollutants;
+	}
+	public String  getFastFoodAutomaticExtinguishSystem1() {
+		return this.FastFoodAutomaticExtinguishSystem1;
+	}
+	public List<BOPElectronicCommerce> getBOPElectronicCommerce() {
+		return this.BOPElectronicCommerce;
+	}
+	public double  getPolEndtPremium() {
+		return this.PolEndtPremium;
+	}
+	public List<BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf> getBOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf() {
+		return this.BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf;
+	}
+	public List<BOPLiquorLiabCovBringYourOwnAlcoholEstablishments> getBOPLiquorLiabCovBringYourOwnAlcoholEstablishments() {
+		return this.BOPLiquorLiabCovBringYourOwnAlcoholEstablishments;
+	}
+	public List<BOPCommunicableDiseaseExclusion> getBOPCommunicableDiseaseExclusion() {
+		return this.BOPCommunicableDiseaseExclusion;
+	}
+	public String  getRepairCarWash() {
+		return this.RepairCarWash;
+	}
+	public List<BOPBeautySalonsProflLiab> getBOPBeautySalonsProflLiab() {
+		return this.BOPBeautySalonsProflLiab;
+	}
+	public String  getExcludePunitiveDamagesRelatedToCertifiedActOfTerrorism() {
+		return this.ExcludePunitiveDamagesRelatedToCertifiedActOfTerrorism;
+	}
+	public String  getCateringServices() {
+		return this.CateringServices;
+	}
+	public String  getGeneralInformationHeader() {
+		return this.GeneralInformationHeader;
+	}
+	public String  getIndoorPoolDepths1() {
+		return this.IndoorPoolDepths1;
+	}
+	public String  getMotelHeader() {
+		return this.MotelHeader;
+	}
+	public Date  getEffective() {
+		return this.Effective;
+	}
+	public Date  getModified() {
+		return this.Modified;
+	}
+	public double  getProRatedPremium() {
+		return this.ProRatedPremium;
+	}
+	public List<BOPComputerFraudFundsTransferFraudCov> getBOPComputerFraudFundsTransferFraudCov() {
+		return this.BOPComputerFraudFundsTransferFraudCov;
+	}
+	public String  getRestaurantHeader() {
+		return this.RestaurantHeader;
+	}
+	public List<BOPPropDamageLiabDedPerClaim> getBOPPropDamageLiabDedPerClaim() {
+		return this.BOPPropDamageLiabDedPerClaim;
+	}
+	public String  getEnergyEfficiencyInstaller() {
+		return this.EnergyEfficiencyInstaller;
+	}
+	public String  getCommercialSublineEQStatCode() {
+		return this.CommercialSublineEQStatCode;
+	}
+	public List<BOPDesignatedLocsGenlAggLimit> getBOPDesignatedLocsGenlAggLimit() {
+		return this.BOPDesignatedLocsGenlAggLimit;
+	}
+	public List<BOPComputerFraudFundsTransferFraudCoverage> getBOPComputerFraudFundsTransferFraudCoverage() {
+		return this.BOPComputerFraudFundsTransferFraudCoverage;
+	}
+	public String  getFastFoodRiskUnacceptableNoHeader() {
+		return this.FastFoodRiskUnacceptableNoHeader;
+	}
+	public String  getPropDamageLiabDedType() {
+		return this.PropDamageLiabDedType;
+	}
+	public List<BOPIDFraudExpenseCov> getBOPIDFraudExpenseCov() {
+		return this.BOPIDFraudExpenseCov;
+	}
+	public String  getOwnerLandlordOrTenantPolicy() {
+		return this.OwnerLandlordOrTenantPolicy;
+	}
+	public String  getIndoorPoolDepths() {
+		return this.IndoorPoolDepths;
+	}
+	public String  getMedicalEquipmt() {
+		return this.MedicalEquipmt;
+	}
+	public String  getPiercing() {
+		return this.Piercing;
+	}
+	public double  getAutomaticIncreaseFactor() {
+		return this.AutomaticIncreaseFactor;
+	}
+	public List<BOPContrctrsInstalltnToolsAndEquipmtCov> getBOPContrctrsInstalltnToolsAndEquipmtCov() {
+		return this.BOPContrctrsInstalltnToolsAndEquipmtCov;
+	}
+	public int  getShortRateIndicator() {
+		return this.ShortRateIndicator;
+	}
+	public String  getMinimumYears() {
+		return this.MinimumYears;
+	}
+	public String  getProofread() {
+		return this.Proofread;
+	}
+	public Date  getDateServiced() {
+		return this.DateServiced;
+	}
+	public double  getShortRateFactor() {
+		return this.ShortRateFactor;
+	}
+	public String  getSeasonalOperation() {
+		return this.SeasonalOperation;
+	}
+	public String  getLimitedCookingRestaurantsHeader() {
+		return this.LimitedCookingRestaurantsHeader;
+	}
+	public List<BOPTheftOfClientsProperty> getBOPTheftOfClientsProperty() {
+		return this.BOPTheftOfClientsProperty;
+	}
+	public String  getDelivery() {
+		return this.Delivery;
+	}
+	public int  getPremiumIndicator() {
+		return this.PremiumIndicator;
+	}
+	public String  getPrintersErrorsOmissionsUnacceptableYesHeader() {
+		return this.PrintersErrorsOmissionsUnacceptableYesHeader;
+	}
+	public String  getCreatedBy() {
+		return this.CreatedBy;
+	}
+	public List<BOPBusnIncomeOrdinaryPayrollExemption> getBOPBusnIncomeOrdinaryPayrollExemption() {
+		return this.BOPBusnIncomeOrdinaryPayrollExemption;
+	}
+	public String  getFastFoodLiquorBeerWine() {
+		return this.FastFoodLiquorBeerWine;
+	}
+	public List<BOPFungiBacteriaExclusionLiability> getBOPFungiBacteriaExclusionLiability() {
+		return this.BOPFungiBacteriaExclusionLiability;
+	}
+	public String  getBusnIncomeOrdinaryPayrollCoverageStatCode() {
+		return this.BusnIncomeOrdinaryPayrollCoverageStatCode;
+	}
+	public List<BOPCannabisLiabilityExclusion> getBOPCannabisLiabilityExclusion() {
+		return this.BOPCannabisLiabilityExclusion;
+	}
+	public double  getProfessionalLiabilityLCM() {
+		return this.ProfessionalLiabilityLCM;
+	}
+	public String  getFilledLand() {
+		return this.FilledLand;
+	}
+	public List<BOPLiquorLiabCov> getBOPLiquorLiabCov() {
+		return this.BOPLiquorLiabCov;
+	}
+	public List<BOPCannabisLiabilityExclusionWithHempException> getBOPCannabisLiabilityExclusionWithHempException() {
+		return this.BOPCannabisLiabilityExclusionWithHempException;
+	}
+	public Date  getPriorRateDt() {
+		return this.PriorRateDt;
+	}
+	public String  getLiveEntertainment() {
+		return this.LiveEntertainment;
+	}
+	public String  getLiquorLiabGrade() {
+		return this.LiquorLiabGrade;
+	}
+	public double  getTotalOptionalMedicalCoveragePremium() {
+		return this.TotalOptionalMedicalCoveragePremium;
+	}
+	public String  getCPPGoverningState() {
+		return this.CPPGoverningState;
+	}
+	public String  getPropertyDamageLiabilityHeader() {
+		return this.PropertyDamageLiabilityHeader;
+	}
+	public List<BOPBarbersBeauticiansProflLiab> getBOPBarbersBeauticiansProflLiab() {
+		return this.BOPBarbersBeauticiansProflLiab;
+	}
+	public String  getGrillingBroiling2() {
+		return this.GrillingBroiling2;
+	}
+	public String  getLandscapingContractorsHeader() {
+		return this.LandscapingContractorsHeader;
+	}
+	public String  getEmergencyEquipmt() {
+		return this.EmergencyEquipmt;
+	}
+	public List<BOPDisclosurePursuantToTRIA2002> getBOPDisclosurePursuantToTRIA2002() {
+		return this.BOPDisclosurePursuantToTRIA2002;
+	}
+	public List<BOPPharmacists> getBOPPharmacists() {
+		return this.BOPPharmacists;
+	}
+	public double  getPremium() {
+		return this.Premium;
+	}
+	public String  getGrillingBroiling() {
+		return this.GrillingBroiling;
+	}
+	public String  getLandscapingContractorsRiskDeclineNoHeader() {
+		return this.LandscapingContractorsRiskDeclineNoHeader;
+	}
+	public String  getFastFoodRestaurantsHeader() {
+		return this.FastFoodRestaurantsHeader;
+	}
+	public int  getHerbicide() {
+		return this.Herbicide;
+	}
+	public List<BOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis> getBOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis() {
+		return this.BOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis;
+	}
+	public int  getLawnCare() {
+		return this.LawnCare;
+	}
+	public String  getNonOwnedAutoDelivery() {
+		return this.NonOwnedAutoDelivery;
+	}
+	public int  getNumEmployedVeterinarians() {
+		return this.NumEmployedVeterinarians;
+	}
+	public String  getACHeatingContractorsHeader() {
+		return this.ACHeatingContractorsHeader;
+	}
+	public List<BOPHigherLimitsPolicy> getBOPHigherLimitsPolicy() {
+		return this.BOPHigherLimitsPolicy;
+	}
+	public String  getLiquorRiskUnacceptableNoHeader() {
+		return this.LiquorRiskUnacceptableNoHeader;
+	}
+	public List<BOPAmendmentLiquorLiabExclExcptn> getBOPAmendmentLiquorLiabExclExcptn() {
+		return this.BOPAmendmentLiquorLiabExclExcptn;
+	}
+	public double  getBusnPrsnlPropRate() {
+		return this.BusnPrsnlPropRate;
+	}
+	public int  getFeeIndicator() {
+		return this.FeeIndicator;
+	}
+	public String  getMineSubsidenceCoverage() {
+		return this.MineSubsidenceCoverage;
+	}
+	public List<BOPCapLossesFromCertfdActsTerrsm> getBOPCapLossesFromCertfdActsTerrsm() {
+		return this.BOPCapLossesFromCertfdActsTerrsm;
+	}
+	public String  getBusnIncomeExtddPeriodCoverageStatCode() {
+		return this.BusnIncomeExtddPeriodCoverageStatCode;
+	}
+	public String  getRestaurantExposureHeader() {
+		return this.RestaurantExposureHeader;
+	}
+	public List<BOPLimitationsOfCovForCertfdActsTerrsm> getBOPLimitationsOfCovForCertfdActsTerrsm() {
+		return this.BOPLimitationsOfCovForCertfdActsTerrsm;
+	}
+	public String  getConvenienceStoreRiskUnacceptableNoHeader() {
+		return this.ConvenienceStoreRiskUnacceptableNoHeader;
+	}
+	public List<BOPAbuseOrMolestationExclSpecdSrvcs> getBOPAbuseOrMolestationExclSpecdSrvcs() {
+		return this.BOPAbuseOrMolestationExclSpecdSrvcs;
+	}
+	public List<BOPCondosCoOpsAssocsDirectorsAndOfficersLiab> getBOPCondosCoOpsAssocsDirectorsAndOfficersLiab() {
+		return this.BOPCondosCoOpsAssocsDirectorsAndOfficersLiab;
+	}
+	public List<BOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002> getBOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002() {
+		return this.BOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002;
+	}
+	public String  getEmpsLicensed() {
+		return this.EmpsLicensed;
+	}
+	public List<BOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems> getBOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems() {
+		return this.BOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems;
+	}
+	public String  getExcludeOtherActsOutsideUS() {
+		return this.ExcludeOtherActsOutsideUS;
+	}
+	public String  getReplaceFoundations() {
+		return this.ReplaceFoundations;
+	}
+	public String  getSeatingCapacity() {
+		return this.SeatingCapacity;
+	}
+	public String  getPolicyNum() {
+		return this.PolicyNum;
+	}
+	public List<BOPAddlInsdStatePoliticalSubdivisions> getBOPAddlInsdStatePoliticalSubdivisions() {
+		return this.BOPAddlInsdStatePoliticalSubdivisions;
+	}
+	public Date  getAddEffectiveDt() {
+		return this.AddEffectiveDt;
+	}
+	public String  getTransformers() {
+		return this.Transformers;
+	}
+	public int  getCarpetUpholsteryCleaning() {
+		return this.CarpetUpholsteryCleaning;
+	}
+	public String  getACHeatingContractorsRiskDeclineYesHeader() {
+		return this.ACHeatingContractorsRiskDeclineYesHeader;
+	}
+	public String  getExteriorWork() {
+		return this.ExteriorWork;
+	}
+	public List<BOPOpticalHearingAid> getBOPOpticalHearingAid() {
+		return this.BOPOpticalHearingAid;
+	}
+	public int  getJanitorialContractorsTotPercentage() {
+		return this.JanitorialContractorsTotPercentage;
+	}
+	public String  getCranes() {
+		return this.Cranes;
+	}
+	public String  getElectronicDataCoverageIndicator() {
+		return this.ElectronicDataCoverageIndicator;
+	}
+	public String  getFlammables() {
+		return this.Flammables;
+	}
+	public double  getAnnualPremium() {
+		return this.AnnualPremium;
+	}
+	public String  getWartMoleRemoval() {
+		return this.WartMoleRemoval;
+	}
+	public String  getApplicationLimited() {
+		return this.ApplicationLimited;
+	}
+	public String  getFlooringContractorsPercentageWorkDoneHeader() {
+		return this.FlooringContractorsPercentageWorkDoneHeader;
+	}
+	public String  getFastFoodTableService() {
+		return this.FastFoodTableService;
+	}
+	public String  getFoundation() {
+		return this.Foundation;
+	}
+	public int  getPaintingOutsideWork() {
+		return this.PaintingOutsideWork;
+	}
+	public int  getUndergroundCable() {
+		return this.UndergroundCable;
+	}
+	public String  getTraining() {
+		return this.Training;
+	}
+	public String  getPolicyForm() {
+		return this.PolicyForm;
+	}
+	public String  getContractorPrinter() {
+		return this.ContractorPrinter;
+	}
+	public List<BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage> getBOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage() {
+		return this.BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage;
+	}
+	public List<BOPAddlInsdControllingInterest> getBOPAddlInsdControllingInterest() {
+		return this.BOPAddlInsdControllingInterest;
+	}
+	public String  getFlooringContractorsHeader() {
+		return this.FlooringContractorsHeader;
+	}
+	public String  getAutomaticExtinguishingSystem1() {
+		return this.AutomaticExtinguishingSystem1;
+	}
+	public int  getPaintingContractorsTotPercentage() {
+		return this.PaintingContractorsTotPercentage;
+	}
+	public List<BOPDiscretionaryPayrollExpense> getBOPDiscretionaryPayrollExpense() {
+		return this.BOPDiscretionaryPayrollExpense;
+	}
+	public String  getFastFoodNonOwnedAutoDelivery() {
+		return this.FastFoodNonOwnedAutoDelivery;
+	}
+	public String  getIndoorPoolDepths2() {
+		return this.IndoorPoolDepths2;
+	}
+	public String  getRecordsDisposedDrugs() {
+		return this.RecordsDisposedDrugs;
+	}
+	public List<BOPNamedPerils> getBOPNamedPerils() {
+		return this.BOPNamedPerils;
+	}
+	public List<BOPCoverageInjuryLeasedWorkers> getBOPCoverageInjuryLeasedWorkers() {
+		return this.BOPCoverageInjuryLeasedWorkers;
+	}
+	public String  getFastFoodTotalFloorArea() {
+		return this.FastFoodTotalFloorArea;
+	}
+	public List<BOPPolltnExclLimitedExcptnForShortTermEvent> getBOPPolltnExclLimitedExcptnForShortTermEvent() {
+		return this.BOPPolltnExclLimitedExcptnForShortTermEvent;
+	}
+	public String  getTerracedProperty1() {
+		return this.TerracedProperty1;
+	}
+	public Date  getTRIAExpirationDate() {
+		return this.TRIAExpirationDate;
+	}
+	
+	public void setAgentNotificationDiaryFlag(int AgentNotificationDiaryFlag) {
+		this.AgentNotificationDiaryFlag = AgentNotificationDiaryFlag;
+	}
+	public void setBOPCapLossesFromCertfdActsTerrsm(List<BOPCapLossesFromCertfdActsTerrsm> BOPCapLossesFromCertfdActsTerrsm) {
+		this.BOPCapLossesFromCertfdActsTerrsm = BOPCapLossesFromCertfdActsTerrsm;
+	}
+	public void setEarnedInFullIndicator(int EarnedInFullIndicator) {
+		this.EarnedInFullIndicator = EarnedInFullIndicator;
+	}
+	public void setPaintingInsideWork(int PaintingInsideWork) {
+		this.PaintingInsideWork = PaintingInsideWork;
+	}
+	public void setVeterinariansHeader(String VeterinariansHeader) {
+		this.VeterinariansHeader = VeterinariansHeader;
+	}
+	public void setPropDamageLiabDedType(String PropDamageLiabDedType) {
+		this.PropDamageLiabDedType = PropDamageLiabDedType;
+	}
+	public void setPrintersErrorsOmissionsUnacceptableYesHeader(String PrintersErrorsOmissionsUnacceptableYesHeader) {
+		this.PrintersErrorsOmissionsUnacceptableYesHeader = PrintersErrorsOmissionsUnacceptableYesHeader;
+	}
+	public void setCreated(Date Created) {
+		this.Created = Created;
+	}
+	public void setSafetyMessages(String SafetyMessages) {
+		this.SafetyMessages = SafetyMessages;
+	}
+	public void setBOPInterruptionComputerOpsCoverage(List<BOPInterruptionComputerOpsCoverage> BOPInterruptionComputerOpsCoverage) {
+		this.BOPInterruptionComputerOpsCoverage = BOPInterruptionComputerOpsCoverage;
+	}
+	public void setDeposits(String Deposits) {
+		this.Deposits = Deposits;
+	}
+	public void setBusnPrsnlPropRate(double BusnPrsnlPropRate) {
+		this.BusnPrsnlPropRate = BusnPrsnlPropRate;
+	}
+	public void setBOPTotPolltnExcl(List<BOPTotPolltnExcl> BOPTotPolltnExcl) {
+		this.BOPTotPolltnExcl = BOPTotPolltnExcl;
+	}
+	public void setLawnCare(int LawnCare) {
+		this.LawnCare = LawnCare;
+	}
+	public void setNumOwners(int NumOwners) {
+		this.NumOwners = NumOwners;
+	}
+	public void setBOPAbuseMolestationExcl(List<BOPAbuseMolestationExcl> BOPAbuseMolestationExcl) {
+		this.BOPAbuseMolestationExcl = BOPAbuseMolestationExcl;
+	}
+	public void setBlktType(String BlktType) {
+		this.BlktType = BlktType;
+	}
+	public void setRateDt(Date RateDt) {
+		this.RateDt = RateDt;
+	}
+	public void setCreatedBy(String CreatedBy) {
+		this.CreatedBy = CreatedBy;
+	}
+	public void setTypeOfExclusion(String TypeOfExclusion) {
+		this.TypeOfExclusion = TypeOfExclusion;
+	}
+	public void setTRIAExtended(String TRIAExtended) {
+		this.TRIAExtended = TRIAExtended;
+	}
+	public void setTRIAExpirationDate(Date TRIAExpirationDate) {
+		this.TRIAExpirationDate = TRIAExpirationDate;
+	}
+	public void setAutoDelivery(String AutoDelivery) {
+		this.AutoDelivery = AutoDelivery;
+	}
+	public void setPolicyNum(String PolicyNum) {
+		this.PolicyNum = PolicyNum;
+	}
+	public void setBOPSnowPlowProdsCompldOpsHzdCov(List<BOPSnowPlowProdsCompldOpsHzdCov> BOPSnowPlowProdsCompldOpsHzdCov) {
+		this.BOPSnowPlowProdsCompldOpsHzdCov = BOPSnowPlowProdsCompldOpsHzdCov;
+	}
+	public void setBOPComputerFraudFundsTransferFraudCoverage(List<BOPComputerFraudFundsTransferFraudCoverage> BOPComputerFraudFundsTransferFraudCoverage) {
+		this.BOPComputerFraudFundsTransferFraudCoverage = BOPComputerFraudFundsTransferFraudCoverage;
+	}
+	public void setDailyOperation(String DailyOperation) {
+		this.DailyOperation = DailyOperation;
+	}
+	public void setBOPPropDamageLiabDedPerClaim(List<BOPPropDamageLiabDedPerClaim> BOPPropDamageLiabDedPerClaim) {
+		this.BOPPropDamageLiabDedPerClaim = BOPPropDamageLiabDedPerClaim;
+	}
+	public void setBOPAddlInsdTownhouseAssociations(List<BOPAddlInsdTownhouseAssociations> BOPAddlInsdTownhouseAssociations) {
+		this.BOPAddlInsdTownhouseAssociations = BOPAddlInsdTownhouseAssociations;
+	}
+	public void setLiquorLiabGradeOnPremise(String LiquorLiabGradeOnPremise) {
+		this.LiquorLiabGradeOnPremise = LiquorLiabGradeOnPremise;
+	}
+	public void setBOPExclY2KComputerRelatedProblems(List<BOPExclY2KComputerRelatedProblems> BOPExclY2KComputerRelatedProblems) {
+		this.BOPExclY2KComputerRelatedProblems = BOPExclY2KComputerRelatedProblems;
+	}
+	public void setWaterHeaters(String WaterHeaters) {
+		this.WaterHeaters = WaterHeaters;
+	}
+	public void setExempt(String Exempt) {
+		this.Exempt = Exempt;
+	}
+	public void setBlktRated(String BlktRated) {
+		this.BlktRated = BlktRated;
+	}
+	public void setBOPAmendmentLiabMedicalExpensesLimitsOfIns(List<BOPAmendmentLiabMedicalExpensesLimitsOfIns> BOPAmendmentLiabMedicalExpensesLimitsOfIns) {
+		this.BOPAmendmentLiabMedicalExpensesLimitsOfIns = BOPAmendmentLiabMedicalExpensesLimitsOfIns;
+	}
+	public void setBOPFunctlBusnPrsnlPropValtnCoveragePremium_1(double bOPFunctlBusnPrsnlPropValtnCoveragePremium_1) {
+		this.bOPFunctlBusnPrsnlPropValtnCoveragePremium_1 = bOPFunctlBusnPrsnlPropValtnCoveragePremium_1;
+	}
+	public void setZoosCircuses(String ZoosCircuses) {
+		this.ZoosCircuses = ZoosCircuses;
+	}
+	public void setFirearm(String Firearm) {
+		this.Firearm = Firearm;
+	}
+	public void setFastFoodRiskUnacceptableYesHeader(String FastFoodRiskUnacceptableYesHeader) {
+		this.FastFoodRiskUnacceptableYesHeader = FastFoodRiskUnacceptableYesHeader;
+	}
+	public void setLimitedPharmacistsUnacceptableYesHeader(String LimitedPharmacistsUnacceptableYesHeader) {
+		this.LimitedPharmacistsUnacceptableYesHeader = LimitedPharmacistsUnacceptableYesHeader;
+	}
+	public void setSpecialEventTickets(String SpecialEventTickets) {
+		this.SpecialEventTickets = SpecialEventTickets;
+	}
+	public void setBOPPolltnExclLimitedExcptnForShortTermEvent(List<BOPPolltnExclLimitedExcptnForShortTermEvent> BOPPolltnExclLimitedExcptnForShortTermEvent) {
+		this.BOPPolltnExclLimitedExcptnForShortTermEvent = BOPPolltnExclLimitedExcptnForShortTermEvent;
+	}
+	public void setBOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd(List<BOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd> BOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd) {
+		this.BOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd = BOPAddlInsdEngineersArchitectsSurveyorsNotEngagedByNamedInsd;
+	}
+	public void setConvictions1(String Convictions1) {
+		this.Convictions1 = Convictions1;
+	}
+	public void setFastFoodAutomaticExtinguishSystem1(String FastFoodAutomaticExtinguishSystem1) {
+		this.FastFoodAutomaticExtinguishSystem1 = FastFoodAutomaticExtinguishSystem1;
+	}
+	public void setBOPALChanges(List<BOPALChanges> BOPALChanges) {
+		this.BOPALChanges = BOPALChanges;
+	}
+	public void setVolcanicActivity(String VolcanicActivity) {
+		this.VolcanicActivity = VolcanicActivity;
+	}
+	public void setBOPContrctrsInstalltnToolsAndEquipmtCov(List<BOPContrctrsInstalltnToolsAndEquipmtCov> BOPContrctrsInstalltnToolsAndEquipmtCov) {
+		this.BOPContrctrsInstalltnToolsAndEquipmtCov = BOPContrctrsInstalltnToolsAndEquipmtCov;
+	}
+	public void setMGAIdentifier(String MGAIdentifier) {
+		this.MGAIdentifier = MGAIdentifier;
+	}
+	public void setBOPHigherLimitsPolicy(List<BOPHigherLimitsPolicy> BOPHigherLimitsPolicy) {
+		this.BOPHigherLimitsPolicy = BOPHigherLimitsPolicy;
+	}
+	public void setBOPVeterinariansProflLiab(List<BOPVeterinariansProflLiab> BOPVeterinariansProflLiab) {
+		this.BOPVeterinariansProflLiab = BOPVeterinariansProflLiab;
+	}
+	public void setSeatingCapacityGreaterThan(String SeatingCapacityGreaterThan) {
+		this.SeatingCapacityGreaterThan = SeatingCapacityGreaterThan;
+	}
+	public void setSafe(String Safe) {
+		this.Safe = Safe;
+	}
+	public void setBOPNewlyAcquiredOrganizations(List<BOPNewlyAcquiredOrganizations> BOPNewlyAcquiredOrganizations) {
+		this.BOPNewlyAcquiredOrganizations = BOPNewlyAcquiredOrganizations;
+	}
+	public void setLimitedPharmacistsUnacceptableNoHeader(String LimitedPharmacistsUnacceptableNoHeader) {
+		this.LimitedPharmacistsUnacceptableNoHeader = LimitedPharmacistsUnacceptableNoHeader;
+	}
+	public void setChiropody(String Chiropody) {
+		this.Chiropody = Chiropody;
+	}
+	public void setEmployment(String Employment) {
+		this.Employment = Employment;
+	}
+	public void setBOPPharmacistsBroadCov(List<BOPPharmacistsBroadCov> BOPPharmacistsBroadCov) {
+		this.BOPPharmacistsBroadCov = BOPPharmacistsBroadCov;
+	}
+	public void setSubmitLossHistory(String SubmitLossHistory) {
+		this.SubmitLossHistory = SubmitLossHistory;
+	}
+	public void setManufacturing(String Manufacturing) {
+		this.Manufacturing = Manufacturing;
+	}
+	public void setPriorPremium(double PriorPremium) {
+		this.PriorPremium = PriorPremium;
+	}
+	public void setTreeTrimming(String TreeTrimming) {
+		this.TreeTrimming = TreeTrimming;
+	}
+	public void setBOPEmployeeDishonestyNamedEmployees(List<BOPEmployeeDishonestyNamedEmployees> BOPEmployeeDishonestyNamedEmployees) {
+		this.BOPEmployeeDishonestyNamedEmployees = BOPEmployeeDishonestyNamedEmployees;
+	}
+	public void setRetainingWall(int RetainingWall) {
+		this.RetainingWall = RetainingWall;
+	}
+	public void setTotalOptionalMedicalCoveragePremium(double TotalOptionalMedicalCoveragePremium) {
+		this.TotalOptionalMedicalCoveragePremium = TotalOptionalMedicalCoveragePremium;
+	}
+	public void setMunicipalWork(String MunicipalWork) {
+		this.MunicipalWork = MunicipalWork;
+	}
+	public void setContractorsHeader(String ContractorsHeader) {
+		this.ContractorsHeader = ContractorsHeader;
+	}
+	public void setIRPMFactor(double IRPMFactor) {
+		this.IRPMFactor = IRPMFactor;
+	}
+	public void setFastFoodTotalFloorArea(String FastFoodTotalFloorArea) {
+		this.FastFoodTotalFloorArea = FastFoodTotalFloorArea;
+	}
+	public void setBOPCoverageForm(List<BOPCoverageForm> BOPCoverageForm) {
+		this.BOPCoverageForm = BOPCoverageForm;
+	}
+	public void setLiquorLiabilityHeader(String LiquorLiabilityHeader) {
+		this.LiquorLiabilityHeader = LiquorLiabilityHeader;
+	}
+	public void setDemolitionWork(String DemolitionWork) {
+		this.DemolitionWork = DemolitionWork;
+	}
+	public void setBOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses(List<BOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses> BOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses) {
+		this.BOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses = BOPExclCertfdActsTerrsmInvolvingNuclearBiolgclChmclTerrsmCapOnCoveredCertfdActsLosses;
+	}
+	public void setBOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage(List<BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage> BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage) {
+		this.BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage = BOPPhotographyAmendmentOfCoverageTerritoryForPhotographicEquipmentWorldwideCoverage;
+	}
+	public void setLoanRentEquipmt(String LoanRentEquipmt) {
+		this.LoanRentEquipmt = LoanRentEquipmt;
+	}
+	public void setPropDamageLiabDedAsInteger(int PropDamageLiabDedAsInteger) {
+		this.PropDamageLiabDedAsInteger = PropDamageLiabDedAsInteger;
+	}
+	public void setBOPExclCertfdActsTerrsmCovFireLosses(List<BOPExclCertfdActsTerrsmCovFireLosses> BOPExclCertfdActsTerrsmCovFireLosses) {
+		this.BOPExclCertfdActsTerrsmCovFireLosses = BOPExclCertfdActsTerrsmCovFireLosses;
+	}
+	public void setBP1056Count(int BP1056Count) {
+		this.BP1056Count = BP1056Count;
+	}
+	public void setTerrorismCoverageSpecificLimits(String TerrorismCoverageSpecificLimits) {
+		this.TerrorismCoverageSpecificLimits = TerrorismCoverageSpecificLimits;
+	}
+	public void setFilledLand(String FilledLand) {
+		this.FilledLand = FilledLand;
+	}
+	public void setFoundation(String Foundation) {
+		this.Foundation = Foundation;
+	}
+	public void setBOPPharmacists(List<BOPPharmacists> BOPPharmacists) {
+		this.BOPPharmacists = BOPPharmacists;
+	}
+	public void setWriteDocuments(String WriteDocuments) {
+		this.WriteDocuments = WriteDocuments;
+	}
+	public void setRestaurantDateLastServiced(Date RestaurantDateLastServiced) {
+		this.RestaurantDateLastServiced = RestaurantDateLastServiced;
+	}
+	public void setOptionalDeductible(String OptionalDeductible) {
+		this.OptionalDeductible = OptionalDeductible;
+	}
+	public void setBOPAmendmentOfPersonalAndAdvertisingInjuryDefinition(List<BOPAmendmentOfPersonalAndAdvertisingInjuryDefinition> BOPAmendmentOfPersonalAndAdvertisingInjuryDefinition) {
+		this.BOPAmendmentOfPersonalAndAdvertisingInjuryDefinition = BOPAmendmentOfPersonalAndAdvertisingInjuryDefinition;
+	}
+	public void setHairRemovalDepilatory(String HairRemovalDepilatory) {
+		this.HairRemovalDepilatory = HairRemovalDepilatory;
+	}
+	public void setFlooringContractorsHeader(String FlooringContractorsHeader) {
+		this.FlooringContractorsHeader = FlooringContractorsHeader;
+	}
+	public void setProofread(String Proofread) {
+		this.Proofread = Proofread;
+	}
+	public void setBOPRemovalOfInsToValueProvision(List<BOPRemovalOfInsToValueProvision> BOPRemovalOfInsToValueProvision) {
+		this.BOPRemovalOfInsToValueProvision = BOPRemovalOfInsToValueProvision;
+	}
+	public void setFastFoodSemiAnnualInspection(String FastFoodSemiAnnualInspection) {
+		this.FastFoodSemiAnnualInspection = FastFoodSemiAnnualInspection;
+	}
+	public void setBOPExclPersonalAdvertisingInjury(List<BOPExclPersonalAdvertisingInjury> BOPExclPersonalAdvertisingInjury) {
+		this.BOPExclPersonalAdvertisingInjury = BOPExclPersonalAdvertisingInjury;
+	}
+	public void setElectronicDataCoverageIndicator(String ElectronicDataCoverageIndicator) {
+		this.ElectronicDataCoverageIndicator = ElectronicDataCoverageIndicator;
+	}
+	public void setWindowCleaningOutside(int WindowCleaningOutside) {
+		this.WindowCleaningOutside = WindowCleaningOutside;
+	}
+	public void setAutomaticExtinguishSystem3(String AutomaticExtinguishSystem3) {
+		this.AutomaticExtinguishSystem3 = AutomaticExtinguishSystem3;
+	}
+	public void setGrillingBroiling2(String GrillingBroiling2) {
+		this.GrillingBroiling2 = GrillingBroiling2;
+	}
+	public void setPrintersErrorsOmissionsHeader(String PrintersErrorsOmissionsHeader) {
+		this.PrintersErrorsOmissionsHeader = PrintersErrorsOmissionsHeader;
+	}
+	public void setViolations(String Violations) {
+		this.Violations = Violations;
+	}
+	public void setRatingModificationFactorStatCode(String RatingModificationFactorStatCode) {
+		this.RatingModificationFactorStatCode = RatingModificationFactorStatCode;
+	}
+	public void setFastFoodAutomaticExtinguishSystem(String FastFoodAutomaticExtinguishSystem) {
+		this.FastFoodAutomaticExtinguishSystem = FastFoodAutomaticExtinguishSystem;
+	}
+	public void setBOPHiredNonOwnedAuto(List<BOPHiredNonOwnedAuto> BOPHiredNonOwnedAuto) {
+		this.BOPHiredNonOwnedAuto = BOPHiredNonOwnedAuto;
+	}
+	public void setTerrorismCoverageStatCode(String TerrorismCoverageStatCode) {
+		this.TerrorismCoverageStatCode = TerrorismCoverageStatCode;
+	}
+	public void setBOPCommunicableDiseaseExclusion(List<BOPCommunicableDiseaseExclusion> BOPCommunicableDiseaseExclusion) {
+		this.BOPCommunicableDiseaseExclusion = BOPCommunicableDiseaseExclusion;
+	}
+	public void setBOPLmtdExclPersonalAndAdvertisingInjuryLawyers(List<BOPLmtdExclPersonalAndAdvertisingInjuryLawyers> BOPLmtdExclPersonalAndAdvertisingInjuryLawyers) {
+		this.BOPLmtdExclPersonalAndAdvertisingInjuryLawyers = BOPLmtdExclPersonalAndAdvertisingInjuryLawyers;
+	}
+	public void setQuotePolicyIndicator(String QuotePolicyIndicator) {
+		this.QuotePolicyIndicator = QuotePolicyIndicator;
+	}
+	public void setOwnerLandlordOrTenantPolicy(String OwnerLandlordOrTenantPolicy) {
+		this.OwnerLandlordOrTenantPolicy = OwnerLandlordOrTenantPolicy;
+	}
+	public void setTerracedProperty(String TerracedProperty) {
+		this.TerracedProperty = TerracedProperty;
+	}
+	public void setTerracedProperty1(String TerracedProperty1) {
+		this.TerracedProperty1 = TerracedProperty1;
+	}
+	public void setLCM(double LCM) {
+		this.LCM = LCM;
+	}
+	public void setMotelRiskUnacceptableNoHeader(String MotelRiskUnacceptableNoHeader) {
+		this.MotelRiskUnacceptableNoHeader = MotelRiskUnacceptableNoHeader;
+	}
+	public void setSeatingCapacity(String SeatingCapacity) {
+		this.SeatingCapacity = SeatingCapacity;
+	}
+	public void setBOPCalculationOfPremium(List<BOPCalculationOfPremium> BOPCalculationOfPremium) {
+		this.BOPCalculationOfPremium = BOPCalculationOfPremium;
+	}
+	public void setIndoorPoolDepths1(String IndoorPoolDepths1) {
+		this.IndoorPoolDepths1 = IndoorPoolDepths1;
+	}
+	public void setFoundationBasementWalls(int FoundationBasementWalls) {
+		this.FoundationBasementWalls = FoundationBasementWalls;
+	}
+	public void setBOPDiscretionaryPayrollExpense(List<BOPDiscretionaryPayrollExpense> BOPDiscretionaryPayrollExpense) {
+		this.BOPDiscretionaryPayrollExpense = BOPDiscretionaryPayrollExpense;
+	}
+	public void setFlooringContractorsPercentageWorkDoneHeader(String FlooringContractorsPercentageWorkDoneHeader) {
+		this.FlooringContractorsPercentageWorkDoneHeader = FlooringContractorsPercentageWorkDoneHeader;
+	}
+	public void setFuneralRepaymentPlans1(String FuneralRepaymentPlans1) {
+		this.FuneralRepaymentPlans1 = FuneralRepaymentPlans1;
+	}
+	public void setProRateFactor(double ProRateFactor) {
+		this.ProRateFactor = ProRateFactor;
+	}
+	public void setCranes(String Cranes) {
+		this.Cranes = Cranes;
+	}
+	public void setTerrsmSubLimit(String TerrsmSubLimit) {
+		this.TerrsmSubLimit = TerrsmSubLimit;
+	}
+	public void setProRatedPriorPremium(double ProRatedPriorPremium) {
+		this.ProRatedPriorPremium = ProRatedPriorPremium;
+	}
+	public void setConvenienceStoreRiskUnacceptableNoHeader(String ConvenienceStoreRiskUnacceptableNoHeader) {
+		this.ConvenienceStoreRiskUnacceptableNoHeader = ConvenienceStoreRiskUnacceptableNoHeader;
+	}
+	public void setPaintingContractorsRiskDeclineYesHeader(String PaintingContractorsRiskDeclineYesHeader) {
+		this.PaintingContractorsRiskDeclineYesHeader = PaintingContractorsRiskDeclineYesHeader;
+	}
+	public void setInsideWork(int InsideWork) {
+		this.InsideWork = InsideWork;
+	}
+	public void setNonOwnedAutoDelivery(String NonOwnedAutoDelivery) {
+		this.NonOwnedAutoDelivery = NonOwnedAutoDelivery;
+	}
+	public void setFuneralRiskUnacceptableNoHeader(String FuneralRiskUnacceptableNoHeader) {
+		this.FuneralRiskUnacceptableNoHeader = FuneralRiskUnacceptableNoHeader;
+	}
+	public void setEffectiveDt(Date EffectiveDt) {
+		this.EffectiveDt = EffectiveDt;
+	}
+	public void setHazardousMaterials(String HazardousMaterials) {
+		this.HazardousMaterials = HazardousMaterials;
+	}
+	public void setContrctrsDedFactor(double ContrctrsDedFactor) {
+		this.ContrctrsDedFactor = ContrctrsDedFactor;
+	}
+	public void setVinyl(int Vinyl) {
+		this.Vinyl = Vinyl;
+	}
+	public void setACHeatingContractorsHeader(String ACHeatingContractorsHeader) {
+		this.ACHeatingContractorsHeader = ACHeatingContractorsHeader;
+	}
+	public void setBOPCannabisPropertyExclusion(List<BOPCannabisPropertyExclusion> BOPCannabisPropertyExclusion) {
+		this.BOPCannabisPropertyExclusion = BOPCannabisPropertyExclusion;
+	}
+	public void setInlandMarineTypeOfPolicyStatCode(String InlandMarineTypeOfPolicyStatCode) {
+		this.InlandMarineTypeOfPolicyStatCode = InlandMarineTypeOfPolicyStatCode;
+	}
+	public void setBOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002(List<BOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002> BOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002) {
+		this.BOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002 = BOPConditionalExclusionOfTerrorismNuclearBiologicalChemicalDispositionOfAct2002;
+	}
+	public void setDateServiced(Date DateServiced) {
+		this.DateServiced = DateServiced;
+	}
+	public void setWartMoleRemoval(String WartMoleRemoval) {
+		this.WartMoleRemoval = WartMoleRemoval;
+	}
+	public void setBusnIncomeExtddPeriodCoverageStatCode(String BusnIncomeExtddPeriodCoverageStatCode) {
+		this.BusnIncomeExtddPeriodCoverageStatCode = BusnIncomeExtddPeriodCoverageStatCode;
+	}
+	public void setMinors(String Minors) {
+		this.Minors = Minors;
+	}
+	public void setGradingLand(String GradingLand) {
+		this.GradingLand = GradingLand;
+	}
+	public void setAnimalAuctions(String AnimalAuctions) {
+		this.AnimalAuctions = AnimalAuctions;
+	}
+	public void setUnderwritingQuestions(String UnderwritingQuestions) {
+		this.UnderwritingQuestions = UnderwritingQuestions;
+	}
+	public void setStructureBuilt(String StructureBuilt) {
+		this.StructureBuilt = StructureBuilt;
+	}
+	public void setSICCode(String SICCode) {
+		this.SICCode = SICCode;
+	}
+	public void setBOPInformationSecurityProtectionEndorsement(List<BOPInformationSecurityProtectionEndorsement> BOPInformationSecurityProtectionEndorsement) {
+		this.BOPInformationSecurityProtectionEndorsement = BOPInformationSecurityProtectionEndorsement;
+	}
+	public void setRecords2(String Records2) {
+		this.Records2 = Records2;
+	}
+	public void setMotelHeader(String MotelHeader) {
+		this.MotelHeader = MotelHeader;
+	}
+	public void setFacial(String Facial) {
+		this.Facial = Facial;
+	}
+	public void setRestaurantAutomaticExtinguishSystem2(String RestaurantAutomaticExtinguishSystem2) {
+		this.RestaurantAutomaticExtinguishSystem2 = RestaurantAutomaticExtinguishSystem2;
+	}
+	public void setEachOccLimit(String EachOccLimit) {
+		this.EachOccLimit = EachOccLimit;
+	}
+	public void setBOPForgeryAlterationCoverage(List<BOPForgeryAlterationCoverage> BOPForgeryAlterationCoverage) {
+		this.BOPForgeryAlterationCoverage = BOPForgeryAlterationCoverage;
+	}
+	public void setOptnlGlassDed(int OptnlGlassDed) {
+		this.OptnlGlassDed = OptnlGlassDed;
+	}
+	public void setOutsideMaintenanceWork(int OutsideMaintenanceWork) {
+		this.OutsideMaintenanceWork = OutsideMaintenanceWork;
+	}
+	public void setEQASLOBStatCode(String EQASLOBStatCode) {
+		this.EQASLOBStatCode = EQASLOBStatCode;
+	}
+	public void setBOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002(List<BOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002> BOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002) {
+		this.BOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002 = BOPConditionalLimitationOfCoverageTerrorismSublimitAnnualAggregateTerrorismAct2002;
+	}
+	public void setFEINSSN(String FEINSSN) {
+		this.FEINSSN = FEINSSN;
+	}
+	public void setCrimeLCM(double CrimeLCM) {
+		this.CrimeLCM = CrimeLCM;
+	}
+	public void setExoticAnimals(String ExoticAnimals) {
+		this.ExoticAnimals = ExoticAnimals;
+	}
+	public void setHealthCode(String HealthCode) {
+		this.HealthCode = HealthCode;
+	}
+	public void setShortRateIndicator(int ShortRateIndicator) {
+		this.ShortRateIndicator = ShortRateIndicator;
+	}
+	public void setBeyond200Miles(String Beyond200Miles) {
+		this.Beyond200Miles = Beyond200Miles;
+	}
+	public void setProfessionalLiabilityLCM(double ProfessionalLiabilityLCM) {
+		this.ProfessionalLiabilityLCM = ProfessionalLiabilityLCM;
+	}
+	public void setBOPElectronicCommerce(List<BOPElectronicCommerce> BOPElectronicCommerce) {
+		this.BOPElectronicCommerce = BOPElectronicCommerce;
+	}
+	public void setBOPCoverageInjuryLeasedWorkers(List<BOPCoverageInjuryLeasedWorkers> BOPCoverageInjuryLeasedWorkers) {
+		this.BOPCoverageInjuryLeasedWorkers = BOPCoverageInjuryLeasedWorkers;
+	}
+	public void setBOPExclusionUnmannedAircraft(List<BOPExclusionUnmannedAircraft> BOPExclusionUnmannedAircraft) {
+		this.BOPExclusionUnmannedAircraft = BOPExclusionUnmannedAircraft;
+	}
+	public void setConvictions(String Convictions) {
+		this.Convictions = Convictions;
+	}
+	public void setBOPEnhancement(String BOPEnhancement) {
+		this.BOPEnhancement = BOPEnhancement;
+	}
+	public void setBOPPolicyChanges(List<BOPPolicyChanges> BOPPolicyChanges) {
+		this.BOPPolicyChanges = BOPPolicyChanges;
+	}
+	public void setProflLiabHeader(String ProflLiabHeader) {
+		this.ProflLiabHeader = ProflLiabHeader;
+	}
+	public void setFlatWork(int FlatWork) {
+		this.FlatWork = FlatWork;
+	}
+	public void setChangeEffectiveDt(Date ChangeEffectiveDt) {
+		this.ChangeEffectiveDt = ChangeEffectiveDt;
+	}
+	public void setCleaningSchedule(String CleaningSchedule) {
+		this.CleaningSchedule = CleaningSchedule;
+	}
+	public void setAnnualPremium(double AnnualPremium) {
+		this.AnnualPremium = AnnualPremium;
+	}
+	public void setTuckPointing(int TuckPointing) {
+		this.TuckPointing = TuckPointing;
+	}
+	public void setWrittenPolicy(String WrittenPolicy) {
+		this.WrittenPolicy = WrittenPolicy;
+	}
+	public void setPiercing(String Piercing) {
+		this.Piercing = Piercing;
+	}
+	public void setDelivery2(String Delivery2) {
+		this.Delivery2 = Delivery2;
+	}
+	public void setElectricalCableInstallationContractorsRiskDeclineYesHeader(String ElectricalCableInstallationContractorsRiskDeclineYesHeader) {
+		this.ElectricalCableInstallationContractorsRiskDeclineYesHeader = ElectricalCableInstallationContractorsRiskDeclineYesHeader;
+	}
+	public void setProRateIndicator(int ProRateIndicator) {
+		this.ProRateIndicator = ProRateIndicator;
+	}
+	public void setFastFoodCateringServicesTotalSales(String FastFoodCateringServicesTotalSales) {
+		this.FastFoodCateringServicesTotalSales = FastFoodCateringServicesTotalSales;
+	}
+	public void setBOPAddlInsdDesignatedPersonOrg(List<BOPAddlInsdDesignatedPersonOrg> BOPAddlInsdDesignatedPersonOrg) {
+		this.BOPAddlInsdDesignatedPersonOrg = BOPAddlInsdDesignatedPersonOrg;
+	}
+	public void setSeasonalOperation(String SeasonalOperation) {
+		this.SeasonalOperation = SeasonalOperation;
+	}
+	public void setTypeOfPolicyStatCode(String TypeOfPolicyStatCode) {
+		this.TypeOfPolicyStatCode = TypeOfPolicyStatCode;
+	}
+	public void setOptionalMedicalCovLimitPerPerson(int OptionalMedicalCovLimitPerPerson) {
+		this.OptionalMedicalCovLimitPerPerson = OptionalMedicalCovLimitPerPerson;
+	}
+	public void setFencesWalkways(int FencesWalkways) {
+		this.FencesWalkways = FencesWalkways;
+	}
+	public void setReplaceFoundations(String ReplaceFoundations) {
+		this.ReplaceFoundations = ReplaceFoundations;
+	}
+	public void setPremium(double Premium) {
+		this.Premium = Premium;
+	}
+	public void setTotBusnPrsnlPropPremium(double TotBusnPrsnlPropPremium) {
+		this.TotBusnPrsnlPropPremium = TotBusnPrsnlPropPremium;
+	}
+	public void setExerciseRoom(String ExerciseRoom) {
+		this.ExerciseRoom = ExerciseRoom;
+	}
+	public void setExcavationBackFilling(String ExcavationBackFilling) {
+		this.ExcavationBackFilling = ExcavationBackFilling;
+	}
+	public void setJanitorialContractorsTotPercentage(int JanitorialContractorsTotPercentage) {
+		this.JanitorialContractorsTotPercentage = JanitorialContractorsTotPercentage;
+	}
+	public void setBOPEmploymentRelatedPracticesLiabilityCov(List<BOPEmploymentRelatedPracticesLiabilityCov> BOPEmploymentRelatedPracticesLiabilityCov) {
+		this.BOPEmploymentRelatedPracticesLiabilityCov = BOPEmploymentRelatedPracticesLiabilityCov;
+	}
+	public void setRatingTerritoryStatCode(String RatingTerritoryStatCode) {
+		this.RatingTerritoryStatCode = RatingTerritoryStatCode;
+	}
+	public void setContractorPrinter(String ContractorPrinter) {
+		this.ContractorPrinter = ContractorPrinter;
+	}
+	public void setCremation(String Cremation) {
+		this.Cremation = Cremation;
+	}
+	public void setBOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage(List<BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage> BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage) {
+		this.BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage = BOPPaymentCardIndustryForDefenseExpensesAndFinesOrPenaltiesCoverage;
+	}
+	public void setBasicCleaning(int BasicCleaning) {
+		this.BasicCleaning = BasicCleaning;
+	}
+	public void setBeautySchool(String BeautySchool) {
+		this.BeautySchool = BeautySchool;
+	}
+	public void setProofreadNo(String ProofreadNo) {
+		this.ProofreadNo = ProofreadNo;
+	}
+	public void setBOPExclDesignatedProducts(List<BOPExclDesignatedProducts> BOPExclDesignatedProducts) {
+		this.BOPExclDesignatedProducts = BOPExclDesignatedProducts;
+	}
+	public void setFastFoodBeerWineSales(String FastFoodBeerWineSales) {
+		this.FastFoodBeerWineSales = FastFoodBeerWineSales;
+	}
+	public void setBOPExclusionSilicaSilicaRelatedDust(List<BOPExclusionSilicaSilicaRelatedDust> BOPExclusionSilicaSilicaRelatedDust) {
+		this.BOPExclusionSilicaSilicaRelatedDust = BOPExclusionSilicaSilicaRelatedDust;
+	}
+	public void setBOPCoverageFormIndex(List<BOPCoverageFormIndex> BOPCoverageFormIndex) {
+		this.BOPCoverageFormIndex = BOPCoverageFormIndex;
+	}
+	public void setBusnIncomeExtddPeriodPremium(double BusnIncomeExtddPeriodPremium) {
+		this.BusnIncomeExtddPeriodPremium = BusnIncomeExtddPeriodPremium;
+	}
+	public void setStdDedFactor(double StdDedFactor) {
+		this.StdDedFactor = StdDedFactor;
+	}
+	public void setPaintingContractorsPercentageWorkDoneHeader(String PaintingContractorsPercentageWorkDoneHeader) {
+		this.PaintingContractorsPercentageWorkDoneHeader = PaintingContractorsPercentageWorkDoneHeader;
+	}
+	public void setDruggistsProflLiabCoverage(String DruggistsProflLiabCoverage) {
+		this.DruggistsProflLiabCoverage = DruggistsProflLiabCoverage;
+	}
+	public void setCommercialSublineEQStatCode(String CommercialSublineEQStatCode) {
+		this.CommercialSublineEQStatCode = CommercialSublineEQStatCode;
+	}
+	public void setEQRiskDeclineYesHeader(String EQRiskDeclineYesHeader) {
+		this.EQRiskDeclineYesHeader = EQRiskDeclineYesHeader;
+	}
+	public void setBOPExclProductsCompletedOpsHzd(List<BOPExclProductsCompletedOpsHzd> BOPExclProductsCompletedOpsHzd) {
+		this.BOPExclProductsCompletedOpsHzd = BOPExclProductsCompletedOpsHzd;
+	}
+	public void setPaintingContractorsTotPercentage(int PaintingContractorsTotPercentage) {
+		this.PaintingContractorsTotPercentage = PaintingContractorsTotPercentage;
+	}
+	public void setRestaurantHeader(String RestaurantHeader) {
+		this.RestaurantHeader = RestaurantHeader;
+	}
+	public void setSubLimit(int SubLimit) {
+		this.SubLimit = SubLimit;
+	}
+	public void setBOPAbuseOrMolestationExclSpecdSrvcs(List<BOPAbuseOrMolestationExclSpecdSrvcs> BOPAbuseOrMolestationExclSpecdSrvcs) {
+		this.BOPAbuseOrMolestationExclSpecdSrvcs = BOPAbuseOrMolestationExclSpecdSrvcs;
+	}
+	public void setPolicyTermPremium(double PolicyTermPremium) {
+		this.PolicyTermPremium = PolicyTermPremium;
+	}
+	public void setMotelRiskUnacceptableYesHeader(String MotelRiskUnacceptableYesHeader) {
+		this.MotelRiskUnacceptableYesHeader = MotelRiskUnacceptableYesHeader;
+	}
+	public void setPriorId(String PriorId) {
+		this.PriorId = PriorId;
+	}
+	public void setACHeatingContractorsRiskDeclineYesHeader(String ACHeatingContractorsRiskDeclineYesHeader) {
+		this.ACHeatingContractorsRiskDeclineYesHeader = ACHeatingContractorsRiskDeclineYesHeader;
+	}
+	public void setLimitedCookingRestaurantsHeader(String LimitedCookingRestaurantsHeader) {
+		this.LimitedCookingRestaurantsHeader = LimitedCookingRestaurantsHeader;
+	}
+	public void setPrescriptions(String Prescriptions) {
+		this.Prescriptions = Prescriptions;
+	}
+	public void setEmergencyEquipmt(String EmergencyEquipmt) {
+		this.EmergencyEquipmt = EmergencyEquipmt;
+	}
+	public void setBusinessDesc(String BusinessDesc) {
+		this.BusinessDesc = BusinessDesc;
+	}
+	public void setBOPExclusionOfTerrorism(List<BOPExclusionOfTerrorism> BOPExclusionOfTerrorism) {
+		this.BOPExclusionOfTerrorism = BOPExclusionOfTerrorism;
+	}
+	public void setCarpetUpholsteryCleaning(int CarpetUpholsteryCleaning) {
+		this.CarpetUpholsteryCleaning = CarpetUpholsteryCleaning;
+	}
+	public void setSteamBoiler(String SteamBoiler) {
+		this.SteamBoiler = SteamBoiler;
+	}
+	public void setBOPRestaurantsTotalCustomersAutos(List<BOPRestaurantsTotalCustomersAutos> BOPRestaurantsTotalCustomersAutos) {
+		this.BOPRestaurantsTotalCustomersAutos = BOPRestaurantsTotalCustomersAutos;
+	}
+	public void setVacant(String Vacant) {
+		this.Vacant = Vacant;
+	}
+	public void setCracks(String Cracks) {
+		this.Cracks = Cracks;
+	}
+	public void setBOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002(List<BOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002> BOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002) {
+		this.BOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002 = BOPDisclosureOfPremiumEstimatedPremiumCertifiedActsTerrorismPursuantTerrorismAct2002;
+	}
+	public void setFastFoodSeasonalOperation(String FastFoodSeasonalOperation) {
+		this.FastFoodSeasonalOperation = FastFoodSeasonalOperation;
+	}
+	public void setFastFoodRiskUnacceptableNoHeader(String FastFoodRiskUnacceptableNoHeader) {
+		this.FastFoodRiskUnacceptableNoHeader = FastFoodRiskUnacceptableNoHeader;
+	}
+	public void setHardwood(int Hardwood) {
+		this.Hardwood = Hardwood;
+	}
+	public void setBOPDisclosurePursuantToTRIA2002(List<BOPDisclosurePursuantToTRIA2002> BOPDisclosurePursuantToTRIA2002) {
+		this.BOPDisclosurePursuantToTRIA2002 = BOPDisclosurePursuantToTRIA2002;
+	}
+	public void setBusnIncomeOrdinaryPayrollPremium(double BusnIncomeOrdinaryPayrollPremium) {
+		this.BusnIncomeOrdinaryPayrollPremium = BusnIncomeOrdinaryPayrollPremium;
+	}
+	public void setOpticalHearingAidsHeader(String OpticalHearingAidsHeader) {
+		this.OpticalHearingAidsHeader = OpticalHearingAidsHeader;
+	}
+	public void setLeadPaintRemoval(String LeadPaintRemoval) {
+		this.LeadPaintRemoval = LeadPaintRemoval;
+	}
+	public void setHairRemovalElectricalDepilatory(String HairRemovalElectricalDepilatory) {
+		this.HairRemovalElectricalDepilatory = HairRemovalElectricalDepilatory;
+	}
+	public void setTransformers(String Transformers) {
+		this.Transformers = Transformers;
+	}
+	public void setMngmtExprnc(String MngmtExprnc) {
+		this.MngmtExprnc = MngmtExprnc;
+	}
+	public void setGeneralContactUnderwriterHeader(String GeneralContactUnderwriterHeader) {
+		this.GeneralContactUnderwriterHeader = GeneralContactUnderwriterHeader;
+	}
+	public void setBOPIDFraudExpenseCov(List<BOPIDFraudExpenseCov> BOPIDFraudExpenseCov) {
+		this.BOPIDFraudExpenseCov = BOPIDFraudExpenseCov;
+	}
+	public void setLandscapingContractorsRiskDeclineYesHeader(String LandscapingContractorsRiskDeclineYesHeader) {
+		this.LandscapingContractorsRiskDeclineYesHeader = LandscapingContractorsRiskDeclineYesHeader;
+	}
+	public void setMineSubsidenceCoverage(String MineSubsidenceCoverage) {
+		this.MineSubsidenceCoverage = MineSubsidenceCoverage;
+	}
+	public void setBOPExclY2KComputerRelatedProblemsProductsCompleted(List<BOPExclY2KComputerRelatedProblemsProductsCompleted> BOPExclY2KComputerRelatedProblemsProductsCompleted) {
+		this.BOPExclY2KComputerRelatedProblemsProductsCompleted = BOPExclY2KComputerRelatedProblemsProductsCompleted;
+	}
+	public void setTermFactorIndicator(int TermFactorIndicator) {
+		this.TermFactorIndicator = TermFactorIndicator;
+	}
+	public void setBOPAddlInsdVendors(List<BOPAddlInsdVendors> BOPAddlInsdVendors) {
+		this.BOPAddlInsdVendors = BOPAddlInsdVendors;
+	}
+	public void setBOPPhotographyMakeupAndHairstyling(List<BOPPhotographyMakeupAndHairstyling> BOPPhotographyMakeupAndHairstyling) {
+		this.BOPPhotographyMakeupAndHairstyling = BOPPhotographyMakeupAndHairstyling;
+	}
+	public void setPrintersErrorsOmissionsUnacceptableNoHeader(String PrintersErrorsOmissionsUnacceptableNoHeader) {
+		this.PrintersErrorsOmissionsUnacceptableNoHeader = PrintersErrorsOmissionsUnacceptableNoHeader;
+	}
+	public void setBlktMethod(String BlktMethod) {
+		this.BlktMethod = BlktMethod;
+	}
+	public void setFlammables(String Flammables) {
+		this.Flammables = Flammables;
+	}
+	public void setLiquorLicense(String LiquorLicense) {
+		this.LiquorLicense = LiquorLicense;
+	}
+	public void setUnitNumber(int UnitNumber) {
+		this.UnitNumber = UnitNumber;
+	}
+	public void setSecurity(String Security) {
+		this.Security = Security;
+	}
+	public void setBusinessIncomeHeader(String BusinessIncomeHeader) {
+		this.BusinessIncomeHeader = BusinessIncomeHeader;
+	}
+	public void setEachOccLimitAsInteger(int EachOccLimitAsInteger) {
+		this.EachOccLimitAsInteger = EachOccLimitAsInteger;
+	}
+	public void setBOPCondosCoOpsAssocsDirectorsAndOfficersLiab(List<BOPCondosCoOpsAssocsDirectorsAndOfficersLiab> BOPCondosCoOpsAssocsDirectorsAndOfficersLiab) {
+		this.BOPCondosCoOpsAssocsDirectorsAndOfficersLiab = BOPCondosCoOpsAssocsDirectorsAndOfficersLiab;
+	}
+	public void setSolidFuelHeating(String SolidFuelHeating) {
+		this.SolidFuelHeating = SolidFuelHeating;
+	}
+	public void setHealthViolations(String HealthViolations) {
+		this.HealthViolations = HealthViolations;
+	}
+	public void setFuneralRepaymentPlans(String FuneralRepaymentPlans) {
+		this.FuneralRepaymentPlans = FuneralRepaymentPlans;
+	}
+	public void setCarpetInstallation(int CarpetInstallation) {
+		this.CarpetInstallation = CarpetInstallation;
+	}
+	public void setBOPElectronicDataCoverage(List<BOPElectronicDataCoverage> BOPElectronicDataCoverage) {
+		this.BOPElectronicDataCoverage = BOPElectronicDataCoverage;
+	}
+	public void setFastFoodLiveEntertainment(String FastFoodLiveEntertainment) {
+		this.FastFoodLiveEntertainment = FastFoodLiveEntertainment;
+	}
+	public void setBOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract(List<BOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract> BOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract) {
+		this.BOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract = BOPAddlInsdOwnersLesseesContractorsAddlInsdRequirementConstrctnContract;
+	}
+	public void setShortRatePenalty(double ShortRatePenalty) {
+		this.ShortRatePenalty = ShortRatePenalty;
+	}
+	public void setEQTypeOfPolicyStatCode(String EQTypeOfPolicyStatCode) {
+		this.EQTypeOfPolicyStatCode = EQTypeOfPolicyStatCode;
+	}
+	public void setPastOperations(String PastOperations) {
+		this.PastOperations = PastOperations;
+	}
+	public void setBOPNamedPerils(List<BOPNamedPerils> BOPNamedPerils) {
+		this.BOPNamedPerils = BOPNamedPerils;
+	}
+	public void setFastFoodTableService(String FastFoodTableService) {
+		this.FastFoodTableService = FastFoodTableService;
+	}
+	public void setInterruptionComputerOpsCoverageIndicator(String InterruptionComputerOpsCoverageIndicator) {
+		this.InterruptionComputerOpsCoverageIndicator = InterruptionComputerOpsCoverageIndicator;
+	}
+	public void setNumEmployedVeterinarians(int NumEmployedVeterinarians) {
+		this.NumEmployedVeterinarians = NumEmployedVeterinarians;
+	}
+	public void setRestaurantExposureHeader(String RestaurantExposureHeader) {
+		this.RestaurantExposureHeader = RestaurantExposureHeader;
+	}
+	public void setBOPExclVolunteerWorkers(List<BOPExclVolunteerWorkers> BOPExclVolunteerWorkers) {
+		this.BOPExclVolunteerWorkers = BOPExclVolunteerWorkers;
+	}
+	public void setBOPEmploymentRelatedPracticesExcl(List<BOPEmploymentRelatedPracticesExcl> BOPEmploymentRelatedPracticesExcl) {
+		this.BOPEmploymentRelatedPracticesExcl = BOPEmploymentRelatedPracticesExcl;
+	}
+	public void setLiquorRiskUnacceptableNoHeader(String LiquorRiskUnacceptableNoHeader) {
+		this.LiquorRiskUnacceptableNoHeader = LiquorRiskUnacceptableNoHeader;
+	}
+	public void setLimitedPharmacistsHeader(String LimitedPharmacistsHeader) {
+		this.LimitedPharmacistsHeader = LimitedPharmacistsHeader;
+	}
+	public void setLandscapingContractorsPercentageWorkDoneHeader(String LandscapingContractorsPercentageWorkDoneHeader) {
+		this.LandscapingContractorsPercentageWorkDoneHeader = LandscapingContractorsPercentageWorkDoneHeader;
+	}
+	public void setCurrentOwnership(String CurrentOwnership) {
+		this.CurrentOwnership = CurrentOwnership;
+	}
+	public void setBOPPropDamageLiabDedPerOcc(List<BOPPropDamageLiabDedPerOcc> BOPPropDamageLiabDedPerOcc) {
+		this.BOPPropDamageLiabDedPerOcc = BOPPropDamageLiabDedPerOcc;
+	}
+	public void setPremiumIndicator(int PremiumIndicator) {
+		this.PremiumIndicator = PremiumIndicator;
+	}
+	public void setLimitedCookingRiskUnacceptableNoHeader(String LimitedCookingRiskUnacceptableNoHeader) {
+		this.LimitedCookingRiskUnacceptableNoHeader = LimitedCookingRiskUnacceptableNoHeader;
+	}
+	public void setFlooringContractorsTotPercentage(int FlooringContractorsTotPercentage) {
+		this.FlooringContractorsTotPercentage = FlooringContractorsTotPercentage;
+	}
+	public void setBOPExclExtrInsulationAndFinishingSys(List<BOPExclExtrInsulationAndFinishingSys> BOPExclExtrInsulationAndFinishingSys) {
+		this.BOPExclExtrInsulationAndFinishingSys = BOPExclExtrInsulationAndFinishingSys;
+	}
+	public void setOtherInsurance(String OtherInsurance) {
+		this.OtherInsurance = OtherInsurance;
+	}
+	public void setProRatedPremium(double ProRatedPremium) {
+		this.ProRatedPremium = ProRatedPremium;
+	}
+	public void setProdCompldOpsAggregateLimit(String ProdCompldOpsAggregateLimit) {
+		this.ProdCompldOpsAggregateLimit = ProdCompldOpsAggregateLimit;
+	}
+	public void setBOPCannabisPropertyExclusionWithHempException(List<BOPCannabisPropertyExclusionWithHempException> BOPCannabisPropertyExclusionWithHempException) {
+		this.BOPCannabisPropertyExclusionWithHempException = BOPCannabisPropertyExclusionWithHempException;
+	}
+	public void setBodyWater(String BodyWater) {
+		this.BodyWater = BodyWater;
+	}
+	public void setBOPPrimaryAndNoncontributoryOtherInsuranceCondition(List<BOPPrimaryAndNoncontributoryOtherInsuranceCondition> BOPPrimaryAndNoncontributoryOtherInsuranceCondition) {
+		this.BOPPrimaryAndNoncontributoryOtherInsuranceCondition = BOPPrimaryAndNoncontributoryOtherInsuranceCondition;
+	}
+	public void setElectricalCableInstallationContractorsHeader(String ElectricalCableInstallationContractorsHeader) {
+		this.ElectricalCableInstallationContractorsHeader = ElectricalCableInstallationContractorsHeader;
+	}
+	public void setForeclosures(String Foreclosures) {
+		this.Foreclosures = Foreclosures;
+	}
+	public void setFuneralRiskUnacceptableYesHeader(String FuneralRiskUnacceptableYesHeader) {
+		this.FuneralRiskUnacceptableYesHeader = FuneralRiskUnacceptableYesHeader;
+	}
+	public void setRecords(String Records) {
+		this.Records = Records;
+	}
+	public void setModified(Date Modified) {
+		this.Modified = Modified;
+	}
+	public void setFastFoodFireExtinguishers(String FastFoodFireExtinguishers) {
+		this.FastFoodFireExtinguishers = FastFoodFireExtinguishers;
+	}
+	public void setIRPMTotMod(int IRPMTotMod) {
+		this.IRPMTotMod = IRPMTotMod;
+	}
+	public void setPaintingOutsideWork(int PaintingOutsideWork) {
+		this.PaintingOutsideWork = PaintingOutsideWork;
+	}
+	public void setBOPExclCertfdActsTerrsmAndOtherActsTerrsm(List<BOPExclCertfdActsTerrsmAndOtherActsTerrsm> BOPExclCertfdActsTerrsmAndOtherActsTerrsm) {
+		this.BOPExclCertfdActsTerrsmAndOtherActsTerrsm = BOPExclCertfdActsTerrsmAndOtherActsTerrsm;
+	}
+	public void setRestaurantFireExtinguishers(String RestaurantFireExtinguishers) {
+		this.RestaurantFireExtinguishers = RestaurantFireExtinguishers;
+	}
+	public void setLiquorBeerWine(String LiquorBeerWine) {
+		this.LiquorBeerWine = LiquorBeerWine;
+	}
+	public void setParentId(String ParentId) {
+		this.ParentId = ParentId;
+	}
+	public void setMineSubsidenceLimit(int MineSubsidenceLimit) {
+		this.MineSubsidenceLimit = MineSubsidenceLimit;
+	}
+	public void setTotalFloorArea(String TotalFloorArea) {
+		this.TotalFloorArea = TotalFloorArea;
+	}
+	public void setBOPPrintersErrorsOmissions(List<BOPPrintersErrorsOmissions> BOPPrintersErrorsOmissions) {
+		this.BOPPrintersErrorsOmissions = BOPPrintersErrorsOmissions;
+	}
+	public void setBOPExtddReportingPeriodEmpBenefitsLiabCov(List<BOPExtddReportingPeriodEmpBenefitsLiabCov> BOPExtddReportingPeriodEmpBenefitsLiabCov) {
+		this.BOPExtddReportingPeriodEmpBenefitsLiabCov = BOPExtddReportingPeriodEmpBenefitsLiabCov;
+	}
+	public void setBOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn(List<BOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn> BOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn) {
+		this.BOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn = BOPTotPolltnExclBldgHeatingEquipmtExcptnHostileFireExcptn;
+	}
+	public void setSmokeDetectors(String SmokeDetectors) {
+		this.SmokeDetectors = SmokeDetectors;
+	}
+	public void setElectricalCableInstallationPercentageWorkDoneHeader(String ElectricalCableInstallationPercentageWorkDoneHeader) {
+		this.ElectricalCableInstallationPercentageWorkDoneHeader = ElectricalCableInstallationPercentageWorkDoneHeader;
+	}
+	public void setScreeningTests(String ScreeningTests) {
+		this.ScreeningTests = ScreeningTests;
+	}
+	public void setBOPBusnIncomeOrdinaryPayrollBldgCoverage(List<BOPBusnIncomeOrdinaryPayrollBldgCoverage> BOPBusnIncomeOrdinaryPayrollBldgCoverage) {
+		this.BOPBusnIncomeOrdinaryPayrollBldgCoverage = BOPBusnIncomeOrdinaryPayrollBldgCoverage;
+	}
+	public void setLiquorRiskUnacceptableYesHeader(String LiquorRiskUnacceptableYesHeader) {
+		this.LiquorRiskUnacceptableYesHeader = LiquorRiskUnacceptableYesHeader;
+	}
+	public void setBOPFungiBacteriaExclusionLiability(List<BOPFungiBacteriaExclusionLiability> BOPFungiBacteriaExclusionLiability) {
+		this.BOPFungiBacteriaExclusionLiability = BOPFungiBacteriaExclusionLiability;
+	}
+	public void setSnowPlowing(int SnowPlowing) {
+		this.SnowPlowing = SnowPlowing;
+	}
+	public void setInsuringDangerousAnimals(String InsuringDangerousAnimals) {
+		this.InsuringDangerousAnimals = InsuringDangerousAnimals;
+	}
+	public void setBOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage(List<BOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage> BOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage) {
+		this.BOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage = BOPBusnIncomeExtddPeriodBusnPrsnlPropCoverage;
+	}
+	public void setRepairCarWash(String RepairCarWash) {
+		this.RepairCarWash = RepairCarWash;
+	}
+	public void setMedicalEquipmt(String MedicalEquipmt) {
+		this.MedicalEquipmt = MedicalEquipmt;
+	}
+	public void setSecuritySystem(String SecuritySystem) {
+		this.SecuritySystem = SecuritySystem;
+	}
+	public void setBeerWineSales(String BeerWineSales) {
+		this.BeerWineSales = BeerWineSales;
+	}
+	public void setPropDamageLiabDed(String PropDamageLiabDed) {
+		this.PropDamageLiabDed = PropDamageLiabDed;
+	}
+	public void setBOPBlktRating(List<BOPBlktRating> BOPBlktRating) {
+		this.BOPBlktRating = BOPBlktRating;
+	}
+	public void setAddEffectiveDt(Date AddEffectiveDt) {
+		this.AddEffectiveDt = AddEffectiveDt;
+	}
+	public void setDrugLabels(String DrugLabels) {
+		this.DrugLabels = DrugLabels;
+	}
+	public void setFastFoodHealthViolations(String FastFoodHealthViolations) {
+		this.FastFoodHealthViolations = FastFoodHealthViolations;
+	}
+	public void setBOPExclPunitiveDamagesReltdToACertfdActTerrsm(List<BOPExclPunitiveDamagesReltdToACertfdActTerrsm> BOPExclPunitiveDamagesReltdToACertfdActTerrsm) {
+		this.BOPExclPunitiveDamagesReltdToACertfdActTerrsm = BOPExclPunitiveDamagesReltdToACertfdActTerrsm;
+	}
+	public void setBusnIncomeOrdinaryPayrollCoverageStatCode(String BusnIncomeOrdinaryPayrollCoverageStatCode) {
+		this.BusnIncomeOrdinaryPayrollCoverageStatCode = BusnIncomeOrdinaryPayrollCoverageStatCode;
+	}
+	public void setBOPLimitedCoverageForDesignatedUnmannedAircraft(List<BOPLimitedCoverageForDesignatedUnmannedAircraft> BOPLimitedCoverageForDesignatedUnmannedAircraft) {
+		this.BOPLimitedCoverageForDesignatedUnmannedAircraft = BOPLimitedCoverageForDesignatedUnmannedAircraft;
+	}
+	public void setPropertyDamageLiabilityHeader(String PropertyDamageLiabilityHeader) {
+		this.PropertyDamageLiabilityHeader = PropertyDamageLiabilityHeader;
+	}
+	public void setExteriorWork(String ExteriorWork) {
+		this.ExteriorWork = ExteriorWork;
+	}
+	public void setBoilerMachineryLCM(double BoilerMachineryLCM) {
+		this.BoilerMachineryLCM = BoilerMachineryLCM;
+	}
+	public void setBOPAddlLiabExposuresCoverage(List<BOPAddlLiabExposuresCoverage> BOPAddlLiabExposuresCoverage) {
+		this.BOPAddlLiabExposuresCoverage = BOPAddlLiabExposuresCoverage;
+	}
+	public void setBOPConditionalExclusionOfTerrorismDispositionOfAct2002(List<BOPConditionalExclusionOfTerrorismDispositionOfAct2002> BOPConditionalExclusionOfTerrorismDispositionOfAct2002) {
+		this.BOPConditionalExclusionOfTerrorismDispositionOfAct2002 = BOPConditionalExclusionOfTerrorismDispositionOfAct2002;
+	}
+	public void setBOPIRPM(List<BOPIRPM> BOPIRPM) {
+		this.BOPIRPM = BOPIRPM;
+	}
+	public void setEQRiskDeclineNoHeader(String EQRiskDeclineNoHeader) {
+		this.EQRiskDeclineNoHeader = EQRiskDeclineNoHeader;
+	}
+	public void setBOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002(List<BOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002> BOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002) {
+		this.BOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002 = BOPDisclosureOfPremiumThrough123105CertifiedActsTerrorismPursuantTerrorismAct2002;
+	}
+	public void setCarpentryInteriorPercentageWorkDoneHeader(String CarpentryInteriorPercentageWorkDoneHeader) {
+		this.CarpentryInteriorPercentageWorkDoneHeader = CarpentryInteriorPercentageWorkDoneHeader;
+	}
+	public void setRestaurantRiskUnacceptableNoHeader(String RestaurantRiskUnacceptableNoHeader) {
+		this.RestaurantRiskUnacceptableNoHeader = RestaurantRiskUnacceptableNoHeader;
+	}
+	public void setExpirationDt(Date ExpirationDt) {
+		this.ExpirationDt = ExpirationDt;
+	}
+	public void setTileStone(int TileStone) {
+		this.TileStone = TileStone;
+	}
+	public void setJanitorialContractorsHeader(String JanitorialContractorsHeader) {
+		this.JanitorialContractorsHeader = JanitorialContractorsHeader;
+	}
+	public void setTRIPTerminatesBeforeExpirationDate(String TRIPTerminatesBeforeExpirationDate) {
+		this.TRIPTerminatesBeforeExpirationDate = TRIPTerminatesBeforeExpirationDate;
+	}
+	public void setGeneralLiabilityLCM(double GeneralLiabilityLCM) {
+		this.GeneralLiabilityLCM = GeneralLiabilityLCM;
+	}
+	public void setBOPDesignatedLocsGenlAggLimit(List<BOPDesignatedLocsGenlAggLimit> BOPDesignatedLocsGenlAggLimit) {
+		this.BOPDesignatedLocsGenlAggLimit = BOPDesignatedLocsGenlAggLimit;
+	}
+	public void setEnergyEfficiencyInstaller(String EnergyEfficiencyInstaller) {
+		this.EnergyEfficiencyInstaller = EnergyEfficiencyInstaller;
+	}
+	public void setFootings(int Footings) {
+		this.Footings = Footings;
+	}
+	public void setStandardDeductible(int StandardDeductible) {
+		this.StandardDeductible = StandardDeductible;
+	}
+	public void setBOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs(List<BOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs> BOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs) {
+		this.BOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs = BOPLmtdTerrsmExclOtherThanCertfdActsCapLossesFromCertfdActs;
+	}
+	public void setFormName(String FormName) {
+		this.FormName = FormName;
+	}
+	public void setWindowCleaningInside(int WindowCleaningInside) {
+		this.WindowCleaningInside = WindowCleaningInside;
+	}
+	public void setPaintingContractorsHeader(String PaintingContractorsHeader) {
+		this.PaintingContractorsHeader = PaintingContractorsHeader;
+	}
+	public void setLossesPast5Years(String LossesPast5Years) {
+		this.LossesPast5Years = LossesPast5Years;
+	}
+	public void setAutomaticExtinguishSystem(String AutomaticExtinguishSystem) {
+		this.AutomaticExtinguishSystem = AutomaticExtinguishSystem;
+	}
+	public void setBusnIncomeOrdinaryPayrollNumDays(String BusnIncomeOrdinaryPayrollNumDays) {
+		this.BusnIncomeOrdinaryPayrollNumDays = BusnIncomeOrdinaryPayrollNumDays;
+	}
+	public void setPercentageReceipts(String PercentageReceipts) {
+		this.PercentageReceipts = PercentageReceipts;
+	}
+	public void setStructuralWork(int StructuralWork) {
+		this.StructuralWork = StructuralWork;
+	}
+	public void setApplicantsHome(String ApplicantsHome) {
+		this.ApplicantsHome = ApplicantsHome;
+	}
+	public void setTransactionStatus(String TransactionStatus) {
+		this.TransactionStatus = TransactionStatus;
+	}
+	public void setProdCompldOpsAggregateLimitExcptn(String ProdCompldOpsAggregateLimitExcptn) {
+		this.ProdCompldOpsAggregateLimitExcptn = ProdCompldOpsAggregateLimitExcptn;
+	}
+	public void setOpticalHearingAidsUnacceptableNoHeader(String OpticalHearingAidsUnacceptableNoHeader) {
+		this.OpticalHearingAidsUnacceptableNoHeader = OpticalHearingAidsUnacceptableNoHeader;
+	}
+	public void setFastFoodDateLastServiced(Date FastFoodDateLastServiced) {
+		this.FastFoodDateLastServiced = FastFoodDateLastServiced;
+	}
+	public void setBOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract(List<BOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract> BOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract) {
+		this.BOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract = BOPAddlInsdOwnersLesseesContractorsAddlInsdReqForOtherPartiesInConstrctnContract;
+	}
+	public void setBOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded(List<BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded> BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded) {
+		this.BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded = BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabLimitedBodilyInjuryExceptionNotIncluded;
+	}
+	public void setPolicyForm(String PolicyForm) {
+		this.PolicyForm = PolicyForm;
+	}
+	public void setExpiration(Date Expiration) {
+		this.Expiration = Expiration;
+	}
+	public void setCanceledNonRenewed(String CanceledNonRenewed) {
+		this.CanceledNonRenewed = CanceledNonRenewed;
+	}
+	public void setFastFoodSeatingCapacityGreaterThan(String FastFoodSeatingCapacityGreaterThan) {
+		this.FastFoodSeatingCapacityGreaterThan = FastFoodSeatingCapacityGreaterThan;
+	}
+	public void setGeneralLiabilityLimit(String GeneralLiabilityLimit) {
+		this.GeneralLiabilityLimit = GeneralLiabilityLimit;
+	}
+	public void setSyntheticStuccowork(String SyntheticStuccowork) {
+		this.SyntheticStuccowork = SyntheticStuccowork;
+	}
+	public void setZoosCircuses2(String ZoosCircuses2) {
+		this.ZoosCircuses2 = ZoosCircuses2;
+	}
+	public void setBOPApartmentBuildingsTotalTenantsAutos(List<BOPApartmentBuildingsTotalTenantsAutos> BOPApartmentBuildingsTotalTenantsAutos) {
+		this.BOPApartmentBuildingsTotalTenantsAutos = BOPApartmentBuildingsTotalTenantsAutos;
+	}
+	public void setAutomaticExtinguishingSystem1(String AutomaticExtinguishingSystem1) {
+		this.AutomaticExtinguishingSystem1 = AutomaticExtinguishingSystem1;
+	}
+	public void setGrillingBroiling1A(String GrillingBroiling1A) {
+		this.GrillingBroiling1A = GrillingBroiling1A;
+	}
+	public void setBOPTerrorismCoverage(List<BOPTerrorismCoverage> BOPTerrorismCoverage) {
+		this.BOPTerrorismCoverage = BOPTerrorismCoverage;
+	}
+	public void setBOPBusnIncomeOrdinaryPayrollExemption(List<BOPBusnIncomeOrdinaryPayrollExemption> BOPBusnIncomeOrdinaryPayrollExemption) {
+		this.BOPBusnIncomeOrdinaryPayrollExemption = BOPBusnIncomeOrdinaryPayrollExemption;
+	}
+	public void setCommercialPropertyLCM(double CommercialPropertyLCM) {
+		this.CommercialPropertyLCM = CommercialPropertyLCM;
+	}
+	public void setEQHeader(String EQHeader) {
+		this.EQHeader = EQHeader;
+	}
+	public void setRestaurantRiskUnacceptableYesHeader(String RestaurantRiskUnacceptableYesHeader) {
+		this.RestaurantRiskUnacceptableYesHeader = RestaurantRiskUnacceptableYesHeader;
+	}
+	public void setAutomaticIncreaseFactor(double AutomaticIncreaseFactor) {
+		this.AutomaticIncreaseFactor = AutomaticIncreaseFactor;
+	}
+	public void setBOPLiquorLiab(List<BOPLiquorLiab> BOPLiquorLiab) {
+		this.BOPLiquorLiab = BOPLiquorLiab;
+	}
+	public void setIndoorPoolDepths(String IndoorPoolDepths) {
+		this.IndoorPoolDepths = IndoorPoolDepths;
+	}
+	public void setContractorsRiskUnacceptableNoHeader(String ContractorsRiskUnacceptableNoHeader) {
+		this.ContractorsRiskUnacceptableNoHeader = ContractorsRiskUnacceptableNoHeader;
+	}
+	public void setFireExits(String FireExits) {
+		this.FireExits = FireExits;
+	}
+	public void setTimedOutdoorLighting(int TimedOutdoorLighting) {
+		this.TimedOutdoorLighting = TimedOutdoorLighting;
+	}
+	public void setRestaurant(String Restaurant) {
+		this.Restaurant = Restaurant;
+	}
+	public void setBOPAddlInsdControllingInterest(List<BOPAddlInsdControllingInterest> BOPAddlInsdControllingInterest) {
+		this.BOPAddlInsdControllingInterest = BOPAddlInsdControllingInterest;
+	}
+	public void setBusnIncomeExtddPeriodASLOBStatCode(String BusnIncomeExtddPeriodASLOBStatCode) {
+		this.BusnIncomeExtddPeriodASLOBStatCode = BusnIncomeExtddPeriodASLOBStatCode;
+	}
+	public void setApplicationLimited(String ApplicationLimited) {
+		this.ApplicationLimited = ApplicationLimited;
+	}
+	public void setId(String Id) {
+		this.Id = Id;
+	}
+	public void setBOPAmendmentLiquorLiabExclExcptn(List<BOPAmendmentLiquorLiabExclExcptn> BOPAmendmentLiquorLiabExclExcptn) {
+		this.BOPAmendmentLiquorLiabExclExcptn = BOPAmendmentLiquorLiabExclExcptn;
+	}
+	public void setDairyHogFarm(String DairyHogFarm) {
+		this.DairyHogFarm = DairyHogFarm;
+	}
+	public void setFarmWiring(int FarmWiring) {
+		this.FarmWiring = FarmWiring;
+	}
+	public void setBOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions(List<BOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions> BOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions) {
+		this.BOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions = BOPCannabisLiabilityExclusionWithHempAndLessorsRiskExceptions;
+	}
+	public void setPropane(String Propane) {
+		this.Propane = Propane;
+	}
+	public void setLandscapingContractorsRiskDeclineNoHeader(String LandscapingContractorsRiskDeclineNoHeader) {
+		this.LandscapingContractorsRiskDeclineNoHeader = LandscapingContractorsRiskDeclineNoHeader;
+	}
+	public void setGeneralRiskUnacceptableHeader(String GeneralRiskUnacceptableHeader) {
+		this.GeneralRiskUnacceptableHeader = GeneralRiskUnacceptableHeader;
+	}
+	public void setFaceLifting(String FaceLifting) {
+		this.FaceLifting = FaceLifting;
+	}
+	public void setRecordsDisposedDrugs(String RecordsDisposedDrugs) {
+		this.RecordsDisposedDrugs = RecordsDisposedDrugs;
+	}
+	public void setCommercialSublineStatCode(String CommercialSublineStatCode) {
+		this.CommercialSublineStatCode = CommercialSublineStatCode;
+	}
+	public void setIRPMApply(String IRPMApply) {
+		this.IRPMApply = IRPMApply;
+	}
+	public void setTerrorismCoverage(String TerrorismCoverage) {
+		this.TerrorismCoverage = TerrorismCoverage;
+	}
+	public void setRetainingWalls(int RetainingWalls) {
+		this.RetainingWalls = RetainingWalls;
+	}
+	public void setBOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException(List<BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException> BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException) {
+		this.BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException = BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoAndDataRelatedLiabWithLimitedBodilyInjuryException;
+	}
+	public void setPoleWiring(String PoleWiring) {
+		this.PoleWiring = PoleWiring;
+	}
+	public void setCertificateOfInsurance(String CertificateOfInsurance) {
+		this.CertificateOfInsurance = CertificateOfInsurance;
+	}
+	public void setLegalEntity(String LegalEntity) {
+		this.LegalEntity = LegalEntity;
+	}
+	public void setTanningBooths(String TanningBooths) {
+		this.TanningBooths = TanningBooths;
+	}
+	public void setChangePremium(double ChangePremium) {
+		this.ChangePremium = ChangePremium;
+	}
+	public void setViolationLiquorLaw(String ViolationLiquorLaw) {
+		this.ViolationLiquorLaw = ViolationLiquorLaw;
+	}
+	public void setBOPLiquorLiabCov(List<BOPLiquorLiabCov> BOPLiquorLiabCov) {
+		this.BOPLiquorLiabCov = BOPLiquorLiabCov;
+	}
+	public void setBOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems(List<BOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems> BOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems) {
+		this.BOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems = BOPBusinessIncomeExtraExpenseY2KComputerRelatedProblems;
+	}
+	public void setDateBusinessStarted(Date DateBusinessStarted) {
+		this.DateBusinessStarted = DateBusinessStarted;
+	}
+	public void setElectricalCableInstallationContractorsTotPercentage(int ElectricalCableInstallationContractorsTotPercentage) {
+		this.ElectricalCableInstallationContractorsTotPercentage = ElectricalCableInstallationContractorsTotPercentage;
+	}
+	public void setUndergroundCable(int UndergroundCable) {
+		this.UndergroundCable = UndergroundCable;
+	}
+	public void setConvenienceStoreRiskUnacceptableYesHeader(String ConvenienceStoreRiskUnacceptableYesHeader) {
+		this.ConvenienceStoreRiskUnacceptableYesHeader = ConvenienceStoreRiskUnacceptableYesHeader;
+	}
+	public void setEmpsLicensed(String EmpsLicensed) {
+		this.EmpsLicensed = EmpsLicensed;
+	}
+	public void setBOPDesignatedConstructionProjectsGenlAggLimit(List<BOPDesignatedConstructionProjectsGenlAggLimit> BOPDesignatedConstructionProjectsGenlAggLimit) {
+		this.BOPDesignatedConstructionProjectsGenlAggLimit = BOPDesignatedConstructionProjectsGenlAggLimit;
+	}
+	public void setBOPY2KComputerRelatedProblemsLimitedCovOptions(List<BOPY2KComputerRelatedProblemsLimitedCovOptions> BOPY2KComputerRelatedProblemsLimitedCovOptions) {
+		this.BOPY2KComputerRelatedProblemsLimitedCovOptions = BOPY2KComputerRelatedProblemsLimitedCovOptions;
+	}
+	public void setBOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps(List<BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps> BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps) {
+		this.BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps = BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalfDesignatedSitesOrOps;
+	}
+	public void setOverridePremium(double OverridePremium) {
+		this.OverridePremium = OverridePremium;
+	}
+	public void setMultipleOccupancies(String MultipleOccupancies) {
+		this.MultipleOccupancies = MultipleOccupancies;
+	}
+	public void setForgeryAlterationCoverageIndicator(String ForgeryAlterationCoverageIndicator) {
+		this.ForgeryAlterationCoverageIndicator = ForgeryAlterationCoverageIndicator;
+	}
+	public void setBOPLimitedFungiBacteriaCov(List<BOPLimitedFungiBacteriaCov> BOPLimitedFungiBacteriaCov) {
+		this.BOPLimitedFungiBacteriaCov = BOPLimitedFungiBacteriaCov;
+	}
+	public void setIndoorPoolDepths2(String IndoorPoolDepths2) {
+		this.IndoorPoolDepths2 = IndoorPoolDepths2;
+	}
+	public void setAutomaticIncreasePct(int AutomaticIncreasePct) {
+		this.AutomaticIncreasePct = AutomaticIncreasePct;
+	}
+	public void setTotBldgPremium(double TotBldgPremium) {
+		this.TotBldgPremium = TotBldgPremium;
+	}
+	public void setInlandMarineLCM(double InlandMarineLCM) {
+		this.InlandMarineLCM = InlandMarineLCM;
+	}
+	public void setFastFoodAutomaticExtinguishSystem2(String FastFoodAutomaticExtinguishSystem2) {
+		this.FastFoodAutomaticExtinguishSystem2 = FastFoodAutomaticExtinguishSystem2;
+	}
+	public void setProflLiabRiskUnacceptableYesHeader(String ProflLiabRiskUnacceptableYesHeader) {
+		this.ProflLiabRiskUnacceptableYesHeader = ProflLiabRiskUnacceptableYesHeader;
+	}
+	public void setWasteOilBurningSystems(String WasteOilBurningSystems) {
+		this.WasteOilBurningSystems = WasteOilBurningSystems;
+	}
+	public void setJanitorialContractorsPercentageWorkDoneHeader(String JanitorialContractorsPercentageWorkDoneHeader) {
+		this.JanitorialContractorsPercentageWorkDoneHeader = JanitorialContractorsPercentageWorkDoneHeader;
+	}
+	public void setCompanyNumber(String CompanyNumber) {
+		this.CompanyNumber = CompanyNumber;
+	}
+	public void setProflLiabRiskUnacceptableNoHeader(String ProflLiabRiskUnacceptableNoHeader) {
+		this.ProflLiabRiskUnacceptableNoHeader = ProflLiabRiskUnacceptableNoHeader;
+	}
+	public void setBOPEmployeeDishtyCoverage(List<BOPEmployeeDishtyCoverage> BOPEmployeeDishtyCoverage) {
+		this.BOPEmployeeDishtyCoverage = BOPEmployeeDishtyCoverage;
+	}
+	public void setBOPBarbersBeauticiansProflLiab(List<BOPBarbersBeauticiansProflLiab> BOPBarbersBeauticiansProflLiab) {
+		this.BOPBarbersBeauticiansProflLiab = BOPBarbersBeauticiansProflLiab;
+	}
+	public void setAutomaticExtinguishSystem2(String AutomaticExtinguishSystem2) {
+		this.AutomaticExtinguishSystem2 = AutomaticExtinguishSystem2;
+	}
+	public void setEQLosses(String EQLosses) {
+		this.EQLosses = EQLosses;
+	}
+	public void setInsulationWork(String InsulationWork) {
+		this.InsulationWork = InsulationWork;
+	}
+	public void setExcludePunitiveDamagesRelatedToCertifiedActOfTerrorism(String ExcludePunitiveDamagesRelatedToCertifiedActOfTerrorism) {
+		this.ExcludePunitiveDamagesRelatedToCertifiedActOfTerrorism = ExcludePunitiveDamagesRelatedToCertifiedActOfTerrorism;
+	}
+	public void setBOPCannabisLiabilityExclusion(List<BOPCannabisLiabilityExclusion> BOPCannabisLiabilityExclusion) {
+		this.BOPCannabisLiabilityExclusion = BOPCannabisLiabilityExclusion;
+	}
+	public void setCPPGoverningState(String CPPGoverningState) {
+		this.CPPGoverningState = CPPGoverningState;
+	}
+	public void setProRatedChangePremium(double ProRatedChangePremium) {
+		this.ProRatedChangePremium = ProRatedChangePremium;
+	}
+	public void setVeterinariansOperationsHeader(String VeterinariansOperationsHeader) {
+		this.VeterinariansOperationsHeader = VeterinariansOperationsHeader;
+	}
+	public void setVeterinariansUnacceptableYesHeader(String VeterinariansUnacceptableYesHeader) {
+		this.VeterinariansUnacceptableYesHeader = VeterinariansUnacceptableYesHeader;
+	}
+	public void setBOPAddlInsdOwnersLesseesOrContrctrsCompldOps(List<BOPAddlInsdOwnersLesseesOrContrctrsCompldOps> BOPAddlInsdOwnersLesseesOrContrctrsCompldOps) {
+		this.BOPAddlInsdOwnersLesseesOrContrctrsCompldOps = BOPAddlInsdOwnersLesseesOrContrctrsCompldOps;
+	}
+	public void setPestControlExtermination(String PestControlExtermination) {
+		this.PestControlExtermination = PestControlExtermination;
+	}
+	public void setBreeding(String Breeding) {
+		this.Breeding = Breeding;
+	}
+	public void setWebAddress(String WebAddress) {
+		this.WebAddress = WebAddress;
+	}
+	public void setLandscapingContractorsHeader(String LandscapingContractorsHeader) {
+		this.LandscapingContractorsHeader = LandscapingContractorsHeader;
+	}
+	public void setIndoorPoolEquipmt(String IndoorPoolEquipmt) {
+		this.IndoorPoolEquipmt = IndoorPoolEquipmt;
+	}
+	public void setBarbersBeauticiansHeader(String BarbersBeauticiansHeader) {
+		this.BarbersBeauticiansHeader = BarbersBeauticiansHeader;
+	}
+	public void setCateringServices(String CateringServices) {
+		this.CateringServices = CateringServices;
+	}
+	public void setFirePlace(String FirePlace) {
+		this.FirePlace = FirePlace;
+	}
+	public void setBOPExclY2KComputerRelatedExcptnBodilyInjury(List<BOPExclY2KComputerRelatedExcptnBodilyInjury> BOPExclY2KComputerRelatedExcptnBodilyInjury) {
+		this.BOPExclY2KComputerRelatedExcptnBodilyInjury = BOPExclY2KComputerRelatedExcptnBodilyInjury;
+	}
+	public void setBOPY2KComputerRelatedProblemsExclSpecifiedCov(List<BOPY2KComputerRelatedProblemsExclSpecifiedCov> BOPY2KComputerRelatedProblemsExclSpecifiedCov) {
+		this.BOPY2KComputerRelatedProblemsExclSpecifiedCov = BOPY2KComputerRelatedProblemsExclSpecifiedCov;
+	}
+	public void setVersionedId(String VersionedId) {
+		this.VersionedId = VersionedId;
+	}
+	public void setTaxIndicator(int TaxIndicator) {
+		this.TaxIndicator = TaxIndicator;
+	}
+	public void setStrippingFloorWax(int StrippingFloorWax) {
+		this.StrippingFloorWax = StrippingFloorWax;
+	}
+	public void setFastFoodRestaurantsHeader(String FastFoodRestaurantsHeader) {
+		this.FastFoodRestaurantsHeader = FastFoodRestaurantsHeader;
+	}
+	public void setPestControl(String PestControl) {
+		this.PestControl = PestControl;
+	}
+	public void setBOPAddlInsdStatePoliticalSubdivisionsPermits(List<BOPAddlInsdStatePoliticalSubdivisionsPermits> BOPAddlInsdStatePoliticalSubdivisionsPermits) {
+		this.BOPAddlInsdStatePoliticalSubdivisionsPermits = BOPAddlInsdStatePoliticalSubdivisionsPermits;
+	}
+	public void setLotteryTickets(String LotteryTickets) {
+		this.LotteryTickets = LotteryTickets;
+	}
+	public void setHairImplantation(String HairImplantation) {
+		this.HairImplantation = HairImplantation;
+	}
+	public void setBOPDishonestMaliciousOrFraudulantActsCommittedByEmployees(List<BOPDishonestMaliciousOrFraudulantActsCommittedByEmployees> BOPDishonestMaliciousOrFraudulantActsCommittedByEmployees) {
+		this.BOPDishonestMaliciousOrFraudulantActsCommittedByEmployees = BOPDishonestMaliciousOrFraudulantActsCommittedByEmployees;
+	}
+	public void setBOPLocation(List<BOPLocation> BOPLocation) {
+		this.BOPLocation = BOPLocation;
+	}
+	public void setBOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly(List<BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly> BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly) {
+		this.BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly = BOPExclAccessOrDisclosureOfConfidentialOrPrsnlInfoPrsnlAndAdvertisingInjuryOnly;
+	}
+	public void setStateCertifications(String StateCertifications) {
+		this.StateCertifications = StateCertifications;
+	}
+	public void setBOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf(List<BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf> BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf) {
+		this.BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf = BOPExclDmgToWorkPerfdBySubcontractorsOnYourBehalf;
+	}
+	public void setBusnIncomeExtddPeriodFactor(double BusnIncomeExtddPeriodFactor) {
+		this.BusnIncomeExtddPeriodFactor = BusnIncomeExtddPeriodFactor;
+	}
+	public void setDelivery(String Delivery) {
+		this.Delivery = Delivery;
+	}
+	public void setPrecastConcrete(int PrecastConcrete) {
+		this.PrecastConcrete = PrecastConcrete;
+	}
+	public void setAggregateLimit(String AggregateLimit) {
+		this.AggregateLimit = AggregateLimit;
+	}
+	public void setAutomaticExtinguishSystem1(String AutomaticExtinguishSystem1) {
+		this.AutomaticExtinguishSystem1 = AutomaticExtinguishSystem1;
+	}
+	public void setSnowIceRemoval(String SnowIceRemoval) {
+		this.SnowIceRemoval = SnowIceRemoval;
+	}
+	public void setAboveGroundWiring(int AboveGroundWiring) {
+		this.AboveGroundWiring = AboveGroundWiring;
+	}
+	public void setRestaurantAutomaticExtinguishSystem(String RestaurantAutomaticExtinguishSystem) {
+		this.RestaurantAutomaticExtinguishSystem = RestaurantAutomaticExtinguishSystem;
+	}
+	public void setBOPFuneralDirectorsProflLiab(List<BOPFuneralDirectorsProflLiab> BOPFuneralDirectorsProflLiab) {
+		this.BOPFuneralDirectorsProflLiab = BOPFuneralDirectorsProflLiab;
+	}
+	public void setSubcontractors(String Subcontractors) {
+		this.Subcontractors = Subcontractors;
+	}
+	public void setNumberRooms(String NumberRooms) {
+		this.NumberRooms = NumberRooms;
+	}
+	public void setYearsInBusiness(int YearsInBusiness) {
+		this.YearsInBusiness = YearsInBusiness;
+	}
+	public void setBOPPolltnExclLimitedExcptnForDesignatedPollutants(List<BOPPolltnExclLimitedExcptnForDesignatedPollutants> BOPPolltnExclLimitedExcptnForDesignatedPollutants) {
+		this.BOPPolltnExclLimitedExcptnForDesignatedPollutants = BOPPolltnExclLimitedExcptnForDesignatedPollutants;
+	}
+	public void setEmpsTrained(String EmpsTrained) {
+		this.EmpsTrained = EmpsTrained;
+	}
+	public void setPriorCompany(String PriorCompany) {
+		this.PriorCompany = PriorCompany;
+	}
+	public void setStateCode(String StateCode) {
+		this.StateCode = StateCode;
+	}
+	public void setFastFoodAutomaticExtinguishSystem3(String FastFoodAutomaticExtinguishSystem3) {
+		this.FastFoodAutomaticExtinguishSystem3 = FastFoodAutomaticExtinguishSystem3;
+	}
+	public void setBOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage(List<BOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage> BOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage) {
+		this.BOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage = BOPBusnIncomeOrdinaryPayrollBusnPrsnlPropCoverage;
+	}
+	public void setLimitedCookingRiskUnacceptableYesHeader(String LimitedCookingRiskUnacceptableYesHeader) {
+		this.LimitedCookingRiskUnacceptableYesHeader = LimitedCookingRiskUnacceptableYesHeader;
+	}
+	public void setEffective(Date Effective) {
+		this.Effective = Effective;
+	}
+	public void setTattoos(String Tattoos) {
+		this.Tattoos = Tattoos;
+	}
+	public void setFeeIndicator(int FeeIndicator) {
+		this.FeeIndicator = FeeIndicator;
+	}
+	public void setOutdoorPool(String OutdoorPool) {
+		this.OutdoorPool = OutdoorPool;
+	}
+	public void setBredProflRacing(String BredProflRacing) {
+		this.BredProflRacing = BredProflRacing;
+	}
+	public void setExcavation(String Excavation) {
+		this.Excavation = Excavation;
+	}
+	public void setTotalProRatedChangePremium(double TotalProRatedChangePremium) {
+		this.TotalProRatedChangePremium = TotalProRatedChangePremium;
+	}
+	public void setConcreteMasonryContractorsHeader(String ConcreteMasonryContractorsHeader) {
+		this.ConcreteMasonryContractorsHeader = ConcreteMasonryContractorsHeader;
+	}
+	public void setBOPWaiverTransferRightsOfRecoveryAgainstOthersToUs(List<BOPWaiverTransferRightsOfRecoveryAgainstOthersToUs> BOPWaiverTransferRightsOfRecoveryAgainstOthersToUs) {
+		this.BOPWaiverTransferRightsOfRecoveryAgainstOthersToUs = BOPWaiverTransferRightsOfRecoveryAgainstOthersToUs;
+	}
+	public void setLiveEntertainment(String LiveEntertainment) {
+		this.LiveEntertainment = LiveEntertainment;
+	}
+	public void setEQAttachmentIndicatorStatCode(String EQAttachmentIndicatorStatCode) {
+		this.EQAttachmentIndicatorStatCode = EQAttachmentIndicatorStatCode;
+	}
+	public void setBOPBusnIncomeChangesTimePeriod(List<BOPBusnIncomeChangesTimePeriod> BOPBusnIncomeChangesTimePeriod) {
+		this.BOPBusnIncomeChangesTimePeriod = BOPBusnIncomeChangesTimePeriod;
+	}
+	public void setFastFoodNonOwnedAutoDelivery(String FastFoodNonOwnedAutoDelivery) {
+		this.FastFoodNonOwnedAutoDelivery = FastFoodNonOwnedAutoDelivery;
+	}
+	public void setFastFoodLiquorBeerWine(String FastFoodLiquorBeerWine) {
+		this.FastFoodLiquorBeerWine = FastFoodLiquorBeerWine;
+	}
+	public void setLiquorLiabGrade(String LiquorLiabGrade) {
+		this.LiquorLiabGrade = LiquorLiabGrade;
+	}
+	public void setBOPAddlInsdEngineersArchitectsSurveyors(List<BOPAddlInsdEngineersArchitectsSurveyors> BOPAddlInsdEngineersArchitectsSurveyors) {
+		this.BOPAddlInsdEngineersArchitectsSurveyors = BOPAddlInsdEngineersArchitectsSurveyors;
+	}
+	public void setTraining(String Training) {
+		this.Training = Training;
+	}
+	public void setBOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis(List<BOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis> BOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis) {
+		this.BOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis = BOPLimitationOfCoverageForTerrorismSubLimitAnnualAggregateBasis;
+	}
+	public void setBOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism(List<BOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism> BOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism) {
+		this.BOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism = BOPExclusionOfTerrorismNuclearBiologicalChemicalTerrorism;
+	}
+	public void setCarpentryInteriorContractorsRiskDeclineYesHeader(String CarpentryInteriorContractorsRiskDeclineYesHeader) {
+		this.CarpentryInteriorContractorsRiskDeclineYesHeader = CarpentryInteriorContractorsRiskDeclineYesHeader;
+	}
+	public void setFastFoodCurrentOwnership(String FastFoodCurrentOwnership) {
+		this.FastFoodCurrentOwnership = FastFoodCurrentOwnership;
+	}
+	public void setConcreteMasonryContractorsTotPercentage(int ConcreteMasonryContractorsTotPercentage) {
+		this.ConcreteMasonryContractorsTotPercentage = ConcreteMasonryContractorsTotPercentage;
+	}
+	public void setLandscapingContractorsTotPercentage(int LandscapingContractorsTotPercentage) {
+		this.LandscapingContractorsTotPercentage = LandscapingContractorsTotPercentage;
+	}
+	public void setRatingTerritory(String RatingTerritory) {
+		this.RatingTerritory = RatingTerritory;
+	}
+	public void setPrizeLivestock(String PrizeLivestock) {
+		this.PrizeLivestock = PrizeLivestock;
+	}
+	public void setEntrancesLocked(String EntrancesLocked) {
+		this.EntrancesLocked = EntrancesLocked;
+	}
+	public void setBOPTheftOfClientsProperty(List<BOPTheftOfClientsProperty> BOPTheftOfClientsProperty) {
+		this.BOPTheftOfClientsProperty = BOPTheftOfClientsProperty;
+	}
+	public void setBOPBeautySalonsProflLiab(List<BOPBeautySalonsProflLiab> BOPBeautySalonsProflLiab) {
+		this.BOPBeautySalonsProflLiab = BOPBeautySalonsProflLiab;
+	}
+	public void setEvaluatedPremium(double EvaluatedPremium) {
+		this.EvaluatedPremium = EvaluatedPremium;
+	}
+	public void setBOPOpticalHearingAid(List<BOPOpticalHearingAid> BOPOpticalHearingAid) {
+		this.BOPOpticalHearingAid = BOPOpticalHearingAid;
+	}
+	public void setExcludeOtherActsOutsideUS(String ExcludeOtherActsOutsideUS) {
+		this.ExcludeOtherActsOutsideUS = ExcludeOtherActsOutsideUS;
+	}
+	public void setPolEndtPremium(double PolEndtPremium) {
+		this.PolEndtPremium = PolEndtPremium;
+	}
+	public void setSemiAnnualInspection(String SemiAnnualInspection) {
+		this.SemiAnnualInspection = SemiAnnualInspection;
+	}
+	public void setBusnIncomeOrdinaryPayrollFactor(double BusnIncomeOrdinaryPayrollFactor) {
+		this.BusnIncomeOrdinaryPayrollFactor = BusnIncomeOrdinaryPayrollFactor;
+	}
+	public void setBOPAmendmentAggLimitsOfInsPerProject(List<BOPAmendmentAggLimitsOfInsPerProject> BOPAmendmentAggLimitsOfInsPerProject) {
+		this.BOPAmendmentAggLimitsOfInsPerProject = BOPAmendmentAggLimitsOfInsPerProject;
+	}
+	public void setUnderwriterApproval(String UnderwriterApproval) {
+		this.UnderwriterApproval = UnderwriterApproval;
+	}
+	public void setJanitorialContractorsRiskDeclineYesHeader(String JanitorialContractorsRiskDeclineYesHeader) {
+		this.JanitorialContractorsRiskDeclineYesHeader = JanitorialContractorsRiskDeclineYesHeader;
+	}
+	public void setTrainingFacility(String TrainingFacility) {
+		this.TrainingFacility = TrainingFacility;
+	}
+	public void setCommercialAutoLCM(double CommercialAutoLCM) {
+		this.CommercialAutoLCM = CommercialAutoLCM;
+	}
+	public void setFuneralDirectorsHeader(String FuneralDirectorsHeader) {
+		this.FuneralDirectorsHeader = FuneralDirectorsHeader;
+	}
+	public void setBusnIncomeExtddPeriodNumDays(String BusnIncomeExtddPeriodNumDays) {
+		this.BusnIncomeExtddPeriodNumDays = BusnIncomeExtddPeriodNumDays;
+	}
+	public void setConvenienceStoreHeader(String ConvenienceStoreHeader) {
+		this.ConvenienceStoreHeader = ConvenienceStoreHeader;
+	}
+	public void setBOPAddlInsdStatePoliticalSubdivisions(List<BOPAddlInsdStatePoliticalSubdivisions> BOPAddlInsdStatePoliticalSubdivisions) {
+		this.BOPAddlInsdStatePoliticalSubdivisions = BOPAddlInsdStatePoliticalSubdivisions;
+	}
+	public void setInlandMarineFormsLCM(double InlandMarineFormsLCM) {
+		this.InlandMarineFormsLCM = InlandMarineFormsLCM;
+	}
+	public void setSolidFuelHeatingSystems(String SolidFuelHeatingSystems) {
+		this.SolidFuelHeatingSystems = SolidFuelHeatingSystems;
+	}
+	public void setBOPAmendmentInsuredContractDefinition(List<BOPAmendmentInsuredContractDefinition> BOPAmendmentInsuredContractDefinition) {
+		this.BOPAmendmentInsuredContractDefinition = BOPAmendmentInsuredContractDefinition;
+	}
+	public void setLawnFertilizer(int LawnFertilizer) {
+		this.LawnFertilizer = LawnFertilizer;
+	}
+	public void setMinimumYears(String MinimumYears) {
+		this.MinimumYears = MinimumYears;
+	}
+	public void setBOPPhotography(List<BOPPhotography> BOPPhotography) {
+		this.BOPPhotography = BOPPhotography;
+	}
+	public void setBOPExclDesignatedWork(List<BOPExclDesignatedWork> BOPExclDesignatedWork) {
+		this.BOPExclDesignatedWork = BOPExclDesignatedWork;
+	}
+	public void setWeightReduction(String WeightReduction) {
+		this.WeightReduction = WeightReduction;
+	}
+	public void setPropDamageLiabDedFactor(double PropDamageLiabDedFactor) {
+		this.PropDamageLiabDedFactor = PropDamageLiabDedFactor;
+	}
+	public void setProgram(String Program) {
+		this.Program = Program;
+	}
+	public void setGeneralInformationHeader(String GeneralInformationHeader) {
+		this.GeneralInformationHeader = GeneralInformationHeader;
+	}
+	public void setSprinklerSystem(int SprinklerSystem) {
+		this.SprinklerSystem = SprinklerSystem;
+	}
+	public void setBOPLimitedFungiBacteriaCovLiability(List<BOPLimitedFungiBacteriaCovLiability> BOPLimitedFungiBacteriaCovLiability) {
+		this.BOPLimitedFungiBacteriaCovLiability = BOPLimitedFungiBacteriaCovLiability;
+	}
+	public void setLiquorLiabGradeOffPremise(String LiquorLiabGradeOffPremise) {
+		this.LiquorLiabGradeOffPremise = LiquorLiabGradeOffPremise;
+	}
+	public void setLandscaping(int Landscaping) {
+		this.Landscaping = Landscaping;
+	}
+	public void setShortRateFactor(double ShortRateFactor) {
+		this.ShortRateFactor = ShortRateFactor;
+	}
+	public void setCommercialCattle(String CommercialCattle) {
+		this.CommercialCattle = CommercialCattle;
+	}
+	public void setFormNumber(String FormNumber) {
+		this.FormNumber = FormNumber;
+	}
+	public void setState(String State) {
+		this.State = State;
+	}
+	public void setBOPLiquorLiabCovBringYourOwnAlcoholEstablishments(List<BOPLiquorLiabCovBringYourOwnAlcoholEstablishments> BOPLiquorLiabCovBringYourOwnAlcoholEstablishments) {
+		this.BOPLiquorLiabCovBringYourOwnAlcoholEstablishments = BOPLiquorLiabCovBringYourOwnAlcoholEstablishments;
+	}
+	public void setBOPLimitedPolltnLiabExt(List<BOPLimitedPolltnLiabExt> BOPLimitedPolltnLiabExt) {
+		this.BOPLimitedPolltnLiabExt = BOPLimitedPolltnLiabExt;
+	}
+	public void setBOPEmpBenefitsLiabCov(List<BOPEmpBenefitsLiabCov> BOPEmpBenefitsLiabCov) {
+		this.BOPEmpBenefitsLiabCov = BOPEmpBenefitsLiabCov;
+	}
+	public void setConcreteMasonryContractorsRiskDeclineYesHeader(String ConcreteMasonryContractorsRiskDeclineYesHeader) {
+		this.ConcreteMasonryContractorsRiskDeclineYesHeader = ConcreteMasonryContractorsRiskDeclineYesHeader;
+	}
+	public void setCostOfSubcontractedWork(String CostOfSubcontractedWork) {
+		this.CostOfSubcontractedWork = CostOfSubcontractedWork;
+	}
+	public void setMassageTherapy(String MassageTherapy) {
+		this.MassageTherapy = MassageTherapy;
+	}
+	public void setContractorsRiskDeclineYesHeader(String ContractorsRiskDeclineYesHeader) {
+		this.ContractorsRiskDeclineYesHeader = ContractorsRiskDeclineYesHeader;
+	}
+	public void setGrooming(String Grooming) {
+		this.Grooming = Grooming;
+	}
+	public void setBusnIncomeOrdinaryPayrollASLOBStatCode(String BusnIncomeOrdinaryPayrollASLOBStatCode) {
+		this.BusnIncomeOrdinaryPayrollASLOBStatCode = BusnIncomeOrdinaryPayrollASLOBStatCode;
+	}
+	public void setHairRemovalElectrolysis(String HairRemovalElectrolysis) {
+		this.HairRemovalElectrolysis = HairRemovalElectrolysis;
+	}
+	public void setGrillingBroiling(String GrillingBroiling) {
+		this.GrillingBroiling = GrillingBroiling;
+	}
+	public void setBOPBusnIncomeExtddPeriodBldgCoverage(List<BOPBusnIncomeExtddPeriodBldgCoverage> BOPBusnIncomeExtddPeriodBldgCoverage) {
+		this.BOPBusnIncomeExtddPeriodBldgCoverage = BOPBusnIncomeExtddPeriodBldgCoverage;
+	}
+	public void setBoarding(String Boarding) {
+		this.Boarding = Boarding;
+	}
+	public void setBOPComputerFraudFundsTransferFraudCov(List<BOPComputerFraudFundsTransferFraudCov> BOPComputerFraudFundsTransferFraudCov) {
+		this.BOPComputerFraudFundsTransferFraudCov = BOPComputerFraudFundsTransferFraudCov;
+	}
+	public void setDedFactor(double DedFactor) {
+		this.DedFactor = DedFactor;
+	}
+	public void setCateringServicesTotalSales(String CateringServicesTotalSales) {
+		this.CateringServicesTotalSales = CateringServicesTotalSales;
+	}
+	public void setCarpentryInteriorContractorsHeader(String CarpentryInteriorContractorsHeader) {
+		this.CarpentryInteriorContractorsHeader = CarpentryInteriorContractorsHeader;
+	}
+	public void setPriorRateDt(Date PriorRateDt) {
+		this.PriorRateDt = PriorRateDt;
+	}
+	public void setBOPLimitationsOfCovForCertfdActsTerrsm(List<BOPLimitationsOfCovForCertfdActsTerrsm> BOPLimitationsOfCovForCertfdActsTerrsm) {
+		this.BOPLimitationsOfCovForCertfdActsTerrsm = BOPLimitationsOfCovForCertfdActsTerrsm;
+	}
+	public void setWrittenQualityControl(String WrittenQualityControl) {
+		this.WrittenQualityControl = WrittenQualityControl;
+	}
+	public void setBOPCondoCommlUnitOwnersCov(List<BOPCondoCommlUnitOwnersCov> BOPCondoCommlUnitOwnersCov) {
+		this.BOPCondoCommlUnitOwnersCov = BOPCondoCommlUnitOwnersCov;
+	}
+	public void setPastOperations2(String PastOperations2) {
+		this.PastOperations2 = PastOperations2;
+	}
+	public void setPaintingWaterTanks(String PaintingWaterTanks) {
+		this.PaintingWaterTanks = PaintingWaterTanks;
+	}
+	public void setAutomaticIncreaseExcessFactor(double AutomaticIncreaseExcessFactor) {
+		this.AutomaticIncreaseExcessFactor = AutomaticIncreaseExcessFactor;
+	}
+	public void setBOPCannabisLiabilityExclusionWithHempException(List<BOPCannabisLiabilityExclusionWithHempException> BOPCannabisLiabilityExclusionWithHempException) {
+		this.BOPCannabisLiabilityExclusionWithHempException = BOPCannabisLiabilityExclusionWithHempException;
+	}
+	public void setOtherBusiness(String OtherBusiness) {
+		this.OtherBusiness = OtherBusiness;
+	}
+	public void setParkingLot(String ParkingLot) {
+		this.ParkingLot = ParkingLot;
+	}
+	public void setRestaurantSemiAnnualInspection(String RestaurantSemiAnnualInspection) {
+		this.RestaurantSemiAnnualInspection = RestaurantSemiAnnualInspection;
+	}
+	public void setBarbersBeauticiansOperationsHeader(String BarbersBeauticiansOperationsHeader) {
+		this.BarbersBeauticiansOperationsHeader = BarbersBeauticiansOperationsHeader;
+	}
+	public void setHerbicide(int Herbicide) {
+		this.Herbicide = Herbicide;
+	}
+}

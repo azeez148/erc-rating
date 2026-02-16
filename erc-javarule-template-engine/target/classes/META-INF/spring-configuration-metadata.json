@@ -1,0 +1,22 @@
+{
+  "groups": [
+    {
+      "name": "parserproject",
+      "type": "com.nest.erc.java.template.engine.utils.ProjectTemplateProperties",
+      "sourceType": "com.nest.erc.java.template.engine.utils.ProjectTemplateProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "parserproject.containerlocation",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.java.template.engine.utils.ProjectTemplateProperties"
+    },
+    {
+      "name": "parserproject.res-project-location",
+      "type": "java.lang.String",
+      "sourceType": "com.nest.erc.java.template.engine.utils.ProjectTemplateProperties"
+    }
+  ],
+  "hints": []
+}

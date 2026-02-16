@@ -1,0 +1,44 @@
+[
+  [
+    "RoofMaterial",
+    "RoofAge",
+    "Subdecking",
+    "Code"
+  ],
+  [
+    "Metal",
+    "Over 10 Years Old",
+    "N/A",
+    "1"
+  ],
+  [
+    "Metal",
+    "10 or Under Years Old",
+    "Yes",
+    "9"
+  ],
+  [
+    "Metal",
+    "10 or Under Years Old",
+    "No",
+    "2"
+  ],
+  [
+    "Non-Metal",
+    "Over 5 Years Old",
+    "N/A",
+    "3"
+  ],
+  [
+    "Non-Metal",
+    "5 or Under Years Old",
+    "N/A",
+    "9"
+  ],
+  [
+    "Metal",
+    "10 or Under Years Old",
+    "N/A",
+    "9"
+  ]
+]

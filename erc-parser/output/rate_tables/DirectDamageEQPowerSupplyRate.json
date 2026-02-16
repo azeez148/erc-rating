@@ -1,0 +1,47 @@
+[
+  [
+    "UtilityServiceCoveredProperty",
+    "UtilityServicePowerSupply",
+    "Rate"
+  ],
+  [
+    "Building",
+    "Public Utility-Including Overhead Power Transmission",
+    "0.011"
+  ],
+  [
+    "Building",
+    "Other Than Public Utility-Including Overhead Power Transmission",
+    "0.022"
+  ],
+  [
+    "Building",
+    "Public Utility-Not Including Overhead Power Transmission",
+    "0.011"
+  ],
+  [
+    "Building",
+    "Other Than Public Utility-Not Including Overhead Power Transmission",
+    "0.022"
+  ],
+  [
+    "Business Personal Property",
+    "Public Utility-Including Overhead Power Transmission",
+    "0.011"
+  ],
+  [
+    "Business Personal Property",
+    "Other Than Public Utility-Including Overhead Power Transmission",
+    "0.022"
+  ],
+  [
+    "Business Personal Property",
+    "Public Utility-Not Including Overhead Power Transmission",
+    "0.011"
+  ],
+  [
+    "Business Personal Property",
+    "Other Than Public Utility-Not Including Overhead Power Transmission",
+    "0.022"
+  ]
+]

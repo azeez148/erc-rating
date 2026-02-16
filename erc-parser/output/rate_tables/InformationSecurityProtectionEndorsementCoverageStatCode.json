@@ -1,0 +1,37 @@
+[
+  [
+    "CoverageTierSelect",
+    "InformationSecurityProtectionBIEEWaitingPeriodHours",
+    "Code"
+  ],
+  [
+    "Tier 1",
+    "not applicable",
+    "81"
+  ],
+  [
+    "Tier 1 and 2",
+    "not applicable",
+    "82"
+  ],
+  [
+    "Tier 1, 2 and 3",
+    "24",
+    "83"
+  ],
+  [
+    "Tier 1, 2 and 3",
+    "8",
+    "84"
+  ],
+  [
+    "Tier 1, 2 and 3",
+    "None",
+    "85"
+  ],
+  [
+    "Tier 1, 2 and 3",
+    "Other",
+    "86"
+  ]
+]

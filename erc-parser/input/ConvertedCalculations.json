@@ -1,0 +1,26 @@
+{"mappingCalculations":[{
+   "className":"BOPClassification",
+   "calculations":[
+      {
+         "name":"calc_BusnPrsnlPropRate_BOPClassification",
+         "description":"Business Personal Property Rate",
+         "calculation":"rt_BusnPrsnlPropRate_BusnPrsnlPropRate_BOPClassification if (field_RABOPWanted_BOPClassification !='Yes' or (field_RABOPType_BOPClassification !='Smoothed' and field_RABOPType_BOPClassification !='Unsmoothed')) and (field_RatingTerritory_BOP !=\"\") else 0",
+         "deleted":false
+      }
+   ],
+   "rateTables":[
+      {
+         "name":"rt_BusnPrsnlPropRate_BusnPrsnlPropRate_BOPClassification",
+         "label":"Business Personal Property Rate",
+         "sources":[
+            {
+               "name":"field_RatingTerritory_BOPLocation",
+               "resolution":"map"
+            }
+         ],
+         "data_file":"BusnPrsnlPropRate.json",
+         "deleted":false
+      }
+   ]
+}]
+}

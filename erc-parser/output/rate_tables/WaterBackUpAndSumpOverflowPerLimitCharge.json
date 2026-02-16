@@ -1,0 +1,17 @@
+[
+  [
+    "BusnPrsnlPropReplmtCostCoverage",
+    "Limit",
+    "Charge"
+  ],
+  [
+    "BusinessPersonalProperty",
+    "5000",
+    "42"
+  ],
+  [
+    "Building",
+    "5000",
+    "35"
+  ]
+]

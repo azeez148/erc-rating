@@ -1,0 +1,27 @@
+parserproject:
+  inputFilelocation: ./input/
+  algFileNameStartCharcter: ALG-BP-
+  dsFileNameStartCharacter: DS-BP-
+  rcFileNameStartCharcter : RC-BP-
+  containerlocation: ./output/
+  yamlTemplateText: 187
+  yamlSchemaversion: 0.3
+  rateTableFolderName: rate_tables
+  #resProjectLocation: C:/Users/renji/OneDrive/Documents/git/rating/RES-Service/
+  resProjectLocation: ./output/
+  ercPackageDetails:  C:/Users/renji/OneDrive/Documents/git/rating/RES-Service/input/
+  stateContainerLocation: ./output/children/
+  version: "09012019"
+  lobName: BOP
+  algFileNameState: ALG-BP-AL-09012019-V01_MR.xml
+  algFileNameCw: ALG-BP-CW-09012019-V01_MR.xml
+  dsFileName: DS-BP-AL-09012019-V01.xml
+  rcFileName: RC-BP-CW-09012019-V01.xml
+  rcFileNameState: RC-BP-AL-09012019-V01.xml
+  projectType: JAVA
+  coverageAvailabiltyFileName: CoverageAvailability.xlsx
+  commonConfigFile: CommonConfig.json
+  convertedCalculations: ConvertedCalculations.json
+ 
+
+  

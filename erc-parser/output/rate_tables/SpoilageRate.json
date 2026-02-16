@@ -1,0 +1,98 @@
+[
+  [
+    "ClassIndicator",
+    "SpoilageCoverageType",
+    "SpoilageMaintenanceAgreement",
+    "Rate"
+  ],
+  [
+    "1",
+    "Breakdown or Contamination",
+    "Yes",
+    "0.68"
+  ],
+  [
+    "2",
+    "Breakdown or Contamination",
+    "Yes",
+    "0.82"
+  ],
+  [
+    "3",
+    "Breakdown or Contamination",
+    "Yes",
+    "0.94"
+  ],
+  [
+    "1",
+    "Breakdown or Contamination",
+    "No",
+    "0.94"
+  ],
+  [
+    "2",
+    "Breakdown or Contamination",
+    "No",
+    "1.08"
+  ],
+  [
+    "3",
+    "Breakdown or Contamination",
+    "No",
+    "1.41"
+  ],
+  [
+    "1",
+    "Power Outage",
+    "Not Applicable",
+    "0.41"
+  ],
+  [
+    "2",
+    "Power Outage",
+    "Not Applicable",
+    "0.44"
+  ],
+  [
+    "3",
+    "Power Outage",
+    "Not Applicable",
+    "0.49"
+  ],
+  [
+    "1",
+    "Breakdown or Contamination and Power Outage",
+    "Yes",
+    "0.94"
+  ],
+  [
+    "2",
+    "Breakdown or Contamination and Power Outage",
+    "Yes",
+    "1.08"
+  ],
+  [
+    "3",
+    "Breakdown or Contamination and Power Outage",
+    "Yes",
+    "1.24"
+  ],
+  [
+    "1",
+    "Breakdown or Contamination and Power Outage",
+    "No",
+    "1.21"
+  ],
+  [
+    "2",
+    "Breakdown or Contamination and Power Outage",
+    "No",
+    "1.35"
+  ],
+  [
+    "3",
+    "Breakdown or Contamination and Power Outage",
+    "No",
+    "1.7"
+  ]
+]

@@ -1,0 +1,27 @@
+[
+  [
+    "UtilityServiceCoveredProperty",
+    "UtilityServiceWaterSupply",
+    "Rate"
+  ],
+  [
+    "Building",
+    "Public Utility",
+    "0.011"
+  ],
+  [
+    "Building",
+    "Other Than Public Utility",
+    "0.022"
+  ],
+  [
+    "Business Personal Property",
+    "Public Utility",
+    "0.011"
+  ],
+  [
+    "Business Personal Property",
+    "Other Than Public Utility",
+    "0.022"
+  ]
+]
