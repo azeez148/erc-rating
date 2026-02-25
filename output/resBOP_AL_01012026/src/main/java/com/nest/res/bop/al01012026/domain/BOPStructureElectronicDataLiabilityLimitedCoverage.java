@@ -1,0 +1,447 @@
+package com.nest.res.bop.al01012026.domain;
+
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Date;
+import com.nest.res.common.domain.Policy;
+
+public class BOPStructureElectronicDataLiabilityLimitedCoverage    extends Policy  {
+	private int FeeIndicator;
+	private int PropDamageLiabDedStatAmount;
+	private String FormNumber;
+	private double condominiumBuildingLimitOfInsurance_1;
+	private double PolicyTermPremium;
+	private int ExposureStatAmount;
+	private Date ExpirationDt;
+	private int LossOfElectronicDataStatLimit;
+	private Date AddEffectiveDt;
+	private double Premium;
+	private double ClassGroupRelativity;
+	private Date EffectiveDt;
+	private String LossOfElectronicDataLimit;
+	private String PriorId;
+	private String HazardGrade;
+	private double EvaluatedPremium;
+	private String FormName;
+	private int TermFactorIndicator;
+	private double totalCondominiumBuildingSquareFootage_1;
+	private String CreatedBy;
+	private int TaxIndicator;
+	private int PremiumIndicator;
+	private Date Expiration;
+	private double AdjustedBaseRate;
+	private double totalArea_1;
+	private double ChangePremium;
+	private double IncreasedLimitsFactor;
+	private int ShortRateIndicator;
+	private double MinimumPremium;
+	private double TotalProRatedChangePremium;
+	private String Id;
+	private Date PriorRateDt;
+	private double ProRatedChangePremium;
+	private int UnitNumber;
+	private double ProRateFactor;
+	private double AnnualPremium;
+	private Date Modified;
+	private Date RateDt;
+	private double FinalRate;
+	private double BaseRate;
+	private double ProRatedPremium;
+	private Date Created;
+	private double OverridePremium;
+	private Date ChangeEffectiveDt;
+	private Date CoverageAddDt;
+	private String VersionedId;
+	private int ProRateIndicator;
+	private int EachOccStatLimit;
+	private double ShortRateFactor;
+	private String CoverageStatCode;
+	private String ParentId;
+	private double ProRatedPriorPremium;
+	private String AggregateLimit;
+	private double PriorPremium;
+	private double LossOfElectronicDataFactor;
+	private int CoverageOnPolicyIndicator;
+	private double ShortRatePenalty;
+	private Date Effective;
+	private int EarnedInFullIndicator;
+	private String LiabilityExposureIndicatorStatCode;
+	private double DedFactor;
+	
+	
+	
+	
+	
+	
+	
+
+
+	public int  getExposureStatAmount() {
+		return this.ExposureStatAmount;
+	}
+	public String  getLiabilityExposureIndicatorStatCode() {
+		return this.LiabilityExposureIndicatorStatCode;
+	}
+	public double  getEvaluatedPremium() {
+		return this.EvaluatedPremium;
+	}
+	public String  getHazardGrade() {
+		return this.HazardGrade;
+	}
+	public int  getUnitNumber() {
+		return this.UnitNumber;
+	}
+	public double  getPolicyTermPremium() {
+		return this.PolicyTermPremium;
+	}
+	public double  getProRateFactor() {
+		return this.ProRateFactor;
+	}
+	public double  getPremium() {
+		return this.Premium;
+	}
+	public Date  getExpirationDt() {
+		return this.ExpirationDt;
+	}
+	public String  getVersionedId() {
+		return this.VersionedId;
+	}
+	public String  getLossOfElectronicDataLimit() {
+		return this.LossOfElectronicDataLimit;
+	}
+	public double  getTotalArea_1() {
+		return this.totalArea_1;
+	}
+	public Date  getEffectiveDt() {
+		return this.EffectiveDt;
+	}
+	public double  getOverridePremium() {
+		return this.OverridePremium;
+	}
+	public String  getId() {
+		return this.Id;
+	}
+	public Date  getRateDt() {
+		return this.RateDt;
+	}
+	public double  getProRatedPriorPremium() {
+		return this.ProRatedPriorPremium;
+	}
+	public int  getFeeIndicator() {
+		return this.FeeIndicator;
+	}
+	public double  getShortRatePenalty() {
+		return this.ShortRatePenalty;
+	}
+	public int  getEarnedInFullIndicator() {
+		return this.EarnedInFullIndicator;
+	}
+	public int  getCoverageOnPolicyIndicator() {
+		return this.CoverageOnPolicyIndicator;
+	}
+	public Date  getCoverageAddDt() {
+		return this.CoverageAddDt;
+	}
+	public int  getTaxIndicator() {
+		return this.TaxIndicator;
+	}
+	public int  getTermFactorIndicator() {
+		return this.TermFactorIndicator;
+	}
+	public Date  getEffective() {
+		return this.Effective;
+	}
+	public Date  getModified() {
+		return this.Modified;
+	}
+	public double  getProRatedPremium() {
+		return this.ProRatedPremium;
+	}
+	public Date  getAddEffectiveDt() {
+		return this.AddEffectiveDt;
+	}
+	public String  getFormName() {
+		return this.FormName;
+	}
+	public int  getEachOccStatLimit() {
+		return this.EachOccStatLimit;
+	}
+	public String  getPriorId() {
+		return this.PriorId;
+	}
+	public int  getLossOfElectronicDataStatLimit() {
+		return this.LossOfElectronicDataStatLimit;
+	}
+	public double  getTotalProRatedChangePremium() {
+		return this.TotalProRatedChangePremium;
+	}
+	public double  getProRatedChangePremium() {
+		return this.ProRatedChangePremium;
+	}
+	public double  getAdjustedBaseRate() {
+		return this.AdjustedBaseRate;
+	}
+	public double  getIncreasedLimitsFactor() {
+		return this.IncreasedLimitsFactor;
+	}
+	public double  getCondominiumBuildingLimitOfInsurance_1() {
+		return this.condominiumBuildingLimitOfInsurance_1;
+	}
+	public Date  getExpiration() {
+		return this.Expiration;
+	}
+	public double  getBaseRate() {
+		return this.BaseRate;
+	}
+	public int  getProRateIndicator() {
+		return this.ProRateIndicator;
+	}
+	public double  getAnnualPremium() {
+		return this.AnnualPremium;
+	}
+	public String  getParentId() {
+		return this.ParentId;
+	}
+	public String  getCoverageStatCode() {
+		return this.CoverageStatCode;
+	}
+	public double  getLossOfElectronicDataFactor() {
+		return this.LossOfElectronicDataFactor;
+	}
+	public double  getTotalCondominiumBuildingSquareFootage_1() {
+		return this.totalCondominiumBuildingSquareFootage_1;
+	}
+	public int  getShortRateIndicator() {
+		return this.ShortRateIndicator;
+	}
+	public Date  getChangeEffectiveDt() {
+		return this.ChangeEffectiveDt;
+	}
+	public double  getDedFactor() {
+		return this.DedFactor;
+	}
+	public String  getFormNumber() {
+		return this.FormNumber;
+	}
+	public double  getShortRateFactor() {
+		return this.ShortRateFactor;
+	}
+	public double  getMinimumPremium() {
+		return this.MinimumPremium;
+	}
+	public int  getPremiumIndicator() {
+		return this.PremiumIndicator;
+	}
+	public double  getFinalRate() {
+		return this.FinalRate;
+	}
+	public String  getCreatedBy() {
+		return this.CreatedBy;
+	}
+	public double  getPriorPremium() {
+		return this.PriorPremium;
+	}
+	public int  getPropDamageLiabDedStatAmount() {
+		return this.PropDamageLiabDedStatAmount;
+	}
+	public Date  getCreated() {
+		return this.Created;
+	}
+	public String  getAggregateLimit() {
+		return this.AggregateLimit;
+	}
+	public double  getClassGroupRelativity() {
+		return this.ClassGroupRelativity;
+	}
+	public double  getChangePremium() {
+		return this.ChangePremium;
+	}
+	public Date  getPriorRateDt() {
+		return this.PriorRateDt;
+	}
+	
+	public void setIncreasedLimitsFactor(double IncreasedLimitsFactor) {
+		this.IncreasedLimitsFactor = IncreasedLimitsFactor;
+	}
+	public void setEarnedInFullIndicator(int EarnedInFullIndicator) {
+		this.EarnedInFullIndicator = EarnedInFullIndicator;
+	}
+	public void setPriorPremium(double PriorPremium) {
+		this.PriorPremium = PriorPremium;
+	}
+	public void setModified(Date Modified) {
+		this.Modified = Modified;
+	}
+	public void setCreated(Date Created) {
+		this.Created = Created;
+	}
+	public void setProRatedChangePremium(double ProRatedChangePremium) {
+		this.ProRatedChangePremium = ProRatedChangePremium;
+	}
+	public void setParentId(String ParentId) {
+		this.ParentId = ParentId;
+	}
+	public void setPolicyTermPremium(double PolicyTermPremium) {
+		this.PolicyTermPremium = PolicyTermPremium;
+	}
+	public void setMinimumPremium(double MinimumPremium) {
+		this.MinimumPremium = MinimumPremium;
+	}
+	public void setPriorId(String PriorId) {
+		this.PriorId = PriorId;
+	}
+	public void setId(String Id) {
+		this.Id = Id;
+	}
+	public void setRateDt(Date RateDt) {
+		this.RateDt = RateDt;
+	}
+	public void setCreatedBy(String CreatedBy) {
+		this.CreatedBy = CreatedBy;
+	}
+	public void setAddEffectiveDt(Date AddEffectiveDt) {
+		this.AddEffectiveDt = AddEffectiveDt;
+	}
+	public void setCoverageStatCode(String CoverageStatCode) {
+		this.CoverageStatCode = CoverageStatCode;
+	}
+	public void setVersionedId(String VersionedId) {
+		this.VersionedId = VersionedId;
+	}
+	public void setTaxIndicator(int TaxIndicator) {
+		this.TaxIndicator = TaxIndicator;
+	}
+	public void setShortRateIndicator(int ShortRateIndicator) {
+		this.ShortRateIndicator = ShortRateIndicator;
+	}
+	public void setLossOfElectronicDataStatLimit(int LossOfElectronicDataStatLimit) {
+		this.LossOfElectronicDataStatLimit = LossOfElectronicDataStatLimit;
+	}
+	public void setTotalCondominiumBuildingSquareFootage_1(double totalCondominiumBuildingSquareFootage_1) {
+		this.totalCondominiumBuildingSquareFootage_1 = totalCondominiumBuildingSquareFootage_1;
+	}
+	public void setBaseRate(double BaseRate) {
+		this.BaseRate = BaseRate;
+	}
+	public void setLossOfElectronicDataFactor(double LossOfElectronicDataFactor) {
+		this.LossOfElectronicDataFactor = LossOfElectronicDataFactor;
+	}
+	public void setLiabilityExposureIndicatorStatCode(String LiabilityExposureIndicatorStatCode) {
+		this.LiabilityExposureIndicatorStatCode = LiabilityExposureIndicatorStatCode;
+	}
+	public void setShortRateFactor(double ShortRateFactor) {
+		this.ShortRateFactor = ShortRateFactor;
+	}
+	public void setFormNumber(String FormNumber) {
+		this.FormNumber = FormNumber;
+	}
+	public void setChangeEffectiveDt(Date ChangeEffectiveDt) {
+		this.ChangeEffectiveDt = ChangeEffectiveDt;
+	}
+	public void setExpirationDt(Date ExpirationDt) {
+		this.ExpirationDt = ExpirationDt;
+	}
+	public void setTotalArea_1(double totalArea_1) {
+		this.totalArea_1 = totalArea_1;
+	}
+	public void setAnnualPremium(double AnnualPremium) {
+		this.AnnualPremium = AnnualPremium;
+	}
+	public void setLossOfElectronicDataLimit(String LossOfElectronicDataLimit) {
+		this.LossOfElectronicDataLimit = LossOfElectronicDataLimit;
+	}
+	public void setTermFactorIndicator(int TermFactorIndicator) {
+		this.TermFactorIndicator = TermFactorIndicator;
+	}
+	public void setExposureStatAmount(int ExposureStatAmount) {
+		this.ExposureStatAmount = ExposureStatAmount;
+	}
+	public void setChangePremium(double ChangePremium) {
+		this.ChangePremium = ChangePremium;
+	}
+	public void setHazardGrade(String HazardGrade) {
+		this.HazardGrade = HazardGrade;
+	}
+	public void setAggregateLimit(String AggregateLimit) {
+		this.AggregateLimit = AggregateLimit;
+	}
+	public void setUnitNumber(int UnitNumber) {
+		this.UnitNumber = UnitNumber;
+	}
+	public void setClassGroupRelativity(double ClassGroupRelativity) {
+		this.ClassGroupRelativity = ClassGroupRelativity;
+	}
+	public void setProRateIndicator(int ProRateIndicator) {
+		this.ProRateIndicator = ProRateIndicator;
+	}
+	public void setFormName(String FormName) {
+		this.FormName = FormName;
+	}
+	public void setEachOccStatLimit(int EachOccStatLimit) {
+		this.EachOccStatLimit = EachOccStatLimit;
+	}
+	public void setShortRatePenalty(double ShortRatePenalty) {
+		this.ShortRatePenalty = ShortRatePenalty;
+	}
+	public void setCoverageAddDt(Date CoverageAddDt) {
+		this.CoverageAddDt = CoverageAddDt;
+	}
+	public void setOverridePremium(double OverridePremium) {
+		this.OverridePremium = OverridePremium;
+	}
+	public void setPremium(double Premium) {
+		this.Premium = Premium;
+	}
+	public void setEffective(Date Effective) {
+		this.Effective = Effective;
+	}
+	public void setDedFactor(double DedFactor) {
+		this.DedFactor = DedFactor;
+	}
+	public void setPropDamageLiabDedStatAmount(int PropDamageLiabDedStatAmount) {
+		this.PropDamageLiabDedStatAmount = PropDamageLiabDedStatAmount;
+	}
+	public void setFeeIndicator(int FeeIndicator) {
+		this.FeeIndicator = FeeIndicator;
+	}
+	public void setProRateFactor(double ProRateFactor) {
+		this.ProRateFactor = ProRateFactor;
+	}
+	public void setFinalRate(double FinalRate) {
+		this.FinalRate = FinalRate;
+	}
+	public void setPriorRateDt(Date PriorRateDt) {
+		this.PriorRateDt = PriorRateDt;
+	}
+	public void setTotalProRatedChangePremium(double TotalProRatedChangePremium) {
+		this.TotalProRatedChangePremium = TotalProRatedChangePremium;
+	}
+	public void setProRatedPriorPremium(double ProRatedPriorPremium) {
+		this.ProRatedPriorPremium = ProRatedPriorPremium;
+	}
+	public void setCondominiumBuildingLimitOfInsurance_1(double condominiumBuildingLimitOfInsurance_1) {
+		this.condominiumBuildingLimitOfInsurance_1 = condominiumBuildingLimitOfInsurance_1;
+	}
+	public void setAdjustedBaseRate(double AdjustedBaseRate) {
+		this.AdjustedBaseRate = AdjustedBaseRate;
+	}
+	public void setPremiumIndicator(int PremiumIndicator) {
+		this.PremiumIndicator = PremiumIndicator;
+	}
+	public void setExpiration(Date Expiration) {
+		this.Expiration = Expiration;
+	}
+	public void setCoverageOnPolicyIndicator(int CoverageOnPolicyIndicator) {
+		this.CoverageOnPolicyIndicator = CoverageOnPolicyIndicator;
+	}
+	public void setEffectiveDt(Date EffectiveDt) {
+		this.EffectiveDt = EffectiveDt;
+	}
+	public void setProRatedPremium(double ProRatedPremium) {
+		this.ProRatedPremium = ProRatedPremium;
+	}
+	public void setEvaluatedPremium(double EvaluatedPremium) {
+		this.EvaluatedPremium = EvaluatedPremium;
+	}
+}

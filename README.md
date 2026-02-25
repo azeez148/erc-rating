@@ -85,7 +85,7 @@ The parser and template engines share the `parserproject.*` namespace, bound to 
 
 | Property | Description |
 | --- | --- |
-| `parserproject.inputFilelocation` | Folder that holds ALG/RC/DS XMLs and supporting JSON (default sample: `erc-parser/input`). |
+| `parserproject.inputFilelocation` | Source of ALG/RC/DS XMLs. Accepts relative/absolute folders, UNC shares, `s3://bucket/prefix`, or `azure://container/prefix`. |
 | `parserproject.containerlocation` | Output root for generated projects (Java microservices or YAML packages). |
 | `parserproject.projectType` | `JAVA` or `YAML`, controls which generator the adapter uses. |
 | `parserproject.dsFileNameStartCharacter`, `parserproject.algFileNameStartCharcter`, `parserproject.rcFileNameStartCharcter` | Prefix markers that let the parser categorize files per state. |
@@ -93,8 +93,12 @@ The parser and template engines share the `parserproject.*` namespace, bound to 
 | `parserproject.coverageAvailabiltyFileName` | Points to the Excel workbook consumed by `ALGAvailableCoverageXMLParser`. |
 | `parserproject.commonConfigFile` | Path to JSON loaded into `CommonConfig` for downstream generators. |
 | `parserproject.lobName`, `parserproject.version` | Used for package naming, Jenkins pipeline generation, and `ErcPackageDetails.json` updates. |
+| `parserproject.s3.region/profile/endpointOverride` | Optional AWS SDK hints used when `inputFilelocation` starts with `s3://`. Region is required; profile (named credential) and endpoint override are optional. |
+| `parserproject.azure.connectionString` | Connection string used when `inputFilelocation` starts with `azure://`. |
 
 > Tip: because `application.properties` in `erc-parser` is empty, pass overrides via command-line arguments, environment variables, or a custom profile-specific properties file.
+
+When you point `parserproject.inputFilelocation` at cloud storage, the parser now stages objects/blobs into a temporary working directory before running the existing XML/JSON parsers. Staged files are cleaned up automatically once the run finishes, so downstream services continue to see a regular on-disk folder regardless of the original source.
 
 ## Data & Directory Layout
 

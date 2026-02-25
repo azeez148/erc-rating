@@ -42,7 +42,7 @@ public class DSXmlParserServiceImpl implements DSXmlParserService  {
     	String inputFilePath = projectProperties.getInputFilelocation();
         XMLInputFactory xmlInputFactory = XMLInputFactory.newInstance();
         try {
-            XMLEventReader xmlEventReader = xmlInputFactory.createXMLEventReader(new FileInputStream(inputFilePath+dsfileName));
+            XMLEventReader xmlEventReader = xmlInputFactory.createXMLEventReader(new FileInputStream(inputFilePath+"/"+dsfileName));
             while(xmlEventReader.hasNext()){
 	            XMLEvent xmlEvent = xmlEventReader.nextEvent();
 	            if (xmlEvent.isStartElement()){

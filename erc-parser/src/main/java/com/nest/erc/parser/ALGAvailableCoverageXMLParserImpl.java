@@ -135,7 +135,7 @@ public class ALGAvailableCoverageXMLParserImpl implements ALGAvailableCoverageXM
 		AvailableLOBCoverage availableLOBCoverages = new AvailableLOBCoverage();
 		List<String> availableCoverages = new ArrayList<String>();
 		String folderPath = projectProperties.getInputFilelocation();
-		FileInputStream file = new FileInputStream(new File(folderPath+fileName));
+		FileInputStream file = new FileInputStream(new File(folderPath+"/"+fileName));
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 
 		//Get first/desired sheet from the workbook

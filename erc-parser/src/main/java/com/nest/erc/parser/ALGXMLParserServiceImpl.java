@@ -36,7 +36,7 @@ public class ALGXMLParserServiceImpl implements ALGXMLParserService{
 		AlgParserOutput algParserOutput = new AlgParserOutput();
 		String inputFilePath = projectProperties.getInputFilelocation();
 		
-		xmlParser.setInputFile(inputFilePath+algFileName);
+		xmlParser.setInputFile(inputFilePath+"/"+algFileName);
 		Lob lob = null;
 		while (xmlParser.hasNext()) {
 			xmlParser.getNext();

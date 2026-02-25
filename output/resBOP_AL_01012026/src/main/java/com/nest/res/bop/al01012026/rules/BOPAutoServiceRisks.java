@@ -1,0 +1,164 @@
+package com.nest.res.bop.al01012026.rules;
+
+
+import com.nest.res.common.exception.LookupException;
+import com.nest.res.common.rule.PolicyRule;
+import com.nest.res.common.domain.Policy;
+import com.nest.res.common.lookup.service.RateTableLookup;
+import com.nest.res.common.util.MathHelper;
+import com.nest.res.common.util.XpathNode;
+import java.util.List;
+import java.text.ParseException;
+import com.nest.res.bop.al01012026.domain.BOPAutoServiceEmployeeDishonestyCoverage;
+import com.nest.res.bop.al01012026.domain.BOPAutoServiceDefectiveProductsCoverage;
+import com.nest.res.bop.al01012026.domain.BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverage;
+import com.nest.res.bop.al01012026.domain.BOPAutoServiceEmployeesToolsCoverage;
+import com.nest.res.bop.al01012026.domain.BOPAutoServiceOutdoorPropertyCoverage;
+import com.nest.res.bop.al01012026.domain.BOPAutoServiceCoverage;
+import com.nest.res.bop.al01012026.domain.BOPAutoServiceLossOrDamageToLessorsPropertyCoverage;
+import com.nest.res.bop.al01012026.domain.BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverage;
+import com.nest.res.bop.al01012026.domain.BOPAutoServiceForgeryOrAlterationCoverage;
+import com.nest.res.bop.al01012026.domain.BOPAutoServiceFireDepartmentServiceChargeCoverage;
+
+public class BOPAutoServiceRisks  {
+
+	
+	
+	
+	private com.nest.res.bop.al01012026.rules.BOPAutoServiceDefectiveProductsCoverage BOPAutoServiceDefectiveProductsCoverageRule;
+	private com.nest.res.bop.al01012026.rules.BOPAutoServiceFireDepartmentServiceChargeCoverage BOPAutoServiceFireDepartmentServiceChargeCoverageRule;
+	private List<BOPAutoServiceEmployeeDishonestyCoverage> BOPAutoServiceEmployeeDishonestyCoverageList;
+	private List<BOPAutoServiceDefectiveProductsCoverage> BOPAutoServiceDefectiveProductsCoverageList;
+	private com.nest.res.bop.al01012026.rules.BOPAutoServiceEmployeeDishonestyCoverage BOPAutoServiceEmployeeDishonestyCoverageRule;
+	private com.nest.res.bop.al01012026.rules.BOPAutoServiceEmployeesToolsCoverage BOPAutoServiceEmployeesToolsCoverageRule;
+	private com.nest.res.bop.al01012026.rules.BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverage BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverageRule;
+	private com.nest.res.bop.al01012026.domain.BOPAutoServiceRisks BOPAutoServiceRisks;
+	private List<BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverage> BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverageList;
+	private List<BOPAutoServiceEmployeesToolsCoverage> BOPAutoServiceEmployeesToolsCoverageList;
+	private com.nest.res.bop.al01012026.rules.BOPAutoServiceLossOrDamageToLessorsPropertyCoverage BOPAutoServiceLossOrDamageToLessorsPropertyCoverageRule;
+	private List<BOPAutoServiceOutdoorPropertyCoverage> BOPAutoServiceOutdoorPropertyCoverageList;
+	private List<BOPAutoServiceCoverage> BOPAutoServiceCoverageList;
+	private com.nest.res.bop.al01012026.rules.BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverage BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverageRule;
+	private List<BOPAutoServiceLossOrDamageToLessorsPropertyCoverage> BOPAutoServiceLossOrDamageToLessorsPropertyCoverageList;
+	private List<BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverage> BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverageList;
+	private List<BOPAutoServiceForgeryOrAlterationCoverage> BOPAutoServiceForgeryOrAlterationCoverageList;
+	private com.nest.res.bop.al01012026.rules.BOPAutoServiceCoverage BOPAutoServiceCoverageRule;
+	private List<BOPAutoServiceFireDepartmentServiceChargeCoverage> BOPAutoServiceFireDepartmentServiceChargeCoverageList;
+	private com.nest.res.bop.al01012026.rules.BOPAutoServiceOutdoorPropertyCoverage BOPAutoServiceOutdoorPropertyCoverageRule;
+	private com.nest.res.bop.al01012026.rules.BOPAutoServiceForgeryOrAlterationCoverage BOPAutoServiceForgeryOrAlterationCoverageRule;
+	
+	
+	
+	public  BOPAutoServiceRisks (com.nest.res.bop.al01012026.domain.BOPAutoServiceRisks BOPAutoServiceRisks)  {
+	  this.BOPAutoServiceRisks = BOPAutoServiceRisks;
+this.BOPAutoServiceEmployeeDishonestyCoverageList = BOPAutoServiceRisks.getBOPAutoServiceEmployeeDishonestyCoverage();
+this.BOPAutoServiceDefectiveProductsCoverageList = BOPAutoServiceRisks.getBOPAutoServiceDefectiveProductsCoverage();
+this.BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverageList = BOPAutoServiceRisks.getBOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverage();
+this.BOPAutoServiceEmployeesToolsCoverageList = BOPAutoServiceRisks.getBOPAutoServiceEmployeesToolsCoverage();
+this.BOPAutoServiceOutdoorPropertyCoverageList = BOPAutoServiceRisks.getBOPAutoServiceOutdoorPropertyCoverage();
+this.BOPAutoServiceCoverageList = BOPAutoServiceRisks.getBOPAutoServiceCoverage();
+this.BOPAutoServiceLossOrDamageToLessorsPropertyCoverageList = BOPAutoServiceRisks.getBOPAutoServiceLossOrDamageToLessorsPropertyCoverage();
+this.BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverageList = BOPAutoServiceRisks.getBOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverage();
+this.BOPAutoServiceForgeryOrAlterationCoverageList = BOPAutoServiceRisks.getBOPAutoServiceForgeryOrAlterationCoverage();
+this.BOPAutoServiceFireDepartmentServiceChargeCoverageList = BOPAutoServiceRisks.getBOPAutoServiceFireDepartmentServiceChargeCoverage();
+
+	  
+	}
+	public void setTotalPremiumForCoverage ()  {
+	  this.BOPAutoServiceRisks.setPremium(MathHelper.getDoubleValue(this.BOPAutoServiceRisks.getPremium() + (MathHelper.getDoubleValue(XpathNode.selectNodeValue(this.BOPAutoServiceRisks,"BOPAutoServiceCoverage/Premium")))));
+this.BOPAutoServiceRisks.setPremium(MathHelper.getDoubleValue(this.BOPAutoServiceRisks.getPremium() + (MathHelper.getDoubleValue(XpathNode.selectNodeValue(this.BOPAutoServiceRisks,"BOPAutoServiceDefectiveProductsCoverage/Premium")))));
+this.BOPAutoServiceRisks.setPremium(MathHelper.getDoubleValue(this.BOPAutoServiceRisks.getPremium() + (MathHelper.getDoubleValue(XpathNode.selectNodeValue(this.BOPAutoServiceRisks,"BOPAutoServiceEmployeeDishonestyCoverage/Premium")))));
+this.BOPAutoServiceRisks.setPremium(MathHelper.getDoubleValue(this.BOPAutoServiceRisks.getPremium() + (MathHelper.getDoubleValue(XpathNode.selectNodeValue(this.BOPAutoServiceRisks,"BOPAutoServiceEmployeesToolsCoverage/Premium")))));
+this.BOPAutoServiceRisks.setPremium(MathHelper.getDoubleValue(this.BOPAutoServiceRisks.getPremium() + (MathHelper.getDoubleValue(XpathNode.selectNodeValue(this.BOPAutoServiceRisks,"BOPAutoServiceFireDepartmentServiceChargeCoverage/Premium")))));
+this.BOPAutoServiceRisks.setPremium(MathHelper.getDoubleValue(this.BOPAutoServiceRisks.getPremium() + (MathHelper.getDoubleValue(XpathNode.selectNodeValue(this.BOPAutoServiceRisks,"BOPAutoServiceForgeryOrAlterationCoverage/Premium")))));
+this.BOPAutoServiceRisks.setPremium(MathHelper.getDoubleValue(this.BOPAutoServiceRisks.getPremium() + (MathHelper.getDoubleValue(XpathNode.selectNodeValue(this.BOPAutoServiceRisks,"BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverage/Premium")))));
+this.BOPAutoServiceRisks.setPremium(MathHelper.getDoubleValue(this.BOPAutoServiceRisks.getPremium() + (MathHelper.getDoubleValue(XpathNode.selectNodeValue(this.BOPAutoServiceRisks,"BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverage/Premium")))));
+this.BOPAutoServiceRisks.setPremium(MathHelper.getDoubleValue(this.BOPAutoServiceRisks.getPremium() + (MathHelper.getDoubleValue(XpathNode.selectNodeValue(this.BOPAutoServiceRisks,"BOPAutoServiceLossOrDamageToLessorsPropertyCoverage/Premium")))));
+this.BOPAutoServiceRisks.setPremium(MathHelper.getDoubleValue(this.BOPAutoServiceRisks.getPremium() + (MathHelper.getDoubleValue(XpathNode.selectNodeValue(this.BOPAutoServiceRisks,"BOPAutoServiceOutdoorPropertyCoverage/Premium")))));
+
+	  
+	}
+	public void ProcessPremium1 () throws LookupException,NumberFormatException {
+	  
+	if(null != BOPAutoServiceCoverageList){
+		for(BOPAutoServiceCoverage BOPAutoServiceCoverage:BOPAutoServiceCoverageList){
+			BOPAutoServiceCoverageRule = new com.nest.res.bop.al01012026.rules.BOPAutoServiceCoverage(BOPAutoServiceCoverage);
+			BOPAutoServiceCoverageRule.ProcessPremium1();
+
+		}
+	}
+	if(null != BOPAutoServiceDefectiveProductsCoverageList){
+		for(BOPAutoServiceDefectiveProductsCoverage BOPAutoServiceDefectiveProductsCoverage:BOPAutoServiceDefectiveProductsCoverageList){
+			BOPAutoServiceDefectiveProductsCoverageRule = new com.nest.res.bop.al01012026.rules.BOPAutoServiceDefectiveProductsCoverage(BOPAutoServiceDefectiveProductsCoverage);
+			BOPAutoServiceDefectiveProductsCoverageRule.ProcessPremium1();
+
+		}
+	}
+	if(null != BOPAutoServiceEmployeeDishonestyCoverageList){
+		for(BOPAutoServiceEmployeeDishonestyCoverage BOPAutoServiceEmployeeDishonestyCoverage:BOPAutoServiceEmployeeDishonestyCoverageList){
+			BOPAutoServiceEmployeeDishonestyCoverageRule = new com.nest.res.bop.al01012026.rules.BOPAutoServiceEmployeeDishonestyCoverage(BOPAutoServiceEmployeeDishonestyCoverage);
+			BOPAutoServiceEmployeeDishonestyCoverageRule.ProcessPremium1();
+
+		}
+	}
+	if(null != BOPAutoServiceEmployeesToolsCoverageList){
+		for(BOPAutoServiceEmployeesToolsCoverage BOPAutoServiceEmployeesToolsCoverage:BOPAutoServiceEmployeesToolsCoverageList){
+			BOPAutoServiceEmployeesToolsCoverageRule = new com.nest.res.bop.al01012026.rules.BOPAutoServiceEmployeesToolsCoverage(BOPAutoServiceEmployeesToolsCoverage);
+			BOPAutoServiceEmployeesToolsCoverageRule.ProcessPremium1();
+
+		}
+	}
+	if(null != BOPAutoServiceFireDepartmentServiceChargeCoverageList){
+		for(BOPAutoServiceFireDepartmentServiceChargeCoverage BOPAutoServiceFireDepartmentServiceChargeCoverage:BOPAutoServiceFireDepartmentServiceChargeCoverageList){
+			BOPAutoServiceFireDepartmentServiceChargeCoverageRule = new com.nest.res.bop.al01012026.rules.BOPAutoServiceFireDepartmentServiceChargeCoverage(BOPAutoServiceFireDepartmentServiceChargeCoverage);
+			BOPAutoServiceFireDepartmentServiceChargeCoverageRule.ProcessPremium1();
+
+		}
+	}
+	if(null != BOPAutoServiceForgeryOrAlterationCoverageList){
+		for(BOPAutoServiceForgeryOrAlterationCoverage BOPAutoServiceForgeryOrAlterationCoverage:BOPAutoServiceForgeryOrAlterationCoverageList){
+			BOPAutoServiceForgeryOrAlterationCoverageRule = new com.nest.res.bop.al01012026.rules.BOPAutoServiceForgeryOrAlterationCoverage(BOPAutoServiceForgeryOrAlterationCoverage);
+			BOPAutoServiceForgeryOrAlterationCoverageRule.ProcessPremium1();
+
+		}
+	}
+	if(null != BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverageList){
+		for(BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverage BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverage:BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverageList){
+			BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverageRule = new com.nest.res.bop.al01012026.rules.BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverage(BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverage);
+			BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyDirectPrimaryCoverageRule.ProcessPremium1();
+
+		}
+	}
+	if(null != BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverageList){
+		for(BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverage BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverage:BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverageList){
+			BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverageRule = new com.nest.res.bop.al01012026.rules.BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverage(BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverage);
+			BOPAutoServiceLossOrDamageToCustomersAutosAndOtherCustomersPropertyLegalLiabilityCoverageRule.ProcessPremium1();
+
+		}
+	}
+	if(null != BOPAutoServiceLossOrDamageToLessorsPropertyCoverageList){
+		for(BOPAutoServiceLossOrDamageToLessorsPropertyCoverage BOPAutoServiceLossOrDamageToLessorsPropertyCoverage:BOPAutoServiceLossOrDamageToLessorsPropertyCoverageList){
+			BOPAutoServiceLossOrDamageToLessorsPropertyCoverageRule = new com.nest.res.bop.al01012026.rules.BOPAutoServiceLossOrDamageToLessorsPropertyCoverage(BOPAutoServiceLossOrDamageToLessorsPropertyCoverage);
+			BOPAutoServiceLossOrDamageToLessorsPropertyCoverageRule.ProcessPremium1();
+
+		}
+	}
+	if(null != BOPAutoServiceOutdoorPropertyCoverageList){
+		for(BOPAutoServiceOutdoorPropertyCoverage BOPAutoServiceOutdoorPropertyCoverage:BOPAutoServiceOutdoorPropertyCoverageList){
+			BOPAutoServiceOutdoorPropertyCoverageRule = new com.nest.res.bop.al01012026.rules.BOPAutoServiceOutdoorPropertyCoverage(BOPAutoServiceOutdoorPropertyCoverage);
+			BOPAutoServiceOutdoorPropertyCoverageRule.ProcessPremium1();
+
+		}
+	}
+	setTotalPremiumForCoverage();
+	  
+	}
+	
+	
+	
+	
+	
+
+
+	
+}

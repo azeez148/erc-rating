@@ -4,6 +4,18 @@
       "name": "parserproject",
       "type": "com.nest.erc.parser.ERCParserProjectProperties",
       "sourceType": "com.nest.erc.parser.ERCParserProjectProperties"
+    },
+    {
+      "name": "parserproject.azure",
+      "type": "com.nest.erc.parser.ERCParserProjectProperties$AzureInputProperties",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties",
+      "sourceMethod": "getAzure()"
+    },
+    {
+      "name": "parserproject.s3",
+      "type": "com.nest.erc.parser.ERCParserProjectProperties$S3InputProperties",
+      "sourceType": "com.nest.erc.parser.ERCParserProjectProperties",
+      "sourceMethod": "getS3()"
     }
   ],
   "properties": [

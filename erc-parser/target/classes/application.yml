@@ -1,4 +1,5 @@
 parserproject:
+  # Supports relative/absolute folders, network shares, s3://bucket/prefix, or azure://container/prefix
   inputFilelocation: ./input/
   algFileNameStartCharcter: ALG-BP-
   dsFileNameStartCharacter: DS-BP-
@@ -9,19 +10,23 @@ parserproject:
   rateTableFolderName: rate_tables
   #resProjectLocation: C:/Users/renji/OneDrive/Documents/git/rating/RES-Service/
   resProjectLocation: ./output/
-  ercPackageDetails:  C:/Users/renji/OneDrive/Documents/git/rating/RES-Service/input/
+#  ercPackageDetails:  C:/Users/renji/OneDrive/Documents/git/rating/RES-Service/input/
+  ercPackageDetails: ./input/
   stateContainerLocation: ./output/children/
-  version: "09012019"
+  version: "01012026"
   lobName: BOP
-  algFileNameState: ALG-BP-AL-09012019-V01_MR.xml
-  algFileNameCw: ALG-BP-CW-09012019-V01_MR.xml
-  dsFileName: DS-BP-AL-09012019-V01.xml
-  rcFileName: RC-BP-CW-09012019-V01.xml
-  rcFileNameState: RC-BP-AL-09012019-V01.xml
+  algFileNameState: ALG-BP-AL-01012026-V01_MR.xml
+  algFileNameCw: ALG-BP-CW-07012025-V01_MR.xml
+  dsFileName: DS-BP-AL-01012026-V01.xml
+  rcFileName: RC-BP-CW-07012025-V01.xml
+  rcFileNameState: RC-BP-AL-01012026-V01.xml
   projectType: JAVA
   coverageAvailabiltyFileName: CoverageAvailability.xlsx
   commonConfigFile: CommonConfig.json
   convertedCalculations: ConvertedCalculations.json
- 
-
-  
+  s3:
+    region: ""
+    profile: ""
+    endpointOverride: ""
+  azure:
+    connectionString: ""

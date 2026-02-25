@@ -22,7 +22,7 @@ public class MainGatewayService implements AdapterService {
 	@Override
 	public boolean buildProject(ERCProcessorOutput ercProcessorOutput, String lobName, String ercProjectType) throws Exception {		
 
-		ERCProjectBuildService ercProjectBuildService =getERCProject(ercProjectType);
+		ERCProjectBuildService ercProjectBuildService = getERCProject(ercProjectType);
 
 		if(ercProjectBuildService!= null) {
 

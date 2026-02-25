@@ -114,38 +114,45 @@ public class JavaERCProjectServiceImpl implements JavaERCProjectService {
 	@Override
 	public boolean buildJavaProject(ERCProcessorOutput ercProcessorOutput,
 			String lobName) {
-		List<String> availableStates = new ArrayList<>(ercProcessorOutput.getAlgParserOutputs().keySet());
-	    int itemIdx = availableStates.indexOf("CW");
-	    availableStates.remove(itemIdx); // only state alg is processed in rule engine. CW changes overrided in state ALG s
-	    
-	    for(String state : availableStates) {
-	    	String projectName="res"+lobName+"_"+state+"_"+ercProcessorOutput.getVersion(); 
-	    	String className="Res" +lobName+"Application"; 
-	    	String serverport = "9090"; 
-			String projectMainPackageStructure = "com/nest/res/";
-			  
-			String classFilePath = getTopFolderFilePath(projectName,projectMainPackageStructure);
-			generateProjectSkelton(projectName, className, serverport,projectMainPackageStructure, classFilePath, lobName, state, ercProcessorOutput.getVersion());
-			createCommonPolicy(ercProcessorOutput.getClassesMaps().get(state), lobName, state, ercProcessorOutput.getVersion());
-				
-			try {
-				projectGeneratorService.writePojoClass(ercProcessorOutput,projectName, className, serverport, projectMainPackageStructure, lobName, state);
-			} catch (FileNotFoundException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+		try {
+			List<String> availableStates = new ArrayList<>(ercProcessorOutput.getAlgParserOutputs().keySet());
+			int itemIdx = availableStates.indexOf("CW");
+			availableStates.remove(itemIdx); // only state alg is processed in rule engine. CW changes overrided in state ALG s
+
+			for(String state : availableStates) {
+				String projectName="res"+lobName+"_"+state+"_"+ercProcessorOutput.getVersion();
+				String className="Res" +lobName+"Application";
+				String serverport = "9090";
+				String projectMainPackageStructure = "com/nest/res/";
+
+				String classFilePath = getTopFolderFilePath(projectName,projectMainPackageStructure);
+				generateProjectSkelton(projectName, className, serverport,projectMainPackageStructure, classFilePath, lobName, state, ercProcessorOutput.getVersion());
+				createCommonPolicy(ercProcessorOutput.getClassesMaps().get(state), lobName, state, ercProcessorOutput.getVersion());
+
+				try {
+					projectGeneratorService.writePojoClass(ercProcessorOutput,projectName, className, serverport, projectMainPackageStructure, lobName, state);
+				} catch (FileNotFoundException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				} catch (IOException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+
+				Map<String, Rule> ruleClasses = createRuleStructure(ercProcessorOutput, lobName, state);
+
+				addNonPremiumCoverages(ercProcessorOutput.getClassesMaps().get(state), ruleClasses);
+
+				generateRuleClasses(ruleClasses, projectMainPackageStructure, classFilePath, lobName, ercProcessorOutput, state);
+
 			}
-			
-			Map<String, Rule> ruleClasses = createRuleStructure(ercProcessorOutput, lobName, state);
-			
-			addNonPremiumCoverages(ercProcessorOutput.getClassesMaps().get(state), ruleClasses);
-			  
-			generateRuleClasses(ruleClasses, projectMainPackageStructure, classFilePath, lobName, ercProcessorOutput, state);
-	    	
-	    }
-		return false;
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+			return false;
+		}
+		return true;
+
 	}
     /**
      * Currently the rule structure contain the sub coverages which can come across the flowchart.

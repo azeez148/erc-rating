@@ -1,0 +1,29 @@
+{
+	"states": [
+		{
+			"id": "5139D77F-251C-48A6-8E48-0C5D4714DEA7",
+			"name": "ALBAMA",
+			"code": "AL"
+		},
+		{
+			"id": "5239D77F-251C-48A6-8E48-0C5D4714DEA7",
+			"name": "ALASKA",
+			"code": "AK"
+		}
+	],
+	"commonDomainTables": [
+		{
+			"name": "yesno",
+			"domainEntries": [
+				{
+					"dataValue": "Yes",
+					"displayValue": "Yes"
+				},
+				{
+					"dataValue": "No",
+					"displayValue": "No"
+				}
+			]
+		}
+	]
+}

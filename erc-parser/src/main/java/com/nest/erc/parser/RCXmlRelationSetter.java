@@ -42,7 +42,7 @@ public class RCXmlRelationSetter implements RCXmlRelationSetterService {
 	@Override
 	public  RCWrapper readRcXml(String rcXMLFileName) {
 		String inputFolder = projectProperties.getInputFilelocation();
-		String rcFileName = inputFolder +rcXMLFileName;
+		String rcFileName = inputFolder+"/"+rcXMLFileName;
         RCXmlParser rcParser = new RCXmlParser();
         RCWrapper rcWrapper= rcParser.parseXML(rcFileName);
 		return rcWrapper;
